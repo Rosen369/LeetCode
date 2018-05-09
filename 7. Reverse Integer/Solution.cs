@@ -1,14 +1,15 @@
 public class Solution {
     public int Reverse (int x) {
         var result = 0;
-        var list = x.ToString ().ToList ();
-        list.Reverse ();
-        if (list.Last () == '-') {
-            list.RemoveAt (list.Count () - 1);
-            list.Insert (0, '-');
+        while (x != 0) {
+            var tail = x % 10;
+            var newResult = result * 10 + tail;
+            if ((newResult - tail) / 10 != result) {
+                return 0;
+            }
+            result = newResult;
+            x = x / 10;
         }
-        var reversedStr = new string (list.ToArray ());
-        Int32.TryParse (reversedStr, out result);
         return result;
     }
 }
