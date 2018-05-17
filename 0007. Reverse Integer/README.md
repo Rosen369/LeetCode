@@ -2,21 +2,21 @@
 
 Given a 32-bit signed integer, reverse digits of an integer.
 
-__Example1:__
+__Example 1:__
 
 ```
 Input: 123
 Output: 321
 ```
 
-__Example2:__
+__Example 2:__
 
 ```
 Input: -123
 Output: -321
 ```
 
-__Example3:__
+__Example 3:__
 
 ```
 Input: 120
