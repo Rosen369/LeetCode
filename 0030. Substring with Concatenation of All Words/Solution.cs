@@ -1,35 +1,37 @@
 public class Solution {
     public IList<int> FindSubstring (string s, string[] words) {
         var res = new List<int> ();
-        if (words.Length == 0) {
+        if (string.IsNullOrEmpty (s) || words.Length == 0) {
             return res;
         }
-        for (int i = 0; i < s.Length; i++) {
-            if (MatchNextWord (s.Substring (i), words.ToList ())) {
-                res.Add (i);
+        var length = words[0].Length;
+        var dic = new Dictionary<string, int> ();
+        foreach (var word in words) {
+            if (dic.ContainsKey (word)) {
+                dic[word] = dic[word] + 1;
+            } else {
+                dic.Add (word, 1);
+            }
+        }
+        for (int i = 0; i <= s.Length - length * words.Length; i++) {
+            var copy = new Dictionary<string, int> (dic);
+            for (int j = 0; j < words.Length; j++) {
+                var sub = s.Substring (i + j * length, length);
+                if (copy.ContainsKey (sub)) {
+                    if (copy[sub] == 1) {
+                        copy.Remove (sub);
+                    } else {
+                        copy[sub] = copy[sub] - 1;
+                    }
+                    if (copy.Count () == 0) {
+                        res.Add (i);
+                        break;
+                    }
+                } else {
+                    break;
+                }
             }
         }
         return res;
-    }
-
-    public bool MatchNextWord (string s, IList<string> words) {
-        if (words.Count () == 0) {
-            return true;
-        }
-        for (int i = 0; i < words.Count (); i++) {
-            if (words.Count () == 1 && s == words[i]) {
-                return true;
-            }
-            if (s.Length < words[i].Length) {
-                continue;
-            }
-            var match = s.Substring (0, words[i].Length) == words[i];
-            if (match) {
-                var sub = s.Substring (words[i].Length);
-                words.RemoveAt (i);
-                return MatchNextWord (sub, words);
-            }
-        }
-        return false;
     }
 }
