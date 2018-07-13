@@ -1,37 +1,26 @@
 public class Solution {
     public void SolveSudoku (char[, ] board) {
-        var candidate = new char[] { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
-        FillAndValid (board, candidate, 0, 0);
+        FillAndValid (board);
     }
 
-    public void FillAndValid (char[, ] board, char[] candidate, int x, int y) {
-        Console.WriteLine ("x:{0},y:{1}", x, y);
-        if (board[x, y] != '.') {
-            if (x == 8 && y == 8) {
-                return;
-            }
-            if (x == 8) {
-                FillAndValid (board, candidate, 0, y + 1);
-            } else {
-                FillAndValid (board, candidate, x + 1, y);
-            }
-        } else {
-            for (int i = 0; i < 9; i++) {
-                board[x, y] = candidate[i];
-                if (IsValidSudoku (board)) {
-                    if (x == 8 && y == 8) {
-                        return;
+    public bool FillAndValid (char[, ] board) {
+        for (int x = 0; x < 9; x++) {
+            for (int y = 0; y < 9; y++) {
+                if (board[x, y] == '.') {
+                    for (char c = '1'; c <= '9'; c++) {
+                        board[x, y] = (char) c;
+                        if (IsValidSudoku (board)) {
+                            if (FillAndValid (board)) {
+                                return true;
+                            }
+                        }
                     }
-                    if (x == 8) {
-                        FillAndValid (board, candidate, 0, y + 1);
-                    } else {
-                        FillAndValid (board, candidate, x + 1, y);
-                    }
-                } else if (i == 8) {
                     board[x, y] = '.';
+                    return false;
                 }
             }
         }
+        return true;
     }
 
     public bool IsValidSudoku (char[, ] board) {
