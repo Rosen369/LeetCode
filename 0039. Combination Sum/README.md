@@ -4,10 +4,10 @@ Given a __set__ of candidate numbers (`candidates`) __(without duplicates)__ and
 
 The __same__ repeated number may be chosen from `candidates` unlimited number of times.
 
-Note:
+__Note:__
 
-All numbers (including `target`) will be positive integers.
-The solution set must not contain duplicate combinations.
+- All numbers (including `target`) will be positive integers.
+- The solution set must not contain duplicate combinations.
 
 __Example 1:__
 
