@@ -1,24 +1,20 @@
 public class Solution {
     public IList<IList<int>> CombinationSum (int[] candidates, int target) {
-        var res = new Dictionary<string, IList<int>> ();
-        BackTrack (res, candidates, target, new List<int> ());
-        return res.Values.ToList ();
+        var res = new List<IList<int>> ();
+        SearchNext (res, candidates, target, 0, new List<int> ());
+        return res;
     }
 
-    public void BackTrack (IDictionary<string, IList<int>> res, int[] candidates, int target, IList<int> current) {
-        for (int i = 0; i < candidates.Length; i++) {
+    public void SearchNext (IList<IList<int>> res, int[] candidates, int target, int index, IList<int> current) {
+        for (int i = index; i < candidates.Length; i++) {
             var combine = new List<int> ();
             combine.AddRange (current.ToArray ());
             combine.Add (candidates[i]);
             var sum = SumList (combine);
             if (sum == target) {
-                combine.Sort ();
-                var key = string.Join ("_", combine.ToArray ());
-                if (!res.ContainsKey (key)) {
-                    res.Add (key, combine);
-                }
+                res.Add (combine);
             } else if (sum < target) {
-                BackTrack (res, candidates, target, combine);
+                SearchNext (res, candidates, target, i, combine);
             }
         }
     }
