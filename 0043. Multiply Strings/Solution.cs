@@ -4,7 +4,7 @@ public class Solution {
             return "0";
         }
         var bit_buffer = new int[num1.Length + num2.Length];
-        for (int i = num1.Length - 1; i >= 0; i--) {
+        for (var i = num1.Length - 1; i >= 0; i--) {
             for (int j = num2.Length - 1; j >= 0; j--) {
                 var mul = (num1[i] - '0') * (num2[j] - '0');
                 var pos = i + j;
