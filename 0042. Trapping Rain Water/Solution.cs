@@ -1,31 +1,34 @@
 public class Solution {
     public int Trap (int[] height) {
-        if (height.Length < 2) {
-            return 0;
-        }
         var res = 0;
-        var left = 0;
-        var right = 0;
-        while (height[left] == 0) {
-            left++;
+        if (height.Length < 2) {
+            return res;
         }
-        right = left + 1;
-        while (right < height.Length) {
-            if (height[right] >= height[left]) {
-                res += SumTrap (left, right, height);
-                left = right;
+        var peak = 0;
+        var index = 0;
+        for (int i = 0; i < height.Length; i++) {
+            if (height[i] > peak) {
+                peak = height[i];
+                index = i;
             }
-            right++;
         }
-        var rest = new List<int> ();
-        for (int i = height.Length - 1; i >= left; i--) {
-            rest.Add (height[i]);
+        var leftPart = new List<int> ();
+        var rightPart = new List<int> ();
+        for (int i = 0; i < height.Length; i++) {
+            if (i <= index) {
+                leftPart.Add (height[i]);
+            }
+            if (i >= index) {
+                rightPart.Add (height[i]);
+            }
         }
-        res += TrapBack (rest.ToArray ());
+        rightPart.Reverse ();
+        res += TrapPeak (leftPart.ToArray ());
+        res += TrapPeak (rightPart.ToArray ());
         return res;
     }
 
-    public int TrapBack (int[] height) {
+    public int TrapPeak (int[] height) {
         var res = 0;
         var left = 0;
         var right = 0;
