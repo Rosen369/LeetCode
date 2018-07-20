@@ -1,43 +1,24 @@
 public class Solution {
     public bool IsMatch (string s, string p) {
-        if (string.IsNullOrEmpty (p) && string.IsNullOrEmpty (s)) {
-            return true;
+        var dp = new bool[s.Length + 1, p.Length + 1];
+        dp[0, 0] = true;
+        for (int j = 1; j < p.Length + 1; j++) {
+            if (p[j - 1] == '*') {
+                dp[0, j] = dp[0, j - 1];
+            }
         }
-        if (string.IsNullOrEmpty (p)) {
-            return false;
-        }
-        if (string.IsNullOrEmpty (s)) {
-            for (int i = 0; i < p.Length; i++) {
-                if (p[i] != '*') {
-                    return false;
+
+        for (int i = 1; i < s.Length + 1; i++) {
+            for (int j = 1; j < p.Length + 1; j++) {
+                if (p[j - 1] == s[i - 1] || p[j - 1] == '?') {
+                    dp[i, j] = dp[i - 1, j - 1];
+                } else if (p[j - 1] == '*') {
+                    dp[i, j] = dp[i - 1, j] || dp[i, j - 1];
+                } else {
+                    dp[i, j] = false;
                 }
             }
-            return true;
         }
-        if (p[0] == '?') {
-            return IsMatch (s.Substring (1), p.Substring (1));
-        }
-        if (p[0] == '*') {
-            if (p.Length == 1) {
-                return true;
-            }
-            //compress '*' for speed up
-            for (int i = 1; i < p.Length; i++) {
-                if (p[i] != '*') {
-                    p = p.Substring (i - 1);
-                    break;
-                }
-            }
-            for (int i = 0; i < s.Length; i++) {
-                if (IsMatch (s.Substring (i), p.Substring (1))) {
-                    return true;
-                }
-            }
-            return false;
-        }
-        if (p[0] == s[0]) {
-            return IsMatch (s.Substring (1), p.Substring (1));
-        }
-        return false;
+        return dp[s.Length, p.Length];
     }
 }
