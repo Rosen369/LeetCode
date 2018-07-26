@@ -1,34 +1,41 @@
 public class Solution {
     public IList<IList<string>> SolveNQueens (int n) {
         var res = new List<IList<string>> ();
-        var chessboard = new List<string> ();
+        char[][] chessboard = new char[n][];
         for (int i = 0; i < n; i++) {
-            chessboard.Add (new string ('.', n));
+            chessboard[i] = new char[n];
+            for (int j = 0; j < n; j++) {
+                chessboard[i][j] = '.';
+            }
         }
         PutNextQueen (n, 0, 0, chessboard, res, 0);
         return res;
     }
 
-    public void PutNextQueen (int n, int i, int j, IList<string> chessboard, IList<IList<string>> res, int count) {
+    public void PutNextQueen (int n, int i, int j, char[][] chessboard, IList<IList<string>> res, int count) {
         if (count == n) {
-            res.Add (chessboard);
+            var list = new List<string> ();
+            for (int r = 0; r < n; r++) {
+                list.Add (new string (chessboard[r]));
+            }
+            res.Add (list);
             return;
         }
         for (; i < n; i++) {
             for (; j < n; j++) {
                 if (chessboard[i][j] != 'Q' && Valid (n, i, j, chessboard)) {
-                    var copy = new List<string> (chessboard);
-                    var arr = copy[i].ToCharArray ();
-                    arr[j] = 'Q';
-                    copy[i] = new string (arr);
-                    PutNextQueen (n, i, j, copy, res, count + 1);
+                    chessboard[i][j] = 'Q';
+                    PutNextQueen (n, i, j, chessboard, res, count + 1);
+                    chessboard[i][j] = '.';
                 }
             }
             j = 0;
         }
     }
 
-    public bool Valid (int n, int row, int column, IList<string> chessboard) {
+    public bool Valid (int n, int row, int column, char[][] chessboard) {
+        var slash = column - row;
+        var backslash = column + row;
         for (int i = 0; i < n; i++) {
             if (chessboard[i][column] == 'Q') {
                 return false;
@@ -36,10 +43,6 @@ public class Solution {
             if (chessboard[row][i] == 'Q') {
                 return false;
             }
-        }
-        var slash = column - row;
-        var backslash = column + row;
-        for (int i = 0; i < n; i++) {
             if (slash >= 0 && slash < n) {
                 if (chessboard[i][slash] == 'Q') {
                     return false;
