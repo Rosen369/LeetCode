@@ -1,49 +1,28 @@
 public class Solution {
     public string AddBinary (string a, string b) {
-        var longger = a;
-        var shorter = b;
-        if (a.Length < b.Length) {
-            longger = b;
-            shorter = a;
+        if (string.IsNullOrEmpty (a)) {
+            return b;
         }
-        var charList = new char[longger.Length];
-        var flow = false;
-        for (int i = longger.Length - 1; i >= 0; i--) {
-            var longBit = longger[i];
-            var shortBit = '0';
-            if (i - (longger.Length - shorter.Length) >= 0) {
-                shortBit = shorter[i - (longger.Length - shorter.Length)];
+        if (string.IsNullOrEmpty (b)) {
+            return a;
+        }
+        var sb = new StringBuilder ();
+        var carry = 0;
+        var i = a.Length - 1;
+        var j = b.Length - 1;
+        while (i >= 0 || j >= 0 || carry > 0) {
+            var a1 = i >= 0 ? a[i] - '0' : 0;
+            var b1 = j >= 0 ? b[j] - '0' : 0;
+            var num = a1 + b1 + carry;
+            sb.Insert (0, num % 2);
+            if (num > 1) {
+                carry = 1;
+            } else {
+                carry = 0;
             }
-            if (longBit == '0' && shortBit == '0' && flow == false) {
-                charList[i] = '0';
-                flow = false;
-            } else if (longBit == '0' && shortBit == '0' && flow == true) {
-                charList[i] = '1';
-                flow = false;
-            } else if (longBit == '1' && shortBit == '0' && flow == false) {
-                charList[i] = '1';
-                flow = false;
-            } else if (longBit == '0' && shortBit == '1' && flow == false) {
-                charList[i] = '1';
-                flow = false;
-            } else if (longBit == '1' && shortBit == '0' && flow == true) {
-                charList[i] = '0';
-                flow = true;
-            } else if (longBit == '0' && shortBit == '1' && flow == true) {
-                charList[i] = '0';
-                flow = true;
-            } else if (longBit == '1' && shortBit == '1' && flow == false) {
-                charList[i] = '0';
-                flow = true;
-            } else if (longBit == '1' && shortBit == '1' && flow == true) {
-                charList[i] = '1';
-                flow = true;
-            }
+            i--;
+            j--;
         }
-        var res = new string (charList);
-        if (flow == true) {
-            res = "1" + res;
-        }
-        return res;
+        return sb.ToString ();
     }
 }
