@@ -19,3 +19,8 @@ __Example 2:__
 Input: nums = [2,5,6,0,0,1,2], target = 3
 Output: false
 ```
+
+__Follow up:__
+
+- This is a follow up problem to Search in Rotated Sorted Array, where `nums` may contain duplicates.
+- Would this affect the run-time complexity? How and why?
