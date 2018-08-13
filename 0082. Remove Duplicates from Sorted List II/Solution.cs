@@ -10,7 +10,7 @@ public class Solution {
             head = head.next;
         }
         var res = new ListNode (0);
-        curr = res;
+        var curr = res;
         foreach (var pair in dic) {
             if (pair.Value == 1) {
                 curr.next = new ListNode (pair.Key);
