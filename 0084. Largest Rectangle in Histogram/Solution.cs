@@ -1,30 +1,25 @@
 public class Solution {
     public int LargestRectangleArea (int[] heights) {
-        var list = new List<int> (heights);
-        list.Add (0);
-        heights = list.ToArray ();
-        var largest = 0;
-        var min = int.MaxValue;
-        var index = 0;
-        var length = 0;
-        for (int i = 0; i < heights.Length; i++) {
-            for (int j = 0; j < heights.Length; j++) {
-                if (heights[j] == 0) {
-                    largest = Math.Max (largest, min * length);
-                    length = 0;
-                    min = int.MaxValue;
-                    continue;
-                }
-                length++;
-                min = Math.Min (min, heights[j]);
-                if (heights[j] != 0) {
-                    if (heights[index] == 0 || heights[j] < heights[index]) {
-                        index = j;
-                    }
-                }
+        var len = heights.Length;
+        var stack = new Stack<int> ();
+        var maxArea = 0;
+        for (int i = 0; i <= len; i++) {
+            var h = 0;
+            if (i != len) {
+                h = heights[i];
             }
-            heights[index] = 0;
+            if (stack.Count == 0 || h >= heights[stack.Peek ()]) {
+                stack.Push (i);
+            } else {
+                int top = stack.Pop ();
+                var length = i;
+                if (stack.Count != 0) {
+                    length = i - 1 - stack.Peek ();
+                }
+                maxArea = Math.Max (maxArea, heights[top] * length);
+                i--;
+            }
         }
-        return largest;
+        return maxArea;
     }
 }
