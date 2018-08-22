@@ -26,16 +26,6 @@ public class Solution {
         }
         return res;
     }
-
-    // public TreeNode CloneTree (TreeNode node) {
-    //     if (node == null) {
-    //         return null;
-    //     }
-    //     var clone = new TreeNode (node.val);
-    //     clone.left = CloneTree (node.left);
-    //     clone.right = CloneTree (node.right);
-    //     return clone;
-    // }
 }
 
 public class TreeNode {
