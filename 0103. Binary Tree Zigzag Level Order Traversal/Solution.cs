@@ -1,5 +1,5 @@
 public class Solution {
-    public IList<IList<int>> LevelOrder (TreeNode root) {
+    public IList<IList<int>> ZigzagLevelOrder (TreeNode root) {
         var res = new List<IList<int>> ();
         var curr = new List<TreeNode> ();
         var next = new List<TreeNode> ();
