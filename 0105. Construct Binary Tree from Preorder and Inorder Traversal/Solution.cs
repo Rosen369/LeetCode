@@ -1,38 +1,22 @@
 public class Solution {
     public TreeNode BuildTree (int[] preorder, int[] inorder) {
-        if (preorder.Length == 0 || inorder.Length == 0) {
+        return Build (preorder, inorder, 0, preorder.Length - 1, 0, inorder.Length - 1);
+    }
+
+    public TreeNode Build (int[] preorder, int[] inorder, int preStart, int preEnd, int inStart, int inEnd) {
+        if (preStart > preEnd) {
             return null;
         }
-        var curr = new TreeNode (preorder[0]);
-        var inorderLeft = new List<int> ();
-        var inorderRight = new List<int> ();
-        var metCurr = false;
-        for (int i = 0; i < inorder.Length; i++) {
-            if (inorder[i] == preorder[0]) {
-                metCurr = true;
-                continue;
-            }
-            if (!metCurr) {
-                inorderLeft.Add (inorder[i]);
-            } else {
-                inorderRight.Add (inorder[i]);
+        var curr = new TreeNode (preorder[preStart]);
+        var pos = 0;
+        for (int i = inStart; i <= inEnd; i++) {
+            if (inorder[i] == curr.val) {
+                pos = i;
+                break;
             }
         }
-        var preorderLeft = new List<int> ();
-        var preorderRight = new List<int> ();
-        var metInorder = true;
-        for (int i = 1; i < preorder.Length; i++) {
-            if (!inorderLeft.Contains (preorder[i])) {
-                metInorder = false;
-            }
-            if (metInorder) {
-                preorderLeft.Add (preorder[i]);
-            } else {
-                preorderRight.Add (preorder[i]);
-            }
-        }
-        curr.left = BuildTree (preorderLeft.ToArray (), inorderLeft.ToArray ());
-        curr.right = BuildTree (preorderRight.ToArray (), inorderRight.ToArray ());
+        curr.left = Build (preorder, inorder, preStart + 1, preStart + pos - inStart, inStart, pos - 1);
+        curr.right = Build (preorder, inorder, preEnd - inEnd + pos + 1, preEnd, pos + 1, inEnd);
         return curr;
     }
 }
