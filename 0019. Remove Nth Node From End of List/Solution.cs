@@ -1,3 +1,11 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     public int val;
+ *     public ListNode next;
+ *     public ListNode(int x) { val = x; }
+ * }
+ */
 public class Solution {
     public ListNode RemoveNthFromEnd (ListNode head, int n) {
         var index = 0;
@@ -20,10 +28,4 @@ public class Solution {
         }
         return head;
     }
-}
-
-public class ListNode {
-    public int val;
-    public ListNode next;
-    public ListNode (int x) { val = x; }
 }

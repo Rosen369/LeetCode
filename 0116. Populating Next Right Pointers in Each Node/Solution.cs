@@ -1,3 +1,13 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeLinkNode {
+ *     public int val;
+ *     public TreeLinkNode left;
+ *     public TreeLinkNode right;
+ *     public TreeLinkNode next;
+ *     public TreeLinkNode(int x) { val = x; }
+ * }
+ */
 public class Solution {
     public void Connect (TreeLinkNode root) {
         if (root == null) {
@@ -13,12 +23,4 @@ public class Solution {
         Connect (root.left);
         Connect (root.right);
     }
-}
-
-public class TreeLinkNode {
-    public int val;
-    public TreeLinkNode left;
-    public TreeLinkNode right;
-    public TreeLinkNode next;
-    public TreeLinkNode (int x) { val = x; }
 }

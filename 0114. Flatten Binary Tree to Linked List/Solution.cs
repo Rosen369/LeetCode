@@ -1,3 +1,12 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     public int val;
+ *     public TreeNode left;
+ *     public TreeNode right;
+ *     public TreeNode(int x) { val = x; }
+ * }
+ */
 public class Solution {
     public void Flatten (TreeNode root) {
         if (root == null) {
@@ -15,11 +24,4 @@ public class Solution {
         }
         curr.right = right;
     }
-}
-
-public class TreeNode {
-    public int val;
-    public TreeNode left;
-    public TreeNode right;
-    public TreeNode (int x) { val = x; }
 }

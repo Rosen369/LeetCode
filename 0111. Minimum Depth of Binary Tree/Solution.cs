@@ -1,3 +1,12 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     public int val;
+ *     public TreeNode left;
+ *     public TreeNode right;
+ *     public TreeNode(int x) { val = x; }
+ * }
+ */
 public class Solution {
     public int MinDepth (TreeNode root) {
         if (root == null) {
@@ -13,11 +22,4 @@ public class Solution {
         }
         return Math.Min (left, right) + 1;
     }
-}
-
-public class TreeNode {
-    public int val;
-    public TreeNode left;
-    public TreeNode right;
-    public TreeNode (int x) { val = x; }
 }

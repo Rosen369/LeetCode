@@ -1,3 +1,11 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     public int val;
+ *     public ListNode next;
+ *     public ListNode(int x) { val = x; }
+ * }
+ */
 public class Solution {
     public ListNode DeleteDuplicates (ListNode head) {
         var list = new List<int> ();
@@ -15,10 +23,4 @@ public class Solution {
         }
         return res.next;
     }
-}
-
-public class ListNode {
-    public int val;
-    public ListNode next;
-    public ListNode (int x) { val = x; }
 }

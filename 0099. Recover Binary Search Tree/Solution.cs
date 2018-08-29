@@ -1,3 +1,12 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     public int val;
+ *     public TreeNode left;
+ *     public TreeNode right;
+ *     public TreeNode(int x) { val = x; }
+ * }
+ */
 public class Solution {
     public void RecoverTree (TreeNode root) {
         var list = new List<TreeNode> ();
@@ -29,11 +38,4 @@ public class Solution {
         list.Add (root);
         Inorder (root.right, list);
     }
-}
-
-public class TreeNode {
-    public int val;
-    public TreeNode left;
-    public TreeNode right;
-    public TreeNode (int x) { val = x; }
 }

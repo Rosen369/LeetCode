@@ -1,3 +1,11 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     public int val;
+ *     public ListNode next;
+ *     public ListNode(int x) { val = x; }
+ * }
+ */
 public class Solution {
     public ListNode AddTwoNumbers (ListNode l1, ListNode l2) {
         var root = new ListNode (0);
@@ -19,10 +27,4 @@ public class Solution {
         }
         return root.next;
     }
-}
-
-public class ListNode {
-    public int val;
-    public ListNode next;
-    public ListNode (int x) { val = x; }
 }

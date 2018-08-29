@@ -1,3 +1,12 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     public int val;
+ *     public TreeNode left;
+ *     public TreeNode right;
+ *     public TreeNode(int x) { val = x; }
+ * }
+ */
 public class Solution {
     public IList<IList<int>> ZigzagLevelOrder (TreeNode root) {
         var res = new List<IList<int>> ();
@@ -27,11 +36,4 @@ public class Solution {
         }
         return res;
     }
-}
-
-public class TreeNode {
-    public int val;
-    public TreeNode left;
-    public TreeNode right;
-    public TreeNode (int x) { val = x; }
 }

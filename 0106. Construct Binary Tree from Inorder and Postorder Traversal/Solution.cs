@@ -1,3 +1,12 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     public int val;
+ *     public TreeNode left;
+ *     public TreeNode right;
+ *     public TreeNode(int x) { val = x; }
+ * }
+ */
 public class Solution {
     public TreeNode BuildTree (int[] inorder, int[] postorder) {
         return Build (inorder, postorder, 0, inorder.Length - 1, 0, postorder.Length - 1);
@@ -19,11 +28,4 @@ public class Solution {
         curr.right = Build (inorder, postorder, postEnd - inEnd + pos, postEnd - 1, pos + 1, inEnd);
         return curr;
     }
-}
-
-public class TreeNode {
-    public int val;
-    public TreeNode left;
-    public TreeNode right;
-    public TreeNode (int x) { val = x; }
 }

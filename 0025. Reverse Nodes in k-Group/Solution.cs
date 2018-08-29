@@ -1,3 +1,11 @@
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     public int val;
+ *     public ListNode next;
+ *     public ListNode(int x) { val = x; }
+ * }
+ */
 public class Solution {
     public ListNode ReverseKGroup (ListNode head, int k) {
         var pre = new ListNode (0);
@@ -24,10 +32,4 @@ public class Solution {
         }
         return pre.next;
     }
-}
-
-public class ListNode {
-    public int val;
-    public ListNode next;
-    public ListNode (int x) { val = x; }
 }
