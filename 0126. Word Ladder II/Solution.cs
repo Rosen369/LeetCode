@@ -4,9 +4,10 @@ public class Solution {
         if (!wordList.Contains (endWord)) {
             return res;
         }
+        var set = new HashSet<string> (wordList);
         var distance = new Dictionary<string, int> ();
         var neighbors = new Dictionary<string, IList<string>> ();
-        LinkGraph (beginWord, endWord, wordList, distance, neighbors);
+        LinkGraph (beginWord, endWord, set, distance, neighbors);
         FindNext (res, new List<string> (), distance, neighbors, endWord, beginWord);
         return res;
     }
@@ -26,8 +27,7 @@ public class Solution {
         path.RemoveAt (path.Count () - 1);
     }
 
-    public IList<string> FindNeighbors (string word, IList<string> wordList) {
-        var set = new HashSet<string> (wordList);
+    public IList<string> FindNeighbors (string word, HashSet<string> set) {
         var list = new List<string> ();
         var arr = word.ToCharArray ();
         for (int i = 0; i < word.Length; i++) {
@@ -47,7 +47,7 @@ public class Solution {
         return list;
     }
 
-    public void LinkGraph (string startWord, string endWord, IList<string> wordList, IDictionary<string, int> distance, IDictionary<string, IList<string>> neighbors) {
+    public void LinkGraph (string startWord, string endWord, HashSet<string> set, IDictionary<string, int> distance, IDictionary<string, IList<string>> neighbors) {
         var currLevel = new HashSet<string> ();
         var nextLevel = new HashSet<string> ();
         currLevel.Add (startWord);
@@ -65,7 +65,7 @@ public class Solution {
                     reachEnd = true;
                     break;
                 }
-                var wordNeighbots = FindNeighbors (word, wordList);
+                var wordNeighbots = FindNeighbors (word, set);
                 neighbors.Add (word, wordNeighbots);
                 nextLevel.UnionWith (wordNeighbots);
             }
