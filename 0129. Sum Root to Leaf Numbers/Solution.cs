@@ -18,13 +18,12 @@ public class Solution {
     }
 
     public void DFS (TreeNode node, IList<int> res, int curr) {
+        curr = curr * 10;
+        curr += node.val;
         if (node.left == null && node.right == null) {
-            curr += node.val;
             res.Add (curr);
             return;
         }
-        curr = curr * 10;
-        curr += node.val;
         if (node.left != null) {
             DFS (node.left, res, curr);
         }
