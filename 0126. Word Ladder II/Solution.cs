@@ -59,9 +59,9 @@ public class Solution {
                     continue;
                 }
                 distance.Add (word, level + 1);
-                var wordNeighbots = FindNeighbors (word, set);
-                neighbors.Add (word, wordNeighbots);
-                nextLevel.UnionWith (wordNeighbots);
+                var wordNeighbors = FindNeighbors (word, set);
+                neighbors.Add (word, wordNeighbors);
+                nextLevel.UnionWith (wordNeighbors);
             }
             currLevel.Clear ();
             currLevel.UnionWith (nextLevel);
