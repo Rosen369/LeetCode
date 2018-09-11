@@ -7,7 +7,7 @@ public class Solution {
         var set = new HashSet<string> (wordList);
         var distance = new Dictionary<string, int> ();
         var neighbors = new Dictionary<string, IList<string>> ();
-        LinkGraph (beginWord, endWord, set, distance, neighbors);
+        LinkGraph (beginWord, set, distance, neighbors);
         FindNext (res, new List<string> (), distance, neighbors, endWord, beginWord);
         return res;
     }
@@ -19,7 +19,7 @@ public class Solution {
         } else {
             var currNeighbors = neighbors[currWord];
             foreach (var neighbor in currNeighbors) {
-                if (distance.ContainsKey (neighbor) && distance[currWord] + 1 == distance[neighbor]) {
+                if (distance[currWord] + 1 == distance[neighbor]) {
                     FindNext (res, path, distance, neighbors, endWord, neighbor);
                 }
             }
@@ -47,11 +47,10 @@ public class Solution {
         return list;
     }
 
-    public void LinkGraph (string startWord, string endWord, HashSet<string> set, IDictionary<string, int> distance, IDictionary<string, IList<string>> neighbors) {
+    public void LinkGraph (string startWord, HashSet<string> set, IDictionary<string, int> distance, IDictionary<string, IList<string>> neighbors) {
         var currLevel = new HashSet<string> ();
         var nextLevel = new HashSet<string> ();
         currLevel.Add (startWord);
-        var reachEnd = false;
         var level = 0;
         while (currLevel.Count () != 0) {
             nextLevel.Clear ();
@@ -60,17 +59,9 @@ public class Solution {
                     continue;
                 }
                 distance.Add (word, level + 1);
-                if (word == endWord) {
-                    neighbors.Add (word, new List<string> ());
-                    reachEnd = true;
-                    break;
-                }
                 var wordNeighbots = FindNeighbors (word, set);
                 neighbors.Add (word, wordNeighbots);
                 nextLevel.UnionWith (wordNeighbots);
-            }
-            if (reachEnd) {
-                break;
             }
             currLevel.Clear ();
             currLevel.UnionWith (nextLevel);
