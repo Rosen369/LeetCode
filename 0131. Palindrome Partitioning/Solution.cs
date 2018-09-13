@@ -4,47 +4,28 @@ public class Solution {
         if (string.IsNullOrEmpty (s)) {
             return res;
         }
-        var dic = new Dictionary<string, IList<IList<string>>> ();
-        var splitRes = SplitNext (s, dic);
-        var set = new HashSet<string> ();
-        foreach (var list in splitRes) {
-            var key = string.Join ("_", list);
-            if (set.Contains (key)) {
-                continue;
-            } else {
-                res.Add (list);
-                set.Add (key);
-            }
-        }
+        BackTrack (s, new List<string> (), res);
         return res;
     }
 
-    public IList<IList<string>> SplitNext (string s, IDictionary<string, IList<IList<string>>> dic) {
-        var res = new List<IList<string>> ();
+    public void BackTrack (string s, IList<string> curr, IList<IList<string>> res) {
         if (string.IsNullOrEmpty (s)) {
-            return res;
+            return;
         }
         if (IsPalindrome (s)) {
-            res.Add (new List<string> () { s });
+            var clone = new List<string> (curr);
+            clone.Add (s);
+            res.Add (clone);
         }
         for (int i = 1; i <= s.Length - 1; i++) {
             var left = s.Substring (0, i);
             var right = s.Substring (i);
-            var leftList = dic.ContainsKey (left) ? dic[left] : SplitNext (left, dic);
-            var rightList = dic.ContainsKey (right) ? dic[right] : SplitNext (right, dic);
-            foreach (var leftSub in leftList) {
-                foreach (var rightSub in rightList) {
-                    var combined = new List<string> ();
-                    combined.AddRange (leftSub);
-                    combined.AddRange (rightSub);
-                    res.Add (combined);
-                }
+            if (IsPalindrome (left)) {
+                curr.Add (left);
+                BackTrack (right, curr, res);
+                curr.RemoveAt (curr.Count () - 1);
             }
         }
-        if (!dic.ContainsKey (s)) {
-            dic.Add (s, res);
-        }
-        return res;
     }
 
     public bool IsPalindrome (string s) {
