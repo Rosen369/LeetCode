@@ -1,13 +1,11 @@
 public class Solution {
     public int SingleNumber (int[] nums) {
-        var set = new HashSet<int> ();
-        for (int i = 0; i < nums.Length; i++) {
-            if (set.Contains (nums[i])) {
-                set.Remove (nums[i]);
-            } else {
-                set.Add (nums[i]);
+        Array.Sort (nums);
+        for (int i = 2; i < nums.Length; i += 3) {
+            if (nums[i - 2] != nums[i]) {
+                return nums[i - 2];
             }
         }
-        return set.First ();
+        return nums[nums.Length - 1];
     }
 }
