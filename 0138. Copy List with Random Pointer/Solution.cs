@@ -12,28 +12,24 @@ public class Solution {
             return null;
         }
         var curr = head;
-        var oriList = new List<RandomListNode> ();
+        var ori = new List<RandomListNode> ();
         while (curr != null) {
-            oriList.Add (curr);
+            ori.Add (curr);
             curr = curr.next;
         }
-        var copyList = new List<RandomListNode> ();
-        for (int i = 0; i < oriList.Count (); i++) {
-            copyList.Add (new RandomListNode (oriList[i].label));
+        var dict = new Dictionary<int, RandomListNode> ();
+        for (int i = 0; i < ori.Count (); i++) {
+            dict.Add (ori[i].label, new RandomListNode (ori[i].label));
+        }
+        var copy = dict.Values.ToList ();
+        for (int i = 0; i < ori.Count (); i++) {
             if (i != 0) {
-                copyList[i - 1].next = copyList[i];
+                copy[i - 1].next = copy[i];
+            }
+            if (ori[i].random != null) {
+                copy[i].random = dict[ori[i].random.label];
             }
         }
-        for (int i = 0; i < oriList.Count (); i++) {
-            if (oriList[i].random == null) {
-                continue;
-            }
-            for (int j = 0; j < oriList.Count (); j++) {
-                if (Object.ReferenceEquals (oriList[i].random, oriList[j])) {
-                    copyList[i].random = copyList[j];
-                }
-            }
-        }
-        return copyList[0];
+        return copy[0];
     }
 }
