@@ -3,12 +3,15 @@ public class Solution {
         var dp = new bool[s.Length + 1];
         dp[0] = true;
         for (int i = 0; i < s.Length; i++) {
+            if (dp[i] == false) {
+                continue;
+            }
             for (int j = 0; j < wordDict.Count (); j++) {
                 if (i + wordDict[j].Length > s.Length) {
                     continue;
                 }
                 var sub = s.Substring (i, wordDict[j].Length);
-                if (dp[i] == true && sub == wordDict[j]) {
+                if (sub == wordDict[j]) {
                     dp[i + wordDict[j].Length] = true;
                 }
             }
