@@ -47,7 +47,6 @@ public class Solution {
                     stack.Push (left);
                 }
             }
-
         }
         return res;
     }
