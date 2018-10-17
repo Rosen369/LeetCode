@@ -7,10 +7,7 @@ public class Solution {
             if (nums[mid] < nums[right]) {
                 right = mid;
             } else {
-                left = mid;
-            }
-            if (left + 1 == right) {
-                return Math.Min (nums[left], nums[right]);
+                left = mid + 1;
             }
         }
         return nums[left];
