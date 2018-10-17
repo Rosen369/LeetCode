@@ -11,7 +11,7 @@ You may assume no duplicate exists in the array.
 __Example 1:__
 
 ```
-Input: [3,4,5,1,2] 
+Input: [3,4,5,1,2]
 Output: 1
 ```
 
