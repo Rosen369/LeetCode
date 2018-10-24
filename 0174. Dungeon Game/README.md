@@ -12,10 +12,25 @@ __Write a function to determine the knight's minimum initial health so that he i
 
 For example, given the dungeon below, the initial health of the knight must be at least 7 if he follows the optimal path `RIGHT-> RIGHT -> DOWN -> DOWN`.
 
-|:-----------:|:-----------:|:-----------:|
-|-2(K)|-3|3
-|-5|-10|1
-|10|30|-5(P)
+<table style="border: 3px solid black;">
+	<tbody>
+		<tr>
+			<td style="text-align: center; height: 70px; width: 70px; border: 3px solid black;">-2 (K)</td>
+			<td style="text-align: center; height: 70px; width: 70px; border: 3px solid black;">-3</td>
+			<td style="text-align: center; height: 70px; width: 70px; border: 3px solid black;">3</td>
+		</tr>
+		<tr>
+			<td style="text-align: center; height: 70px; width: 70px; border: 3px solid black;">-5</td>
+			<td style="text-align: center; height: 70px; width: 70px; border: 3px solid black;">-10</td>
+			<td style="text-align: center; height: 70px; width: 70px; border: 3px solid black;">1</td>
+		</tr>
+		<tr>
+			<td style="text-align: center; height: 70px; width: 70px; border: 3px solid black;">10</td>
+			<td style="text-align: center; height: 70px; width: 70px; border: 3px solid black;">30</td>
+			<td style="text-align: center; height: 70px; width: 70px; border: 3px solid black;">-5 (P)</td>
+		</tr>
+	</tbody>
+</table>
 
 __Note:__
 
