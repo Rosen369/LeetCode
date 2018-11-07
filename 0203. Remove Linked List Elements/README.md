@@ -1,7 +1,5 @@
 # Remove Linked List Elements
 
-Write an algorithm to determine if a number is "happy".
-
 Remove all elements from a linked list of integers that have value __val__.
 
 __Example:__
