@@ -9,6 +9,11 @@
  */
 public class Solution {
     public int CountNodes (TreeNode root) {
-
+        if (root == null) {
+            return 0;
+        }
+        var left = CountNodes (root.left);
+        var right = CountNodes (root.right);
+        return left + right + 1;
     }
 }
