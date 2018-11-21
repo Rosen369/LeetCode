@@ -12,8 +12,17 @@ public class Solution {
         if (root == null) {
             return 0;
         }
-        var left = CountNodes (root.left);
-        var right = CountNodes (root.right);
-        return left + right + 1;
+        var left = root;
+        var right = root;
+        var level = 0;
+        while (right != null) {
+            level++;
+            right = right.right;
+            left = left.left;
+        }
+        if (left == null) {
+            return (int) Math.Pow (2, level) - 1;
+        }
+        return 1 + CountNodes (root.left) + CountNodes (root.right);
     }
 }
