@@ -10,4 +10,9 @@ public class Solution {
         }
         return AddDigits (res);
     }
+
+    public int AddDigitsMath (int num) {
+        //https://en.wikipedia.org/wiki/Digital_root
+        return 1 + (num - 1) % 9;
+    }
 }
