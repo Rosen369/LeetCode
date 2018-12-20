@@ -3,17 +3,17 @@ public class Solution {
         if (n == 1) {
             return 1;
         }
-        var res = new int[n];
-        res[0] = 1;
+        var dp = new int[n];
+        dp[0] = 1;
         var t2 = 0;
         var t3 = 0;
         var t5 = 0;
         for (int i = 1; i < n; i++) {
-            res[i] = Math.Min (res[t2] * 2, (Math.Min (res[t3] * 3, res[t5] * 5)));
-            if (res[i] == res[t2] * 2) t2++;
-            if (res[i] == res[t3] * 3) t3++;
-            if (res[i] == res[t5] * 5) t5++;
+            dp[i] = Math.Min (dp[t2] * 2, (Math.Min (dp[t3] * 3, dp[t5] * 5)));
+            if (dp[i] == dp[t2] * 2) t2++;
+            if (dp[i] == dp[t3] * 3) t3++;
+            if (dp[i] == dp[t5] * 5) t5++;
         }
-        return res[n - 1];
+        return dp[n - 1];
     }
 }
