@@ -1,15 +1,21 @@
 public class Solution {
     public int HIndex (int[] citations) {
-        var res = 0;
-        Array.Sort (citations);
-        Array.Reverse (citations);
-        for (int i = 0; i < citations.Length; i++) {
-            if (citations[i] >= i + 1) {
-                res = i + 1;
+        var n = citations.Length;
+        var buckets = new int[n + 1];
+        foreach (var c in citations) {
+            if (c >= n) {
+                buckets[n]++;
             } else {
-                break;
+                buckets[c]++;
             }
         }
-        return res;
+        int count = 0;
+        for (int i = n; i >= 0; i--) {
+            count += buckets[i];
+            if (count >= i) {
+                return i;
+            }
+        }
+        return 0;
     }
 }
