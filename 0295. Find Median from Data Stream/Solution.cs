@@ -2,27 +2,27 @@ public class MedianFinder {
 
     /** initialize your data structure here. */
     public MedianFinder () {
-        low = new PriorityQueue<int> (true);
-        high = new PriorityQueue<int> (false);
+        _low = new PriorityQueue<int> (true);
+        _high = new PriorityQueue<int> (false);
     }
 
-    private PriorityQueue<int> low;
+    private PriorityQueue<int> _low;
 
-    private PriorityQueue<int> high;
+    private PriorityQueue<int> _high;
 
     public void AddNum (int num) {
-        low.Add (num);
-        high.Add (low.Pop ());
-        if (low.Count () < high.Count ()) {
-            low.Add (high.Pop ());
+        _low.Add (num);
+        _high.Add (_low.Pop ());
+        if (_low.Count () < _high.Count ()) {
+            _low.Add (_high.Pop ());
         }
     }
 
     public double FindMedian () {
-        if (low.Count () > high.Count ()) {
-            return (double) low.Peek ();
+        if (_low.Count () > _high.Count ()) {
+            return (double) _low.Peek ();
         } else {
-            return (low.Peek () + high.Peek ()) / 2.0;
+            return (_low.Peek () + _high.Peek ()) / 2.0;
         }
     }
 }
@@ -31,11 +31,11 @@ public class PriorityQueue<T> where T : IComparable {
 
     private IList<T> _pq;
 
-    private bool _max;
+    private bool _maxHeap;
 
-    public PriorityQueue (bool max) {
+    public PriorityQueue (bool maxHeap) {
         _pq = new List<T> ();
-        this._max = max;
+        this._maxHeap = maxHeap;
     }
 
     public bool IsEmpty () {
@@ -83,7 +83,7 @@ public class PriorityQueue<T> where T : IComparable {
     }
 
     private bool Less (int i, int j) {
-        if (_max) {
+        if (_maxHeap) {
             return _pq[i].CompareTo (_pq[j]) == -1;
         } else {
             return _pq[i].CompareTo (_pq[j]) == 1;
