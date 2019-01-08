@@ -14,32 +14,10 @@ public class Codec {
         if (root == null) {
             return string.Empty;
         }
-        var sb = new StringBuilder ();
-        var curr = new List<TreeNode> ();
-        curr.Add (root);
-        while (curr.Count () != 0) {
-            var nullRow = true;
-            var next = new List<TreeNode> ();
-            foreach (var node in curr) {
-                if (node == null) {
-                    next.Add (null);
-                    next.Add (null);
-                    sb.Append ("null,");
-                } else {
-                    next.Add (node.left);
-                    next.Add (node.right);
-                    sb.Append (node.val).Append (",");
-                    if (node.left != null || node.right != null) {
-                        nullRow = false;
-                    }
-                }
-            }
-            if (nullRow) {
-                break;
-            }
-            curr = next;
-        }
-        return sb.ToString ().TrimEnd(',');
+        var left = serialize (root.left);
+        var right = serialize (root.right);
+        var res = root.val + ",[" + left + "],[" + right + "]";
+        return res;
     }
 
     // Decodes your encoded data to tree.
@@ -47,36 +25,29 @@ public class Codec {
         if (string.IsNullOrEmpty (data)) {
             return null;
         }
-        var arr = data.Split (',');
-        var root = new TreeNode (Convert.ToInt32 (arr[0]));
-        var index = 1;
-        var queue = new Queue<TreeNode> ();
-        queue.Enqueue (root);
-        while (queue.Count () != 0 && index <= arr.Length - 1) {
-            var node = queue.Dequeue ();
-            if (node == null) {
-                queue.Enqueue (null);
-                queue.Enqueue (null);
-                index += 2;
-            } else {
-                if (arr[index] == "null") {
-                    queue.Enqueue (null);
-                } else {
-                    var child = new TreeNode (Convert.ToInt32 (arr[index]));
-                    node.left = child;
-                    queue.Enqueue (child);
-                }
-                index++;
-                if (arr[index] == "null") {
-                    queue.Enqueue (null);
-                } else {
-                    var child = new TreeNode (Convert.ToInt32 (arr[index]));
-                    node.right = child;
-                    queue.Enqueue (child);
-                }
-                index++;
+        var split = data.Split (',', 2);
+        var rootStr = split[0];
+        var childStr = split[1];
+        var root = new TreeNode (Convert.ToInt32 (rootStr));
+        var countBrace = 0;
+        var childSep = 0;
+        for (int i = 0; i < childStr.Length; i++) {
+            if (childStr[i] == '[') {
+                countBrace++;
+            } else if (childStr[i] == ']') {
+                countBrace--;
+            }
+            if (countBrace == 0) {
+                childSep = i + 1;
+                break;
             }
         }
+        var leftStr = childStr.Substring (0, childSep);
+        var rightStr = childStr.Substring (childSep + 1);
+        var left = deserialize (leftStr.TrimStart ('[').TrimEnd (']'));
+        var right = deserialize (rightStr.TrimStart ('[').TrimEnd (']'));
+        root.left = left;
+        root.right = right;
         return root;
     }
 }
