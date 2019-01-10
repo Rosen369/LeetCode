@@ -17,6 +17,15 @@ Explanation: The digits can form an additive sequence: 1, 1, 2, 3, 5, 8.
              1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8
 ```
 
+__Example 2:__
+
+```
+Input: "199100199"
+Output: true
+Explanation: The additive sequence is: 1, 99, 100, 199.
+             1 + 99 = 100, 99 + 100 = 199
+```
+
 __Follow up:__
 
 How would you handle overflow for very large input integers?
