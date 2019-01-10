@@ -1,6 +1,6 @@
 # Range Sum Query 2D - Immutable
 
-Given a 2D matrix matrix, find the sum of the elements inside the rectangle defined by its upper left corner (row1, col1) and lower right corner (row2, col2).
+Given a 2D matrix _matrix_, find the sum of the elements inside the rectangle defined by its upper left corner (_row1_, _col1_) and lower right corner (_row2_, _col2_).
 
 ![Range Sum Query 2D](./range_sum_query_2d.png)
 
