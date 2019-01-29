@@ -1,59 +1,68 @@
 public class Solution {
+
     public IList<int> CountSmaller (int[] nums) {
-        var res = new List<int> ();
-        var count = new int[nums.Length];
-        var indexes = new int[nums.Length];
-        for (int i = 0; i < nums.Length; i++) {
-            indexes[i] = i;
+        var len = nums.Length;
+        var pairs = new List<Pair> ();
+        for (int i = 0; i < len; i++) {
+            pairs.Add (new Pair (i, nums[i]));
         }
-        MergeSort (nums, indexes, 0, nums.Length - 1, count);
-        for (int i = 0; i < count.Length; i++) {
-            res.Add (count[i]);
-        }
-        return res;
+        MergeSort (pairs);
+        var count = pairs.OrderBy (e => e.Index).Select (e => e.Count).ToList ();
+        return count;
     }
 
-    private void MergeSort (int[] nums, int[] indexes, int start, int end, int[] count) {
-        if (end <= start) {
+    public void MergeSort (IList<Pair> pairs) {
+        if (pairs.Count < 2) {
             return;
         }
-        var mid = (start + end) / 2;
-        MergeSort (nums, indexes, start, mid, count);
-        MergeSort (nums, indexes, mid + 1, end, count);
-
-        Merge (nums, indexes, start, end, count);
-    }
-    private void Merge (int[] nums, int[] indexes, int start, int end, int[] count) {
-        var mid = (start + end) / 2;
-        var leftIndex = start;
-        var rightIndex = mid + 1;
-        var rightCount = 0;
-        var newIndexes = new int[end - start + 1];
-
-        var sort_index = 0;
-        while (leftIndex <= mid && rightIndex <= end) {
-            if (nums[indexes[rightIndex]] < nums[indexes[leftIndex]]) {
-                newIndexes[sort_index] = indexes[rightIndex];
-                rightCount++;
-                rightIndex++;
+        int mid = pairs.Count / 2;
+        var left = new List<Pair> ();
+        var right = new List<Pair> ();
+        for (int i = 0; i < pairs.Count; i++) {
+            if (i < mid) {
+                left.Add (pairs[i]);
             } else {
-                newIndexes[sort_index] = indexes[leftIndex];
-                count[indexes[leftIndex]] += rightCount;
-                leftIndex++;
+                right.Add (pairs[i]);
             }
-            sort_index++;
         }
-        while (leftIndex <= mid) {
-            newIndexes[sort_index] = indexes[leftIndex];
-            count[indexes[leftIndex]] += rightCount;
-            leftIndex++;
-            sort_index++;
+        MergeSort (left);
+        MergeSort (right);
+        pairs.Clear ();
+        var count = 0;
+        var lIndex = 0;
+        var rIndex = 0;
+        while (lIndex < left.Count || rIndex < right.Count) {
+            if (lIndex == left.Count) {
+                pairs.Add (right[rIndex]);
+                rIndex++;
+            } else if (rIndex == right.Count) {
+                left[lIndex].Count += count;
+                pairs.Add (left[lIndex]);
+                lIndex++;
+            } else if (left[lIndex].Value <= right[rIndex].Value) {
+                left[lIndex].Count += count;
+                pairs.Add (left[lIndex]);
+                lIndex++;
+            } else {
+                count++;
+                pairs.Add (right[rIndex]);
+                rIndex++;
+            }
         }
-        while (rightIndex <= end) {
-            newIndexes[sort_index++] = indexes[rightIndex++];
+    }
+
+    public class Pair {
+
+        public Pair (int index, int value) {
+            this.Index = index;
+            this.Value = value;
+            this.Count = 0;
         }
-        for (int i = start; i <= end; i++) {
-            indexes[i] = newIndexes[i - start];
-        }
+
+        public int Index { get; set; }
+
+        public int Value { get; set; }
+
+        public int Count { get; set; }
     }
 }
