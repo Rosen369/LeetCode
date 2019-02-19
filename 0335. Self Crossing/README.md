@@ -14,7 +14,7 @@ Input: [2,1,1,2]
 ???????>
     ?
 
-Input: true
+Output: true
 Explanation: self crossing
 ```
 
