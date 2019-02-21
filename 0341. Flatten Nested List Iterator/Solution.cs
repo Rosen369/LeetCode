@@ -18,15 +18,33 @@
 public class NestedIterator {
 
     public NestedIterator (IList<NestedInteger> nestedList) {
-
+        this._stack = new Stack<NestedInteger> ();
+        for (int i = nestedList.Count - 1; i >= 0; i--) {
+            var nested = nestedList[i];
+            this._stack.Push (nested);
+        }
     }
 
-    public bool HasNext () {
+    private Stack<NestedInteger> _stack;
 
+    public bool HasNext () {
+        while (this._stack.Count != 0) {
+            var peek = this._stack.Peek ();
+            if (peek.IsInteger ()) {
+                return true;
+            }
+            var top = this._stack.Pop ();
+            var topList = top.GetList ();
+            for (int i = topList.Count - 1; i >= 0; i--) {
+                var nested = topList[i];
+                this._stack.Push (nested);
+            }
+        }
+        return false;
     }
 
     public int Next () {
-
+        return this._stack.Pop ().GetInteger ();
     }
 }
 
