@@ -10,3 +10,19 @@ class Solution(object):
         :type n: int
         :rtype: int
         """
+        return self.guess_core(1, n)
+
+    def guess_core(self, left, right):
+        """
+        :type left: int
+        :type right: int
+        :rtype: int
+        """
+        mid = (left + right) / 2
+        next = guess(mid)
+        if next == -1:
+            return self.guess_core(left, mid - 1)
+        elif next == 1:
+            return self.guess_core(mid + 1, right)
+        else:
+            return mid
