@@ -29,6 +29,40 @@
  */
 public class Solution {
     public NestedInteger Deserialize (string s) {
-
+        if (string.IsNullOrEmpty (s)) {
+            return null;
+        }
+        if (s[0] != '[') {
+            return new NestedInteger (Convert.ToInt32 (s));
+        }
+        var stack = new Stack<NestedInteger> ();
+        NestedInteger curr = null;
+        var left = 0;
+        for (var right = 0; right < s.Length; right++) {
+            if (s[right] == '[') {
+                if (curr != null) {
+                    stack.Push (curr);
+                }
+                curr = new NestedInteger ();
+                left = right + 1;
+            } else if (s[right] == ']') {
+                var num = s.Substring (left, right - left);
+                if (!string.IsNullOrEmpty (num))
+                    curr.Add (new NestedInteger (Convert.ToInt32 (num)));
+                if (stack.Count != 0) {
+                    NestedInteger pop = stack.Pop ();
+                    pop.Add (curr);
+                    curr = pop;
+                }
+                left = right + 1;
+            } else if (s[right] == ',') {
+                if (s[right - 1] != ']') {
+                    var num = s.Substring (left, right - left);
+                    curr.Add (new NestedInteger (Convert.ToInt32 (num)));
+                }
+                left = right + 1;
+            }
+        }
+        return curr;
     }
 }
