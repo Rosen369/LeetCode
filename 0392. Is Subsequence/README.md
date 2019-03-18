@@ -14,5 +14,13 @@ s = "abc", t = "ahbgdc"
 Return true.
 ```
 
+__Example 2:__
+
+```
+s = "axc", t = "ahbgdc"
+
+Return false.
+```
+
 __Follow up:__
 If there are lots of incoming S, say S1, S2, ... , Sk where k >= 1B, and you want to check one by one to see if T has its subsequence. In this scenario, how would you change your code?
