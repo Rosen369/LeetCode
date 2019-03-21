@@ -6,7 +6,7 @@ LeetCode Solution in C#
 
 |#|Title|VIP|Difficulty|
 |-|-|-|-|
-|1|Two Sum|Normal|Easy|
+|1|[Two Sum](./src/0001. Two Sum)|Normal|Easy|
 |2|Add Two Numbers|Normal|Medium|
 |3|Longest Substring Without Repeating Characters|Normal|Medium|
 |4|Median of Two Sorted Arrays|Normal|Hard|
