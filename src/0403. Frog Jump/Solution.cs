@@ -3,29 +3,31 @@ public class Solution {
         if (stones[0] != 0 || stones[1] != 1) {
             return false;
         }
-        var set = new HashSet<int> (stones);
-        return Jump (set, 1, 1, stones[stones.Length - 1]);
+        // record impassable jump on stone n with k steps
+        var dict = new Dictionary<int, HashSet<int>> ();
+        for (int i = 0; i < stones.Length; i++) {
+            dict.Add (stones[i], new HashSet<int> (0));
+        }
+        return Jump (dict, 1, 1, stones[stones.Length - 1]);
     }
 
-    private bool Jump (HashSet<int> stones, int curr, int k, int goal) {
+    private bool Jump (IDictionary<int, HashSet<int>> dict, int curr, int k, int goal) {
         if (curr == goal) {
             return true;
         }
-        if (k <= 0) {
+        if (k <= 0 || !dict.ContainsKey (curr) || dict[curr].Contains (k)) {
             return false;
         }
-        if (!stones.Contains (curr)) {
-            return false;
-        }
-        if (Jump (stones, curr + k - 1, k - 1, goal)) {
+        if (Jump (dict, curr + k - 1, k - 1, goal)) {
             return true;
         }
-        if (Jump (stones, curr + k, k, goal)) {
+        if (Jump (dict, curr + k, k, goal)) {
             return true;
         }
-        if (Jump (stones, curr + k + 1, k + 1, goal)) {
+        if (Jump (dict, curr + k + 1, k + 1, goal)) {
             return true;
         }
+        dict[curr].Add (k);
         return false;
     }
 }
