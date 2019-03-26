@@ -6,14 +6,10 @@ public class Solution {
         }
         var longest = 0;
         for (int i = 0; i < 58; i++) {
-            if (count[i] == 0) {
-                continue;
-            }
-            if (longest % 2 == 0) {
-                longest += count[i];
-            } else if (count[i] > 1) {
-                longest += count[i] / 2 * 2;
-            }
+            longest += count[i] / 2 * 2;
+        }
+        if (longest < s.Length) {
+            longest++;
         }
         return longest;
     }
