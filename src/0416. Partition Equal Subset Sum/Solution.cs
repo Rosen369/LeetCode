@@ -8,21 +8,14 @@ public class Solution {
             return false;
         }
         var target = sum / 2;
-        return DFS (nums, 0, 0, target);
-    }
-
-    private bool DFS (int[] nums, int index, int sum, int target) {
-        if (sum == target) {
-            return true;
-        }
-        if (sum > target) {
-            return false;
-        }
-        for (int i = index; i < nums.Length; i++) {
-            if (DFS (nums, i + 1, sum + nums[i], target)) {
-                return true;
+        var dp = new bool[target + 1];
+        dp[0] = true;
+        for (int i = 0; i < nums.Length; i++) {
+            var n = nums[i];
+            for (int j = target; j >= n; j--) {
+                dp[j] = dp[j] || dp[j - n];
             }
         }
-        return false;
+        return dp[target];
     }
 }
