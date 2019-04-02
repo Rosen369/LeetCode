@@ -38,7 +38,7 @@ LeetCode Solution in C#
 |12|[Integer to Roman](./src/0012.%20Integer%20to%20Roman)|Normal|Medium|
 |238|[Product of Array Except Self](./src/0238.%20Product%20of%20Array%20Except%20Self)|Normal|Medium|
 |88|[Merge Sorted Array](./src/0088.%20Merge%20Sorted%20Array)|Normal|Easy|
-|412|Fizz Buzz|Normal|Easy|
+|412|[Fizz Buzz](./src/0412.%20Fizz%20Buzz)|Normal|Easy|
 |33|[Search in Rotated Sorted Array](./src/0033.%20Search%20in%20Rotated%20Sorted%20Array)|Normal|Medium|
 |17|[Letter Combinations of a Phone Number](./src/0017.%20Letter%20Combinations%20of%20a%20Phone%20Number)|Normal|Medium|
 |31|[Next Permutation](./src/0031.%20Next%20Permutation)|Normal|Medium|
