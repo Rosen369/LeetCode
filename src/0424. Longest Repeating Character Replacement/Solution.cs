@@ -1,31 +1,18 @@
 public class Solution {
     public int CharacterReplacement (string s, int k) {
-        var res = 0;
-        for (int left = 0; left < s.Length; left++) {
-            var replace = k;
-            var len = 0;
-            var right = left;
-            while (right < s.Length) {
-                if (s[left] == s[right]) {
-                    len++;
-                    right++;
-                } else if (replace > 0) {
-                    if (replace == k) {
-                        left = right - 1;
-                    }
-                    len++;
-                    right++;
-                    replace--;
-                } else {
-                    break;
-                }
+        var len = s.Length;
+        var count = new int[26];
+        var start = 0;
+        var maxCount = 0;
+        var maxLength = 0;
+        for (int end = 0; end < len; end++) {
+            maxCount = Math.Max (maxCount, ++count[s[end] - 'A']);
+            while (end - start + 1 - maxCount > k) {
+                count[s[start] - 'A']--;
+                start++;
             }
-            if (replace > 0) {
-                len += replace;
-            }
-            res = Math.Max (res, len);
-            res = Math.Min (res, s.Length);
+            maxLength = Math.Max (maxLength, end - start + 1);
         }
-        return res;
+        return maxLength;
     }
 }
