@@ -29,12 +29,18 @@ public class Solution {
 
     private Node DFS (Node node, Node curr) {
         while (node != null) {
-            curr.next = new Node (node.val, curr, null, null);
+            var next = node.next;
+            var child = node.child;
+            node.next = null;
+            node.prev = null;
+            node.child = null;
+            curr.next = node;
+            node.prev = curr;
             curr = curr.next;
-            if (node.child != null) {
-                curr = DFS (node.child, curr);
+            if (child != null) {
+                curr = DFS (child, curr);
             }
-            node = node.next;
+            node = next;
         }
         return curr;
     }
