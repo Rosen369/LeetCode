@@ -16,6 +16,26 @@ public class Node {
 */
 public class Solution {
     public Node Flatten (Node head) {
+        if (head == null) {
+            return null;
+        }
+        var res = new Node (0, null, null, null);
+        var curr = res;
+        this.DFS (head, curr);
+        res = res.next;
+        res.prev = null;
+        return res;
+    }
 
+    private Node DFS (Node node, Node curr) {
+        while (node != null) {
+            curr.next = new Node (node.val, curr, null, null);
+            curr = curr.next;
+            if (node.child != null) {
+                curr = DFS (node.child, curr);
+            }
+            node = node.next;
+        }
+        return curr;
     }
 }
