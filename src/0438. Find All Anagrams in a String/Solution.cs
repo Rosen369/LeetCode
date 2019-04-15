@@ -4,26 +4,30 @@ public class Solution {
         if (s.Length < p.Length) {
             return res;
         }
-        var count = new int[26];
+        var dict = new int[26];
         for (int i = 0; i < p.Length; i++) {
-            count[p[i] - 'a']++;
+            dict[p[i] - 'a']++;
         }
-        var window = new int[26];
-        for (int i = 0; i < p.Length - 1; i++) {
-            window[s[i] - 'a']++;
-        }
-        for (int i = p.Length - 1; i < s.Length; i++) {
-            window[s[i] - 'a']++;
-            var match = true;
-            for (int j = 0; j < 26; j++) {
-                if (count[j] != window[j]) {
-                    match = false;
-                }
+        var left = 0;
+        var right = 0;
+        var count = p.Length;
+        while (right < s.Length) {
+            if (dict[s[right] - 'a'] >= 1) {
+                count--;
             }
-            if (match) {
-                res.Add (i - p.Length + 1);
+            dict[s[right] - 'a']--;
+            right++;
+            if (count == 0) {
+                res.Add (left);
             }
-            window[s[i - p.Length + 1] - 'a']--;
+            if (right - left != p.Length) {
+                continue;
+            }
+            if (dict[s[left] - 'a'] >= 0) {
+                count++;
+            }
+            dict[s[left] - 'a']++;
+            left++;
         }
         return res;
     }
