@@ -3,7 +3,6 @@ public class Solution {
         if (chars.Length == 0) {
             return 0;
         }
-        var res = 0;
         var pre = chars[0];
         var count = 1;
         var current = 0;
@@ -17,17 +16,15 @@ public class Solution {
                 continue;
             }
             chars[current++] = pre;
-            res++;
             if (count > 1) {
                 var digits = count.ToString ();
                 for (int j = 0; j < digits.Length; j++) {
                     chars[current++] = digits[j];
-                    res++;
                 }
             }
             pre = c;
             count = 1;
         }
-        return res;
+        return current;
     }
 }
