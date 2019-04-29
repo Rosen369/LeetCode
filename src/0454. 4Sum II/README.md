@@ -8,13 +8,16 @@ __Example:__
 
 ```
 Input:
-[1,2,3]
+A = [ 1, 2]
+B = [-2,-1]
+C = [-1, 2]
+D = [ 0, 2]
 
 Output:
-3
+2
 
 Explanation:
-Only three moves are needed (remember each move increments two elements):
-
-[1,2,3]  =>  [2,3,3]  =>  [3,4,3]  =>  [4,4,4]
+The two tuples are:
+1. (0, 0, 0, 1) -> A[0] + B[0] + C[0] + D[1] = 1 + (-2) + (-1) + 2 = 0
+2. (1, 1, 0, 0) -> A[1] + B[1] + C[0] + D[0] = 2 + (-1) + (-1) + 0 = 0
 ```
