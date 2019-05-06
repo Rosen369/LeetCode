@@ -1,4 +1,4 @@
-public class Solution {
+public class Solution1 {
     //hash set solution
     //Runtime: 92 ms
     //Memory Usage: 21.9 MB
@@ -30,5 +30,42 @@ public class Solution {
             }
         }
         return false;
+    }
+}
+
+public class Solution2 {
+    //fast slow pointer solution
+    //Runtime: 116 ms
+    //Memory Usage: 21.7 MB
+    public bool CircularArrayLoop (int[] nums) {
+        for (int i = 0; i < nums.Length; i++) {
+            if (nums[i] == 0) {
+                continue;
+            }
+            var m = i;
+            var n = Next (i, nums);
+            while (nums[n] * nums[i] > 0 && nums[Next (n, nums)] * nums[i] > 0) {
+                if (m == n) {
+                    if (m == Next (m, nums)) {
+                        break;
+                    }
+                    return true;
+                }
+                m = Next (m, nums);
+                n = Next (Next (n, nums), nums);
+            }
+            var j = i;
+            while (nums[j] * nums[i] > 0) {
+                nums[j] = 0;
+                j = Next (j, nums);
+            }
+        }
+        return false;
+    }
+
+    private int Next (int i, int[] nums) {
+        var n = (i + nums[i]) % nums.Length;
+        n = n < 0 ? nums.Length + n : n;
+        return n;
     }
 }
