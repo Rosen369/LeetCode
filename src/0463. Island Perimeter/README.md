@@ -18,5 +18,6 @@ Input:
 Output: 16
 
 Explanation: The perimeter is the 16 yellow stripes in the image below:
-[!island](/island.png)
 ```
+
+![island](/island.png)
