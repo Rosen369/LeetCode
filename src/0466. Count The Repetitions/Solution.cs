@@ -23,9 +23,6 @@ public class Solution {
                 var suffixCount = kToRepeatCount[start + (n1 - start) % (k - start)] - prefixCount;
                 return (prefixCount + patternCount + suffixCount) / n2;
             }
-            if (true) {
-
-            }
             kToRepeatCount[k] = count;
             nextIndexToK[j] = k;
         }
