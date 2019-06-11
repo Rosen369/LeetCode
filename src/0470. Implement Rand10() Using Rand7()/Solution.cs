@@ -5,6 +5,10 @@
  */
 public class Solution : SolBase {
     public int Rand10 () {
-
+        var res = 40;
+        while (res >= 40) {
+            res = 7 * (this.Rand7 () - 1) + (this.Rand7 () - 1);
+        }
+        return res % 10 + 1;
     }
 }
