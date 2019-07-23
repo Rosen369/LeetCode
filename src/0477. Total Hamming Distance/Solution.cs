@@ -1,7 +1,12 @@
+/*
+Explanation:
+int has 32 bits
+for each bit couting ones and zeros
+the answer is the sum of multiply ones and zeors
+*/
 public class Solution {
     public int TotalHammingDistance (int[] nums) {
         var res = 0;
-        var max = 0;
         for (int i = 0; i < 32; i++) {
             var ones = 0;
             var zeros = 0;
