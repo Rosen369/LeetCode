@@ -13,7 +13,7 @@ Write a function to compute the next state (after one update) of the board given
 
 __Example:__
 
-```
+```pseudo
 Input:
 [
   [0,1,0],

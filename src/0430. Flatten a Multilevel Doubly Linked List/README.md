@@ -6,7 +6,7 @@ Flatten the list so that all the nodes appear in a single-level, doubly linked l
 
 __Example:__
 
-```
+```pseudo
 Input:
  1---2---3---4---5---6--NULL
          |

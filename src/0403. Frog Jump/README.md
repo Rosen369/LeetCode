@@ -14,7 +14,7 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 [0,1,3,5,6,8,12,17]
 
 There are a total of 8 stones.
@@ -30,7 +30,7 @@ Return true. The frog can jump to the last stone by jumping
 
 __Example 2:__
 
-```
+```pseudo
 [0,1,2,3,4,8,9,11]
 
 Return false. There is no way to jump to the last stone as

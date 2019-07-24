@@ -6,7 +6,7 @@ Ugly numbers are __positive numbers__ whose prime factors only include `2, 3, 5`
 
 __Example 1:__
 
-```
+```pseudo
 Input: 6
 Output: true
 Explanation: 6 = 2 × 3
@@ -14,7 +14,7 @@ Explanation: 6 = 2 × 3
 
 __Example 2:__
 
-```
+```pseudo
 Input: 8
 Output: true
 Explanation: 8 = 2 × 2 × 2
@@ -22,7 +22,7 @@ Explanation: 8 = 2 × 2 × 2
 
 __Example 3:__
 
-```
+```pseudo
 Input: 14
 Output: false
 Explanation: 14 is not ugly since it includes another prime factor 7.

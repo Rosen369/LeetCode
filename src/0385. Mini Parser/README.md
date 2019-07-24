@@ -12,7 +12,7 @@ __Note:__ You may assume that the string is well-formed:
 
 __Example 1:__
 
-```
+```pseudo
 Given s = "324",
 
 You should return a NestedInteger object which contains a single integer 324.
@@ -20,7 +20,7 @@ You should return a NestedInteger object which contains a single integer 324.
 
 __Example 2:__
 
-```
+```pseudo
 Given s = "[123,[456,[789]]]",
 
 Return a NestedInteger object containing a nested list with 2 elements:

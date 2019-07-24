@@ -8,7 +8,7 @@ _n_ is positive and will fit within the range of a 32-bit signed integer (n < 2^
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 3
 
@@ -18,7 +18,7 @@ Output:
 
 __Example 2:__
 
-```
+```pseudo
 Input:
 11
 

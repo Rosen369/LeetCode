@@ -6,7 +6,7 @@ But for multiples of three it should output “Fizz” instead of the number and
 
 __Example:__
 
-```
+```pseudo
 n = 15,
 
 Return:

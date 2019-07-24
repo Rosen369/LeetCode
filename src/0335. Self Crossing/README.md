@@ -6,7 +6,7 @@ Write a one-pass algorithm with `O(1)` extra space to determine, if your path cr
 
 __Example 1:__
 
-```
+```pseudo
 Input: [2,1,1,2]
 
 ?????
@@ -20,7 +20,7 @@ Explanation: self crossing
 
 __Example 2:__
 
-```
+```pseudo
 Input: [1,2,3,4]
 
 ????????
@@ -35,7 +35,7 @@ Explanation: not self crossing
 
 __Example 3:__
 
-```
+```pseudo
 Input: [1,1,1,1]
 
 ?????

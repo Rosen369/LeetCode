@@ -16,14 +16,14 @@ __Algorithm of Insertion Sort:__
 
 __Example 1:__
 
-```
+```pseudo
 Input: 4->2->1->3
 Output: 1->2->3->4
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: -1->5->3->4->0
 Output: -1->0->3->4->5
 ```

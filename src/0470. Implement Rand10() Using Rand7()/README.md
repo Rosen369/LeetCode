@@ -6,21 +6,21 @@ Do NOT use system's `Math.random()`.
 
 __Example 1:__
 
-```
+```pseudo
 Input: 1
 Output: [7]
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: 2
 Output: [8,4]
 ```
 
 __Example 3:__
 
-```
+```pseudo
 Input: 3
 Output: [8,1,10]
 ```

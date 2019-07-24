@@ -11,7 +11,7 @@ What is the minimum candies you must give?
 
 __Example 1:__
 
-```
+```pseudo
 Input: [1,0,2]
 Output: 5
 Explanation: You can allocate to the first, second and third child with 2, 1, 2 candies respectively.
@@ -19,7 +19,7 @@ Explanation: You can allocate to the first, second and third child with 2, 1, 2 
 
 __Example 2:__
 
-```
+```pseudo
 Input: [1,2,2]
 Output: 4
 Explanation: You can allocate to the first, second and third child with 1, 2, 1 candies respectively.

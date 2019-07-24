@@ -10,7 +10,7 @@ __Note:__ A leaf is a node with no children.
 
 __Example 1:__
 
-```
+```pseudo
 Input: [1,2,3]
     1
    / \
@@ -24,7 +24,7 @@ Therefore, sum = 12 + 13 = 25.
 
 __Example 2:__
 
-```
+```pseudo
 Input: [4,9,0,5,1]
     4
    / \

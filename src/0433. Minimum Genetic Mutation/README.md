@@ -18,7 +18,7 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 start: "AACCGGTT"
 end:   "AACCGGTA"
 bank: ["AACCGGTA"]
@@ -28,7 +28,7 @@ return: 1
 
 __Example 2:__
 
-```
+```pseudo
 start: "AACCGGTT"
 end:   "AAACGGTA"
 bank: ["AACCGGTA", "AACCGCTA", "AAACGGTA"]
@@ -38,7 +38,7 @@ return: 2
 
 __Example 3:__
 
-```
+```pseudo
 start: "AAAAACCC"
 end:   "AACCCCCC"
 bank: ["AAAACCCC", "AAACCCCC", "AACCCCCC"]

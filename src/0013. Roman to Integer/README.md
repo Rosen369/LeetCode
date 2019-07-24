@@ -2,7 +2,7 @@
 
 Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.
 
-```
+```pseudo
 Symbol       Value
 I             1
 V             5
@@ -25,28 +25,28 @@ Given a roman numeral, convert it to an integer. Input is guaranteed to be withi
 
 __Example 1:__
 
-```
+```pseudo
 Input: "III"
 Output: 3
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: "IV"
 Output: 4
 ```
 
 __Example 3:__
 
-```
+```pseudo
 Input: "IX"
 Output: 9
 ```
 
 __Example 4:__
 
-```
+```pseudo
 Input: "LVIII"
 Output: 58
 Explanation: C = 100, L = 50, XXX = 30 and III = 3.
@@ -54,7 +54,7 @@ Explanation: C = 100, L = 50, XXX = 30 and III = 3.
 
 __Example 5:__
 
-```
+```pseudo
 Input: "MCMXCIV"
 Output: 1994
 Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.

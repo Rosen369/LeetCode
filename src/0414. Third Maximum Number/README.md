@@ -4,7 +4,7 @@ Given a __non-empty__ array of integers, return the __third__ maximum number in 
 
 __Example 1:__
 
-```
+```pseudo
 Input: [3, 2, 1]
 
 Output: 1
@@ -14,7 +14,7 @@ Explanation: The third maximum is 1.
 
 __Example 2:__
 
-```
+```pseudo
 Input: [1, 2]
 
 Output: 2
@@ -24,7 +24,7 @@ Explanation: The third maximum does not exist, so the maximum (2) is returned in
 
 __Example 3:__
 
-```
+```pseudo
 Input: [2, 2, 3, 1]
 
 Output: 1

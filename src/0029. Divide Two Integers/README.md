@@ -8,14 +8,14 @@ The integer division should truncate toward zero.
 
 __Example 1:__
 
-```
+```pseudo
 Input: dividend = 10, divisor = 3
 Output: 3
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: dividend = 7, divisor = -3
 Output: -2
 ```

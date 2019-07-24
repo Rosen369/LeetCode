@@ -17,7 +17,7 @@ The graph has a total of three nodes, and therefore contains three parts as sepa
 
 Visually, the graph looks like the following:
 
-```
+```pseudo
        1
       / \
      /   \

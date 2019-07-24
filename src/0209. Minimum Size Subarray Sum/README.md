@@ -4,7 +4,7 @@ Given an array of __n__ positive integers and a positive integer __s__, find the
 
 __Example:__
 
-```
+```pseudo
 Input: s = 7, nums = [2,3,1,2,4,3]
 Output: 2
 Explanation: the subarray [4,3] has the minimal length under the problem constraint.

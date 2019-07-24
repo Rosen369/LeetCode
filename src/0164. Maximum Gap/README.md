@@ -6,7 +6,7 @@ Return 0 if the array contains less than 2 elements.
 
 __Example 1:__
 
-```
+```pseudo
 Input: [3,6,9,1]
 Output: 3
 Explanation: The sorted form of the array is [1,3,6,9], either
@@ -15,7 +15,7 @@ Explanation: The sorted form of the array is [1,3,6,9], either
 
 __Example 2:__
 
-```
+```pseudo
 Input: [10]
 Output: 0
 Explanation: The array contains less than 2 elements, therefore return 0.

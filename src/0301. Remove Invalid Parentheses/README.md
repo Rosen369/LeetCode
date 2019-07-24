@@ -6,21 +6,21 @@ __Note:__ The input string may contain letters other than the parentheses `(` an
 
 __Example 1:__
 
-```
+```pseudo
 Input: "()())()"
 Output: ["()()()", "(())()"]
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: "(a)())()"
 Output: ["(a)()()", "(a())()"]
 ```
 
 __Example 3:__
 
-```
+```pseudo
 Input: ")("
 Output: [""]
 ```

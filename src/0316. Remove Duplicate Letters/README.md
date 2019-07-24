@@ -4,14 +4,14 @@ Given a string which contains only lowercase letters, remove duplicate letters s
 
 __Example 1:__
 
-```
+```pseudo
 Input: "bcabc"
 Output: "abc"
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: "cbacdcbc"
 Output: "acdb"
 ```

@@ -2,7 +2,7 @@
 
 Shuffle a set of numbers without duplicates.
 
-```
+```pseudo
 // Init an array with set 1, 2, and 3.
 int[] nums = {1,2,3};
 Solution solution = new Solution(nums);

@@ -9,7 +9,7 @@ You may not engage in multiple transactions at the same time (ie, you must sell 
 
 __Example 1:__
 
-```
+```pseudo
 Input: [2,4,1], k = 2
 Output: 2
 Explanation: Buy on day 1 (price = 2) and sell on day 2 (price = 4), profit = 4-2 = 2.
@@ -17,7 +17,7 @@ Explanation: Buy on day 1 (price = 2) and sell on day 2 (price = 4), profit = 4-
 
 __Example 2:__
 
-```
+```pseudo
 Input: [3,2,6,5,0,3], k = 2
 Output: 7
 Explanation: Buy on day 2 (price = 2) and sell on day 3 (price = 6), profit = 6-2 = 4.

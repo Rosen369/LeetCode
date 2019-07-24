@@ -4,14 +4,14 @@ Given two strings s and t , write a function to determine if t is an anagram of 
 
 __Example 1:__
 
-```
+```pseudo
 Input: s = "anagram", t = "nagaram"
 Output: true
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: s = "rat", t = "car"
 Output: false
 ```

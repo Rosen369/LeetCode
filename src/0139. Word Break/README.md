@@ -9,7 +9,7 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 Input: s = "leetcode", wordDict = ["leet", "code"]
 Output: true
 Explanation: Return true because "leetcode" can be segmented as "leet code".
@@ -17,7 +17,7 @@ Explanation: Return true because "leetcode" can be segmented as "leet code".
 
 __Example 2:__
 
-```
+```pseudo
 Input: s = "applepenapple", wordDict = ["apple", "pen"]
 Output: true
 Explanation: Return true because "applepenapple" can be segmented as "apple pen apple".
@@ -26,7 +26,7 @@ Explanation: Return true because "applepenapple" can be segmented as "apple pen 
 
 __Example 3:__
 
-```
+```pseudo
 Input: s = "catsandog", wordDict = ["cats", "dog", "sand", "and", "cat"]
 Output: false
 ```

@@ -6,7 +6,7 @@ Return the minimum cuts needed for a palindrome partitioning of _s_.
 
 __Example:__
 
-```
+```pseudo
 Input: "aab"
 Output: 1
 Explanation: The palindrome partitioning ["aa","b"] could be produced using 1 cut.

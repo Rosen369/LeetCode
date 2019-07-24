@@ -7,7 +7,7 @@ Each letter in the magazine string can only be used once in your ransom note.
 __Note:__
 You may assume that both strings contain only lowercase letters.
 
-```
+```pseudo
 canConstruct("a", "b") -> false
 canConstruct("aa", "ab") -> false
 canConstruct("aa", "aab") -> true

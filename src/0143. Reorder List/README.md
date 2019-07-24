@@ -7,12 +7,12 @@ You may __not__ modify the values in the list's nodes, only nodes itself may be 
 
 __Example 1:__
 
-```
+```pseudo
 Given 1->2->3->4, reorder it to 1->4->2->3.
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Given 1->2->3->4->5, reorder it to 1->5->2->4->3.
 ```

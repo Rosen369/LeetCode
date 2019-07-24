@@ -4,7 +4,7 @@ Given a positive integer _n_, generate a square matrix filled with elements from
 
 __Example:__
 
-```
+```pseudo
 Input: 3
 Output:
 [

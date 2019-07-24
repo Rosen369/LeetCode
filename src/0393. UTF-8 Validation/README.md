@@ -7,7 +7,7 @@ A character in UTF8 can be from __1 to 4 bytes__ long, subjected to the followin
 
 This is how the UTF-8 encoding would work:
 
-```
+```pseudo
    Char. number range  |        UTF-8 octet sequence
       (hexadecimal)    |              (binary)
    --------------------+---------------------------------------------
@@ -24,7 +24,7 @@ The input is an array of integers. Only the __least significant 8 bits__ of each
 
 __Example 1:__
 
-```
+```pseudo
 data = [197, 130, 1], which represents the octet sequence: 11000101 10000010 00000001.
 
 Return true.
@@ -33,7 +33,7 @@ It is a valid utf-8 encoding for a 2-bytes character followed by a 1-byte charac
 
 __Example 2:__
 
-```
+```pseudo
 data = [235, 140, 4], which represented the octet sequence: 11101011 10001100 00000100.
 
 Return false.

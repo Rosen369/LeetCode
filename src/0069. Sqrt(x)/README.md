@@ -8,14 +8,14 @@ Since the return type is an integer, the decimal digits are truncated and only t
 
 __Example 1:__
 
-```
+```pseudo
 Input: 4
 Output: 2
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: 8
 Output: 2
 Explanation: The square root of 8 is 2.82842..., and since

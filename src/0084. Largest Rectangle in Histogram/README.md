@@ -12,7 +12,7 @@ The largest rectangle is shown in the shaded area, which has area = `10` unit.
 
 __Example:__
 
-```
+```pseudo
 Input: [2,1,5,6,2,3]
 Output: 10
 ```

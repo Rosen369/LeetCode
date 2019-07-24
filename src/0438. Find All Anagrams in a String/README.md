@@ -8,7 +8,7 @@ The order of output does not matter.
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 s: "cbaebabacd" p: "abc"
 
@@ -22,7 +22,7 @@ The substring with start index = 6 is "bac", which is an anagram of "abc".
 
 __Example 2:__
 
-```
+```pseudo
 Input:
 s: "abab" p: "ab"
 

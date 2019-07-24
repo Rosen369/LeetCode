@@ -6,14 +6,14 @@ Return the index of the first occurrence of needle in haystack, or __-1__ if nee
 
 __Example 1:__
 
-```
+```pseudo
 Input: haystack = "hello", needle = "ll"
 Output: 2
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: haystack = "aaaaa", needle = "bba"
 Output: -1
 ```

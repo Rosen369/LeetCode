@@ -4,7 +4,7 @@ Write a program to find the node at which the intersection of two singly linked 
 
 For example, the following two linked lists:
 
-```
+```pseudo
 A:          a1 → a2
                    ↘
                      c1 → c2 → c3

@@ -4,7 +4,7 @@ Given a __non-empty__ integer array of size n, find the minimum number of moves 
 
 __Example:__
 
-```
+```pseudo
 Input:
 [1,2,3]
 

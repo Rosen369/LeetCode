@@ -9,7 +9,7 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 Input: [1, 5, 11, 5]
 
 Output: true
@@ -19,7 +19,7 @@ Explanation: The array can be partitioned as [1, 5, 5] and [11].
 
 __Example 2:__
 
-```
+```pseudo
 Input: [1, 2, 3, 5]
 
 Output: false

@@ -8,7 +8,7 @@ Write an efficient algorithm that searches for a value in an m x n matrix. This 
 __Example:__
 
 Consider the following matrix:
-```
+```pseudo
 [
   [1,   4,  7, 11, 15],
   [2,   5,  8, 12, 19],

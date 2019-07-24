@@ -4,7 +4,7 @@ Implement a trie with insert, search, and startsWith methods.
 
 __Example:__
 
-```
+```pseudo
 Trie trie = new Trie();
 
 trie.insert("apple");

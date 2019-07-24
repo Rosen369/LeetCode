@@ -4,7 +4,7 @@ Given an array of strings, group anagrams together.
 
 __Example:__
 
-```
+```pseudo
 Input: ["eat", "tea", "tan", "ate", "nat", "bat"],
 Output:
 [

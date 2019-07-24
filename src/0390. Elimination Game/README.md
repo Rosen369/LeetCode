@@ -10,7 +10,7 @@ Find the last number that remains starting with a list of length n.
 
 __Example:__
 
-```
+```pseudo
 Input:
 n = 9,
 1 2 3 4 5 6 7 8 9

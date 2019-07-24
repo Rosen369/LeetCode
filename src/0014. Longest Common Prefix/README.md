@@ -6,14 +6,14 @@ If there is no common prefix, return an empty string `""`.
 
 __Example 1:__
 
-```
+```pseudo
 Input: ["flower","flow","flight"]
 Output: "fl"
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: ["dog","racecar","car"]
 Output: ""
 Explanation: There is no common prefix among the input strings.

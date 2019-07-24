@@ -6,14 +6,14 @@ __Note:__ For the purpose of this problem, we define empty string as valid palin
 
 __Example 1:__
 
-```
+```pseudo
 Input: "A man, a plan, a canal: Panama"
 Output: true
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: "race a car"
 Output: false
 ```

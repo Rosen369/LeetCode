@@ -14,7 +14,7 @@ Could you solve it using only O(1) extra space?
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 ["a","a","b","b","c","c","c"]
 
@@ -27,7 +27,7 @@ Explanation:
 
 __Example 2:__
 
-```
+```pseudo
 Input:
 ["a"]
 
@@ -40,7 +40,7 @@ Nothing is replaced.
 
 __Example 3:__
 
-```
+```pseudo
 Input:
 ["a","b","b","b","b","b","b","b","b","b","b","b","b"]
 

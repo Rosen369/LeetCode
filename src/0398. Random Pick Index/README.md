@@ -7,7 +7,7 @@ The array size can be very large. Solution that uses too much extra space will n
 
 __Example:__
 
-```
+```pseudo
 int[] nums = new int[] {1,2,3,3,3};
 Solution solution = new Solution(nums);
 

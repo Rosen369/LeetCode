@@ -9,7 +9,7 @@ Design a stack that supports push, pop, top, and retrieving the minimum element 
 
 __Example:__
 
-```
+```pseudo
 MinStack minStack = new MinStack();
 minStack.push(-2);
 minStack.push(0);

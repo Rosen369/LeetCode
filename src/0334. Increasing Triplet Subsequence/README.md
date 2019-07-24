@@ -11,14 +11,14 @@ __Note:__ Your algorithm should run in O(n) time complexity and O(1) space compl
 
 __Example 1:__
 
-```
+```pseudo
 Input: [1,2,3,4,5]
 Output: true
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: [5,4,3,2,1]
 Output: false
 ```

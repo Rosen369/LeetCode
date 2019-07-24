@@ -6,21 +6,21 @@ The expression string contains only __non-negative__ integers, `+`, `-`, `*`, `/
 
 __Example 1:__
 
-```
+```pseudo
 Input: "3+2*2"
 Output: 7
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: " 3/2 "
 Output: 1
 ```
 
 __Example 3:__
 
-```
+```pseudo
 Input: " 3+5 / 2 "
 Output: 5
 ```

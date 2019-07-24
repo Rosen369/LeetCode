@@ -8,7 +8,7 @@ __Note:__ A word is defined as a character sequence consists of non-space charac
 
 __Example:__
 
-```
+```pseudo
 Input: "Hello World"
 Output: 5
 ```

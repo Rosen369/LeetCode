@@ -10,7 +10,7 @@ __Example 1:__
 
 Given the following tree `[3,9,20,null,null,15,7]`:
 
-```
+```pseudo
     3
    / \
   9  20
@@ -24,7 +24,7 @@ __Example 2:__
 
 Given the following tree `[1,2,2,3,3,null,null,4,4]`:
 
-```
+```pseudo
        1
       / \
      2   2

@@ -9,7 +9,7 @@ You can assume that no duplicate edges will appear in edges. Since all edges are
 
 __Example 1:__
 
-```
+```pseudo
 Input: n = 4, edges = [[1, 0], [1, 2], [1, 3]]
 
         0
@@ -23,7 +23,7 @@ Output: [1]
 
 __Example 2:__
 
-```
+```pseudo
 Input: n = 6, edges = [[0, 3], [1, 3], [2, 3], [4, 3], [5, 4]]
 
      0  1  2

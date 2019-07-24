@@ -8,7 +8,7 @@ You cannot assign more than one cookie to one child.
 
 __Example 1:__
 
-```
+```pseudo
 Input: [1,2,3], [1,1]
 
 Output: 1
@@ -20,7 +20,7 @@ You need to output 1.
 
 __Example 2:__
 
-```
+```pseudo
 Input: [1,2], [1,2,3]
 
 Output: 2

@@ -4,7 +4,7 @@ Given a string, sort it in decreasing order based on the frequency of characters
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 "tree"
 
@@ -18,7 +18,7 @@ So 'e' must appear before both 'r' and 't'. Therefore "eetr" is also a valid ans
 
 __Example 2:__
 
-```
+```pseudo
 Input:
 "cccaaa"
 
@@ -32,7 +32,7 @@ Note that "cacaca" is incorrect, as the same characters must be together.
 
 __Example 3:__
 
-```
+```pseudo
 Input:
 "Aabb"
 

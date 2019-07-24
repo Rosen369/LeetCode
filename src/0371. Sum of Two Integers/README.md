@@ -4,14 +4,14 @@ Calculate the sum of two integers a and b, but you are __not allowed__ to use th
 
 __Example 1:__
 
-```
+```pseudo
 Input: a = 1, b = 2
 Output: 3
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: a = -2, b = 3
 Output: 1
 ```

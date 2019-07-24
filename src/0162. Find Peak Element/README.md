@@ -10,7 +10,7 @@ You may imagine that `nums[-1] = nums[n] = -∞`.
 
 __Example 1:__
 
-```
+```pseudo
 Input: nums = [1,2,3,1]
 Output: 2
 Explanation: 3 is a peak element and your function should return the index number 2.
@@ -18,7 +18,7 @@ Explanation: 3 is a peak element and your function should return the index numbe
 
 __Example 2:__
 
-```
+```pseudo
 Input: nums = [1,2,1,3,5,6,4]
 Output: 1 or 5
 Explanation: Your function can return either index number 1 where the peak element is 2,

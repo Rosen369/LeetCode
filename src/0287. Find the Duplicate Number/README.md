@@ -4,14 +4,14 @@ Given an array nums containing n + 1 integers where each integer is between 1 an
 
 __Example 1:__
 
-```
+```pseudo
 Input: [1,3,4,2,2]
 Output: 2
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: [3,1,3,4,2]
 Output: 3
 ```

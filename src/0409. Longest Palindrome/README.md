@@ -10,7 +10,7 @@ Assume the length of given string will not exceed 1,010.
 
 __Example:__
 
-```
+```pseudo
 Input:
 "abccccdd"
 

@@ -4,7 +4,7 @@ Given a string, find the first non-repeating character in it and return it's ind
 
 __Examples:__
 
-```
+```pseudo
 s = "leetcode"
 return 0.
 

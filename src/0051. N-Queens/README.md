@@ -12,7 +12,7 @@ Each solution contains a distinct board configuration of the n-queens' placement
 
 __Example:__
 
-```
+```pseudo
 Input: 4
 Output: [
  [".Q..",  // Solution 1

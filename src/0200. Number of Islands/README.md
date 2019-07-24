@@ -4,7 +4,7 @@ Given a 2d grid map of `'1'`s (land) and `'0'`s (water), count the number of isl
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 11110
 11010
@@ -16,7 +16,7 @@ Output: 1
 
 __Example 2:__
 
-```
+```pseudo
 Input:
 11000
 11000

@@ -11,35 +11,35 @@ Note that an empty string is also considered valid.
 
 __Example 1:__
 
-```
+```pseudo
 Input: "()"
 Output: true
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: "()[]{}"
 Output: true
 ```
 
 __Example 3:__
 
-```
+```pseudo
 Input: "(]"
 Output: false
 ```
 
 __Example 4:__
 
-```
+```pseudo
 Input: "([)]"
 Output: false
 ```
 
 __Example 4:__
 
-```
+```pseudo
 Input: "{[]}"
 Output: true
 ```

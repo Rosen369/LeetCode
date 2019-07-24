@@ -14,7 +14,7 @@ __Note:__ _m_ and _n_ will be at most 100.
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 [
   [0,0,0],

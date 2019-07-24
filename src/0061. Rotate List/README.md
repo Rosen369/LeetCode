@@ -4,7 +4,7 @@ Given a linked list, rotate the list to the right by _k_ places, where k is non-
 
 __Example 1:__
 
-```
+```pseudo
 Input: 1->2->3->4->5->NULL, k = 2
 Output: 4->5->1->2->3->NULL
 Explanation:
@@ -14,7 +14,7 @@ rotate 2 steps to the right: 4->5->1->2->3->NULL
 
 __Example 2:__
 
-```
+```pseudo
 Input: 0->1->2->NULL, k = 4
 Output: 2->0->1->NULL
 Explanation:

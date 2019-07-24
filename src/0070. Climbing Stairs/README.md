@@ -8,7 +8,7 @@ __Note:__ Given _n_ will be a positive integer.
 
 __Example 1:__
 
-```
+```pseudo
 Input: 2
 Output: 2
 Explanation: There are two ways to climb to the top.
@@ -18,7 +18,7 @@ Explanation: There are two ways to climb to the top.
 
 __Example 2:__
 
-```
+```pseudo
 Input: 3
 Output: 3
 Explanation: There are three ways to climb to the top.

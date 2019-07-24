@@ -6,7 +6,7 @@ Both of you are very clever and have optimal strategies for the game. Write a fu
 
 __Example:__
 
-```
+```pseudo
 Input: 4
 Output: false
 Explanation: If there are 4 stones in the heap, then you will never win the game;

@@ -2,7 +2,7 @@
 
 One way to serialize a binary tree is to use pre-order traversal. When we encounter a non-null node, we record the node's value. If it is a null node, we record using a sentinel value such as `#`.
 
-```
+```pseudo
      _9_
     /   \
    3     2
@@ -22,21 +22,21 @@ You may assume that the input format is always valid, for example it could never
 
 __Example 1:__
 
-```
+```pseudo
 Input: "9,3,4,#,#,1,#,#,2,#,6,#,#"
 Output: true
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: "1,#"
 Output: false
 ```
 
 __Example 3:__
 
-```
+```pseudo
 Input: "9,#,#,1"
 Output: false
 ```

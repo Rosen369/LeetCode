@@ -4,7 +4,7 @@ Find the length of the longest substring __T__ of a given string (consists of lo
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 s = "aaabb", k = 3
 
@@ -16,7 +16,7 @@ The longest substring is "aaa", as 'a' is repeated 3 times.
 
 __Example 2:__
 
-```
+```pseudo
 Input:
 s = "ababbc", k = 2
 

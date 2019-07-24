@@ -6,7 +6,7 @@ To make problem a bit easier, all A, B, C, D have same length of N where 0 ≤ N
 
 __Example:__
 
-```
+```pseudo
 Input:
 A = [ 1, 2]
 B = [-2,-1]

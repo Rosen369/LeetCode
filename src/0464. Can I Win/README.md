@@ -12,7 +12,7 @@ You can always assume that `maxChoosableInteger` will not be larger than 20 and 
 
 __Example:__
 
-```
+```pseudo
 Input:
 maxChoosableInteger = 10
 desiredTotal = 11

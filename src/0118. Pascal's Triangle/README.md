@@ -8,7 +8,7 @@ In Pascal's triangle, each number is the sum of the two numbers directly above i
 
 __Example:__
 
-```
+```pseudo
 Input: 5
 Output:
 [

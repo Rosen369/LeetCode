@@ -10,7 +10,7 @@ Could you do both operations in O(1) time complexity?
 
 __Example :__
 
-```
+```pseudo
 LRUCache cache = new LRUCache( 2 /* capacity */ );
 
 cache.put(1, 1);

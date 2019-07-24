@@ -2,7 +2,7 @@
 
 Given an input string (`s`) and a pattern (`p`), implement regular expression matching with support for `'.'` and `'*'`
 
-```
+```pseudo
 '.' Matches any single character.
 '*' Matches zero or more of the preceding element.
 ```
@@ -16,7 +16,7 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 s = "aa"
 p = "a"
@@ -26,7 +26,7 @@ Explanation: "a" does not match the entire string "aa".
 
 __Example 2:__
 
-```
+```pseudo
 Input:
 s = "aa"
 p = "a*"
@@ -36,7 +36,7 @@ Explanation: '*' means zero or more of the precedeng element, 'a'. Therefore, by
 
 __Example 3:__
 
-```
+```pseudo
 Input:
 s = "ab"
 p = ".*"
@@ -46,7 +46,7 @@ Explanation: ".*" means "zero or more (*) of any character (.)".
 
 __Example 4:__
 
-```
+```pseudo
 Input:
 s = "aab"
 p = "c*a*b"
@@ -56,7 +56,7 @@ Explanation: c can be repeated 0 times, a can be repeated 1 time. Therefore it m
 
 __Example 5:__
 
-```
+```pseudo
 Input:
 s = "mississippi"
 p = "mis*is*p*."

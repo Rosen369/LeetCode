@@ -8,7 +8,7 @@ Please note that both secret number and friend's guess may contain duplicate dig
 
 __Example 1:__
 
-```
+```pseudo
 Input: secret = "1807", guess = "7810"
 
 Output: "1A3B"
@@ -18,7 +18,7 @@ Explanation: 1 bull and 3 cows. The bull is 8, the cows are 0, 1 and 7.
 
 __Example 2:__
 
-```
+```pseudo
 Input: secret = "1123", guess = "0111"
 
 Output: "1A1B"

@@ -8,7 +8,7 @@ _n_ is a non-negative integer and fits within the range of a 32-bit signed integ
 
 __Example 1:__
 
-```
+```pseudo
 n = 5
 
 The coins can form the following rows:
@@ -21,7 +21,7 @@ Because the 3rd row is incomplete, we return 2.
 
 __Example 2:__
 
-```
+```pseudo
 n = 8
 
 The coins can form the following rows:

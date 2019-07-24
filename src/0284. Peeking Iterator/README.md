@@ -4,7 +4,7 @@ Given an Iterator class interface with methods: `next()` and `hasNext()`, design
 
 __Example:__
 
-```
+```pseudo
 Assume that the iterator is initialized to the beginning of the list: [1,2,3].
 
 Call next() gets you 1, the first element in the list.

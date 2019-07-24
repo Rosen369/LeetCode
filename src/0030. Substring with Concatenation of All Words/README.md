@@ -4,7 +4,7 @@ You are given a string, __s__, and a list of __words__, words, that are all of t
 
 __Example 1:__
 
-```
+```pseudo
 Input:
   s = "barfoothefoobarman",
   words = ["foo","bar"]
@@ -15,7 +15,7 @@ The output order does not matter, returning [9,0] is fine too.
 
 __Example 2:__
 
-```
+```pseudo
 Input:
   s = "wordgoodstudentgoodword",
   words = ["word","student"]

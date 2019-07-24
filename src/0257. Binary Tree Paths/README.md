@@ -6,7 +6,7 @@ __Note:__ A leaf is a node with no children.
 
 __Example:__
 
-```
+```pseudo
 Input:
 
    1

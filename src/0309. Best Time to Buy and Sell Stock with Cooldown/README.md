@@ -9,7 +9,7 @@ Design an algorithm to find the maximum profit. You may complete as many transac
 
 __Example:__
 
-```
+```pseudo
 Input: [1,2,3,0,2]
 Output: 3
 Explanation: transactions = [buy, sell, cooldown, buy, sell]

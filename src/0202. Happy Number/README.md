@@ -6,7 +6,7 @@ A happy number is a number defined by the following process: Starting with any p
 
 __Example:__
 
-```
+```pseudo
 Input: 19
 Output: true
 Explanation:

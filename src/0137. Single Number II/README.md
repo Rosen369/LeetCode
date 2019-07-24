@@ -8,14 +8,14 @@ Your algorithm should have a linear runtime complexity. Could you implement it w
 
 __Example 1:__
 
-```
+```pseudo
 Input: [2,2,3,2]
 Output: 3
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: [0,1,0,1,0,1,99]
 Output: 99
 ```

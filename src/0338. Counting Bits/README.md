@@ -4,14 +4,14 @@ Given a non negative integer number __num__. For every numbers __i__ in the rang
 
 __Example 1:__
 
-```
+```pseudo
 Input: 2
 Output: [0,1,1]
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: 5
 Output: [0,1,1,2,1,2]
 ```

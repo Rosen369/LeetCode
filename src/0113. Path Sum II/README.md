@@ -8,7 +8,7 @@ __Example:__
 
 Given the below binary tree and `sum = 22`,
 
-```
+```pseudo
       5
      / \
     4   8
@@ -20,7 +20,7 @@ Given the below binary tree and `sum = 22`,
 
 Return:
 
-```
+```pseudo
 [
    [5,4,11,2],
    [5,8,4,5]

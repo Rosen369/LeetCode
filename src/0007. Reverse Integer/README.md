@@ -4,21 +4,21 @@ Given a 32-bit signed integer, reverse digits of an integer.
 
 __Example 1:__
 
-```
+```pseudo
 Input: 123
 Output: 321
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: -123
 Output: -321
 ```
 
 __Example 3:__
 
-```
+```pseudo
 Input: 120
 Output: 21
 ```

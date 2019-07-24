@@ -8,7 +8,7 @@ For example, given a `3-ary` tree:
 
 We should return its level order traversal:
 
-```
+```pseudo
 [
      [1],
      [3,2,4],

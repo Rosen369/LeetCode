@@ -4,14 +4,14 @@ Given an array containing n distinct numbers taken from `0, 1, 2, ..., n`, find 
 
 __Example 1:__
 
-```
+```pseudo
 Input: [3,0,1]
 Output: 2
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: [9,6,4,2,3,5,7,0,1]
 Output: 8
 ```

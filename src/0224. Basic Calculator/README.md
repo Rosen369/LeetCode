@@ -6,21 +6,21 @@ The expression string may contain open `(` and closing parentheses `)`, the plus
 
 __Example 1:__
 
-```
+```pseudo
 Input: "1 + 1"
 Output: 2
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: " 2-1 + 2 "
 Output: 3
 ```
 
 __Example 3:__
 
-```
+```pseudo
 Input: "(1+(4+5+2)-3)+(6+8)"
 Output: 23
 ```

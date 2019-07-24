@@ -8,7 +8,7 @@ Both the string's length and k will not exceed 10^4.
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 s = "ABAB", k = 2
 
@@ -21,7 +21,7 @@ Replace the two 'A's with two 'B's or vice versa.
 
 __Example 2:__
 
-```
+```pseudo
 Input:
 s = "AABABBA", k = 1
 

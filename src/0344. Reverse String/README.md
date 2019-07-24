@@ -8,14 +8,14 @@ You may assume all the characters consist of [printable ascii characters](https:
 
 __Example 1:__
 
-```
+```pseudo
 Input: ["h","e","l","l","o"]
 Output: ["o","l","l","e","h"]
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: ["H","a","n","n","a","h"]
 Output: ["h","a","n","n","a","H"]
 ```

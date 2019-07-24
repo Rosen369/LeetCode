@@ -10,7 +10,7 @@ Assume a BST is defined as follows:
 
 __Example 1:__
 
-```
+```pseudo
 Input:
     2
    / \
@@ -20,7 +20,7 @@ Output: true
 
 __Example 2:__
 
-```
+```pseudo
     5
    / \
   1   4

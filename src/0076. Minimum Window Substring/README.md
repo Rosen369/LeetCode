@@ -4,7 +4,7 @@ Given a string S and a string T, find the minimum window in S which will contain
 
 __Example:__
 
-```
+```pseudo
 Input: S = "ADOBECODEBANC", T = "ABC"
 Output: "BANC"
 ```

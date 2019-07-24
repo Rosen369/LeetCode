@@ -13,7 +13,7 @@ __Note:__
 
 __Example:__
 
-```
+```pseudo
 Given the following 5x5 matrix:
 
   Pacific ~   ~   ~   ~   ~

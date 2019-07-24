@@ -5,7 +5,7 @@ A concatenated word is defined as a string that is comprised entirely of at leas
 
 __Example:__
 
-```
+```pseudo
 Input: ["cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat"]
 
 Output: ["catsdogcats","dogcatsdog","ratcatdogcat"]

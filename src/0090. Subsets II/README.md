@@ -6,7 +6,7 @@ __Note:__ The solution set must not contain duplicate subsets.
 
 __Example:__
 
-```
+```pseudo
 Input: [1,2,2]
 Output:
 [

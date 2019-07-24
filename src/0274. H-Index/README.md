@@ -6,7 +6,7 @@ According to the [definition of h-index on Wikipedia](https://en.wikipedia.org/w
 
 __Example:__
 
-```
+```pseudo
 Input: citations = [3,0,6,1,5]
 Output: 3
 Explanation: [3,0,6,1,5] means the researcher has 5 papers in total and each of them had

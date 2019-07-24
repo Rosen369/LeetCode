@@ -11,7 +11,7 @@ __Note:__ Time complexity should be O(height of tree).
 
 __Example:__
 
-```
+```pseudo
 root = [5,3,6,2,4,null,7]
 key = 3
 

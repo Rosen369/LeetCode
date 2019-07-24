@@ -4,7 +4,7 @@ Given a string of numbers and operators, return all possible results from comput
 
 __Example 1:__
 
-```
+```pseudo
 Input: "2-1-1"
 Output: [0, 2]
 Explanation:
@@ -14,7 +14,7 @@ Explanation:
 
 __Example 2:__
 
-```
+```pseudo
 Input: "2*3-4*5"
 Output: [-34, -14, -10, -10, 10]
 Explanation:

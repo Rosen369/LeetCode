@@ -8,7 +8,7 @@ Determine if you are able to reach the last index.
 
 __Example 1:__
 
-```
+```pseudo
 Input: [2,3,1,1,4]
 Output: true
 Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
@@ -16,7 +16,7 @@ Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
 
 __Example 2:__
 
-```
+```pseudo
 Input: [3,2,1,0,4]
 Output: false
 Explanation: You will always arrive at index 3 no matter what. Its maximum

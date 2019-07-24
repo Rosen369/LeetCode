@@ -7,7 +7,7 @@ Write an efficient algorithm that searches for a value in an _m_ x _n_ matrix. T
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 matrix = [
   [1,   3,  5,  7],
@@ -20,7 +20,7 @@ Output: true
 
 __Example 2:__
 
-```
+```pseudo
 Input:
 matrix = [
   [1,   3,  5,  7],

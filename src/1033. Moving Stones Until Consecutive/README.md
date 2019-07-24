@@ -10,7 +10,7 @@ When the game ends, what is the minimum and maximum number of moves that you cou
 
 __Example 1:__
 
-```
+```pseudo
 Input: a = 1, b = 2, c = 5
 Output: [1, 2]
 Explanation: Move stone from 5 to 4 then to 3, or we can move it directly to 3.
@@ -18,7 +18,7 @@ Explanation: Move stone from 5 to 4 then to 3, or we can move it directly to 3.
 
 __Example 2:__
 
-```
+```pseudo
 Input: a = 4, b = 3, c = 2
 Output: [0, 0]
 Explanation: We cannot make any moves.

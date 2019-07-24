@@ -10,7 +10,7 @@ However, when you guess a particular number x, and you guess wrong, you pay __$x
 
 __Example:__
 
-```
+```pseudo
 n = 10, I pick 8.
 
 First round:  You guess 5, I tell you that it's higher. You pay $5.

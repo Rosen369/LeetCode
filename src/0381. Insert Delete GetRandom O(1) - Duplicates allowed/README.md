@@ -10,7 +10,7 @@ __Note: Duplicate elements are allowed.__
 
 __Example:__
 
-```
+```pseudo
 // Init an empty collection.
 RandomizedCollection collection = new RandomizedCollection();
 

@@ -8,7 +8,7 @@ Design a data structure that supports all following operations in average __O(1)
 
 __Example:__
 
-```
+```pseudo
 // Init an empty set.
 RandomizedSet randomSet = new RandomizedSet();
 

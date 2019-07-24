@@ -4,7 +4,7 @@ Given a non-empty 2D matrix _matrix_ and an integer _k_, find the max sum of a r
 
 __Example:__
 
-```
+```pseudo
 Input: matrix = [[1,0,1],[0,-2,3]], k = 2
 Output: 2
 Explanation: Because the sum of rectangle [[0, 1], [-2, 3]] is 2,

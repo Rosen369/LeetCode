@@ -6,7 +6,7 @@ Two binary trees are considered the same if they are structurally identical and 
 
 __Example 1:__
 
-```
+```pseudo
 Input:     1         1
           / \       / \
          2   3     2   3
@@ -18,7 +18,7 @@ Output: true
 
 __Example 2:__
 
-```
+```pseudo
 Input:     1         1
           /           \
          2             2
@@ -30,7 +30,7 @@ Output: false
 
 __Example 3:__
 
-```
+```pseudo
 Input:     1         1
           / \       / \
          2   1     1   2

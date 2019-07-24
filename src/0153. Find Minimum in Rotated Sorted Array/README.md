@@ -10,14 +10,14 @@ You may assume no duplicate exists in the array.
 
 __Example 1:__
 
-```
+```pseudo
 Input: [3,4,5,1,2]
 Output: 1
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: [4,5,6,7,0,1,2]
 Output: 0
 ```

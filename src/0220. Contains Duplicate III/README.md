@@ -4,21 +4,21 @@ Given an array of integers, find out whether there are two distinct indices i an
 
 __Example 1:__
 
-```
+```pseudo
 Input: nums = [1,2,3,1], k = 3, t = 0
 Output: true
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: nums = [1,0,1,1], k = 1, t = 2
 Output: true
 ```
 
 __Example 3:__
 
-```
+```pseudo
 Input: nums = [1,5,9,1,5,9], k = 2, t = 3
 Output: false
 ```

@@ -4,7 +4,7 @@ Given a __non-negative__ integer n, count all numbers with unique digits, x, whe
 
 __Example:__
 
-```
+```pseudo
 Input: 2
 Output: 91
 Explanation: The answer should be the total numbers in the range of 0 ≤ x < 100,

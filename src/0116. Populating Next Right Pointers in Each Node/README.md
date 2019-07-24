@@ -2,7 +2,7 @@
 
 Given a binary tree
 
-```
+```pseudo
 struct TreeLinkNode {
   TreeLinkNode *left;
   TreeLinkNode *right;
@@ -24,7 +24,7 @@ __Example:__
 
 Given the following perfect binary tree,
 
-```
+```pseudo
      1
    /  \
   2    3
@@ -36,7 +36,7 @@ After calling your function, the tree should look like:
 
 __Example 2:__
 
-```
+```pseudo
      1 -> NULL
    /  \
   2 -> 3 -> NULL

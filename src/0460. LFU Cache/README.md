@@ -11,7 +11,7 @@ Could you do both operations in __O(1)__ time complexity?
 
 __Example:__
 
-```
+```pseudo
 LFUCache cache = new LFUCache( 2 /* capacity */ );
 
 cache.put(1, 1);

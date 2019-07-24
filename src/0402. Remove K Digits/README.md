@@ -9,7 +9,7 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 Input: num = "1432219", k = 3
 Output: "1219"
 Explanation: Remove the three digits 4, 3, and 2 to form the new number 1219 which is the smallest.
@@ -17,7 +17,7 @@ Explanation: Remove the three digits 4, 3, and 2 to form the new number 1219 whi
 
 __Example 2:__
 
-```
+```pseudo
 Input: num = "10200", k = 1
 Output: "200"
 Explanation: Remove the leading 1 and the number is 200. Note that the output must not contain leading zeroes.
@@ -25,7 +25,7 @@ Explanation: Remove the leading 1 and the number is 200. Note that the output mu
 
 __Example 3:__
 
-```
+```pseudo
 Input: num = "10", k = 2
 Output: "0"
 Explanation: Remove all the digits from the number and it is left with nothing which is 0.

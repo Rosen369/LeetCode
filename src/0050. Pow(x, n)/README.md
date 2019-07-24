@@ -4,21 +4,21 @@ Implement [pow(x, n)](http://www.cplusplus.com/reference/valarray/pow/), which c
 
 __Example 1:__
 
-```
+```pseudo
 Input: 2.00000, 10
 Output: 1024.00000
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: 2.10000, 3
 Output: 9.26100
 ```
 
 __Example 3:__
 
-```
+```pseudo
 Input: 2.00000, -2
 Output: 0.25000
 Explanation: 2^-2 = 1/2^2 = 1/4 = 0.25

@@ -8,7 +8,7 @@ The number of people is less than 1,100.
 
 __Example:__
 
-```
+```pseudo
 Input:
 [[7,0], [4,4], [7,1], [5,0], [6,1], [5,2]]
 

@@ -13,7 +13,7 @@ The Sudoku board could be partially filled, where empty cells are filled with th
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 [
   ["5","3",".",".","7",".",".",".","."],
@@ -31,7 +31,7 @@ Output: true
 
 __Example 2:__
 
-```
+```pseudo
 Input:
 [
   ["8","3",".",".","7",".",".",".","."],

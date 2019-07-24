@@ -6,7 +6,7 @@ Given a list of non-negative integers representing the amount of money of each h
 
 __Example 1:__
 
-```
+```pseudo
 Input: [1,2,3,1]
 Output: 4
 Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).
@@ -15,7 +15,7 @@ Explanation: Rob house 1 (money = 1) and then rob house 3 (money = 3).
 
 __Example 2:__
 
-```
+```pseudo
 Input: [2,7,9,3,1]
 Output: 12
 Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (money = 1).

@@ -4,7 +4,7 @@ A sequence of numbers is called arithmetic if it consists of at least three elem
 
 For example, these are arithmetic sequences:
 
-```
+```pseudo
 1, 3, 5, 7, 9
 7, 7, 7, 7
 3, -1, -5, -9
@@ -12,7 +12,7 @@ For example, these are arithmetic sequences:
 
 The following sequence is not arithmetic.
 
-```
+```pseudo
 1, 1, 2, 5, 7
 ```
 
@@ -26,7 +26,7 @@ The input contains N integers. Every integer is in the range of -2^31 and 2^31-1
 
 __Example:__
 
-```
+```pseudo
 Input: [2, 4, 6, 8, 10]
 
 Output: 7

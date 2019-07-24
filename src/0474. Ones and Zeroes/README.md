@@ -13,7 +13,7 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 Input: Array = {"10", "0001", "111001", "1", "0"}, m = 5, n = 3
 Output: 4
 
@@ -22,7 +22,7 @@ Explanation: This are totally 4 strings can be formed by the using of 5 0s and 3
 
 __Example 2:__
 
-```
+```pseudo
 Input: Array = {"10", "0", "1"}, m = 1, n = 1
 Output: 2
 

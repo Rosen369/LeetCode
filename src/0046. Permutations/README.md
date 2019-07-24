@@ -4,7 +4,7 @@ Given a collection of __distinct__ integers, return all possible permutations.
 
 __Example:__
 
-```
+```pseudo
 Input: [1,2,3]
 Output:
 [

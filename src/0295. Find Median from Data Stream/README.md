@@ -14,7 +14,7 @@ Design a data structure that supports the following two operations:
 
 __Example:__
 
-```
+```pseudo
 addNum(1)
 addNum(2)
 findMedian() -> 1.5

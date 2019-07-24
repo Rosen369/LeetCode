@@ -4,7 +4,7 @@ Given a sorted positive integer array nums and an integer n, add/patch elements 
 
 __Example 1:__
 
-```
+```pseudo
 Input: nums = [1,3], n = 6
 Output: 1
 Explanation:
@@ -16,7 +16,7 @@ So we only need 1 patch.
 
 __Example 2:__
 
-```
+```pseudo
 Input: nums = [1,5,10], n = 20
 Output: 2
 Explanation: The two patches can be [2, 4].
@@ -24,7 +24,7 @@ Explanation: The two patches can be [2, 4].
 
 __Example 3:__
 
-```
+```pseudo
 Input: nums = [1,2,2], n = 5
 Output: 0
 ```

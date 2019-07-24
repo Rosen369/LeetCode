@@ -6,14 +6,14 @@ You may assume that the array is non-empty and the majority element always exist
 
 __Example 1:__
 
-```
+```pseudo
 Input: [3,2,3]
 Output: 3
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: [2,2,1,1,1,2,2]
 Output: 2
 ```

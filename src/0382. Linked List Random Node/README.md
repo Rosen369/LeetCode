@@ -7,7 +7,7 @@ What if the linked list is extremely large and its length is unknown to you? Cou
 
 __Example:__
 
-```
+```pseudo
 // Init a singly linked list [1,2,3].
 ListNode head = new ListNode(1);
 head.next = new ListNode(2);

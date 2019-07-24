@@ -6,7 +6,7 @@ Return all possible palindrome partitioning of _s_.
 
 __Example:__
 
-```
+```pseudo
 Input: "aab"
 Output:
 [

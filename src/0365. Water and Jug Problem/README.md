@@ -12,14 +12,14 @@ Operations allowed:
 
 __Example 1:__
 
-```
+```pseudo
 Input: x = 3, y = 5, z = 4
 Output: True
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: x = 2, y = 6, z = 5
 Output: False
 ```

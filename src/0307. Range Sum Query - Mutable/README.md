@@ -6,7 +6,7 @@ The update(i, val) function modifies nums by updating the element at index i to 
 
 __Example:__
 
-```
+```pseudo
 Given nums = [1, 3, 5]
 
 sumRange(0, 2) -> 9

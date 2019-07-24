@@ -11,7 +11,7 @@ You may imagine `nums[-1] = nums[n] = 1`. They are not real therefore you can no
 
 __Example:__
 
-```
+```pseudo
 Input: [3,1,5,8]
 Output: 167
 Explanation: nums = [3,1,5,8] --> [3,5,8] -->   [3,8]   -->  [8]  --> []

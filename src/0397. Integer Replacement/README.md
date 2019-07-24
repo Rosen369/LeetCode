@@ -9,7 +9,7 @@ What is the minimum number of replacements needed for _n_ to become 1?
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 8
 
@@ -22,7 +22,7 @@ Explanation:
 
 __Example 2:__
 
-```
+```pseudo
 Input:
 7
 

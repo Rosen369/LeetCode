@@ -6,7 +6,7 @@ Now your job is to find the total Hamming distance between all pairs of the give
 
 __Example:__
 
-```
+```pseudo
 Input: 4, 14, 2
 
 Output: 6

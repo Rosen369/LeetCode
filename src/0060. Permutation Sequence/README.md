@@ -20,14 +20,14 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 Input: n = 3, k = 3
 Output: "213"
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: n = 4, k = 9
 Output: "2314"
 ```

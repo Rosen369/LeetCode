@@ -11,7 +11,7 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 Input: candidates = [10,1,2,7,6,1,5], target = 8,
 A solution set is:
 [
@@ -24,7 +24,7 @@ A solution set is:
 
 __Example 2:__
 
-```
+```pseudo
 Input: candidates = [2,5,2,1,2], target = 5,
 A solution set is:
 [

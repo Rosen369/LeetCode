@@ -6,7 +6,7 @@ Write a function to find all the 10-letter-long sequences (substrings) that occu
 
 __Example:__
 
-```
+```pseudo
 Input: s = "AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT"
 
 Output: ["AAAAACCCCC", "CCCCCAAAAA"]

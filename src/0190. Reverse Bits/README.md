@@ -4,7 +4,7 @@ Reverse bits of a given 32 bits unsigned integer.
 
 __Example:__
 
-```
+```pseudo
 Input: 43261596
 Output: 964176192
 Explanation: 43261596 represented in binary as 00000010100101000001111010011100,

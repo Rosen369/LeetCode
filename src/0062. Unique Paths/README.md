@@ -14,7 +14,7 @@ __Note:__ _m_ and _n_ will be at most 100.
 
 __Example 1:__
 
-```
+```pseudo
 Input: m = 3, n = 2
 Output: 3
 Explanation:
@@ -26,7 +26,7 @@ From the top-left corner, there are a total of 3 ways to reach the bottom-right 
 
 __Example 2:__
 
-```
+```pseudo
 Input: m = 7, n = 3
 Output: 28
 ```

@@ -14,7 +14,7 @@ _n_ is guaranteed to be less than 10^5.
 
 __Example:__
 
-```
+```pseudo
 A = [4, 3, 2, 6]
 
 F(0) = (0 * 4) + (1 * 3) + (2 * 2) + (3 * 6) = 0 + 3 + 4 + 18 = 25

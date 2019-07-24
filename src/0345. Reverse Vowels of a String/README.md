@@ -4,14 +4,14 @@ Write a function that takes a string as input and reverse only the vowels of a s
 
 __Example 1:__
 
-```
+```pseudo
 Input: "hello"
 Output: "holle"
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: "leetcode"
 Output: "leotcede"
 ```

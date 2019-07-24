@@ -4,7 +4,7 @@ You are given coins of different denominations and a total amount of money amoun
 
 __Example 1:__
 
-```
+```pseudo
 Input: coins = [1, 2, 5], amount = 11
 Output: 3
 Explanation: 11 = 5 + 5 + 1
@@ -12,7 +12,7 @@ Explanation: 11 = 5 + 5 + 1
 
 __Example 2:__
 
-```
+```pseudo
 Input: coins = [2], amount = 3
 Output: -1
 ```

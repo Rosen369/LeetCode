@@ -11,7 +11,7 @@ If n is the length of array, assume the following constraints are satisfied:
 
 __Example:__
 
-```
+```pseudo
 Input:
 nums = [7,2,5,10,8]
 m = 2

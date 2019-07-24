@@ -4,7 +4,7 @@ You are given an integer array nums and you have to return a new counts array. T
 
 __Example:__
 
-```
+```pseudo
 Input: [5,2,6,1]
 Output: [2,1,1,0]
 Explanation:

@@ -4,14 +4,14 @@ Given a non-empty array of integers, return the _k_ most frequent elements.
 
 __Example 1:__
 
-```
+```pseudo
 Input: nums = [1,1,1,2,2,3], k = 2
 Output: [1,2]
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: nums = [1], k = 1
 Output: [1]
 ```

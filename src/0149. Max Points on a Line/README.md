@@ -4,7 +4,7 @@ Given _n_ points on a 2D plane, find the maximum number of points that lie on th
 
 __Example 1:__
 
-```
+```pseudo
 Input: [[1,1],[2,2],[3,3]]
 Output: 3
 Explanation:
@@ -19,7 +19,7 @@ Explanation:
 
 __Example 2:__
 
-```
+```pseudo
 Input: [[1,1],[3,2],[5,3],[4,1],[2,3],[1,4]]
 Output: 4
 Explanation:

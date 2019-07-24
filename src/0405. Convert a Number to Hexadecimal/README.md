@@ -11,7 +11,7 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 26
 
@@ -21,7 +21,7 @@ Output:
 
 __Example 2:__
 
-```
+```pseudo
 Input:
 -1
 

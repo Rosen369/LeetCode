@@ -10,7 +10,7 @@ You have to rotate the image [in-place](https://en.wikipedia.org/wiki/In-place_a
 
 __Example 1:__
 
-```
+```pseudo
 Given input matrix =
 [
   [1,2,3],
@@ -28,7 +28,7 @@ rotate the input matrix in-place such that it becomes:
 
 __Example 2:__
 
-```
+```pseudo
 Given input matrix =
 [
   [ 5, 1, 9,11],

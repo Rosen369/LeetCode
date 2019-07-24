@@ -6,7 +6,7 @@ You may assume the array's length is at most 10,000.
 
 __Example:__
 
-```
+```pseudo
 Input:
 [1,2,3]
 

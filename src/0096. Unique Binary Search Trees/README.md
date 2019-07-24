@@ -4,7 +4,7 @@ Given _n_, how many structurally unique __BST's__ (binary search trees) that sto
 
 __Example:__
 
-```
+```pseudo
 Input: 3
 Output: 5
 Explanation:

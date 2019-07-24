@@ -2,7 +2,7 @@
 
 The string `"PAYPALISHIRING"` is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
 
-```
+```pseudo
 P   A   H   N
 A P L S I I G
 Y   I   R
@@ -12,20 +12,20 @@ And then read line by line: `"PAHNAPLSIIGYIR"`
 
 Write the code that will take a string and make this conversion given a number of rows:
 
-```
+```pseudo
 string convert(string s, int numRows);
 ```
 
 __Example 1:__
 
-```
+```pseudo
 Input: s = "PAYPALISHIRING", numRows = 3
 Output: "PAHNAPLSIIGYIR"
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: s = "PAYPALISHIRING", numRows = 4
 Output: "PINALSIGYAHRPI"
 Explanation:

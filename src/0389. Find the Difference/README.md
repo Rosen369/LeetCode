@@ -8,7 +8,7 @@ Find the letter that was added in __t__.
 
 __Example:__
 
-```
+```pseudo
 Input:
 s = "abcd"
 t = "abcde"

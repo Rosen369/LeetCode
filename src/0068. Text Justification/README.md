@@ -16,7 +16,7 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 words = ["This", "is", "an", "example", "of", "text", "justification."]
 maxWidth = 16
@@ -30,7 +30,7 @@ Output:
 
 __Example 2:__
 
-```
+```pseudo
 Input:
 words = ["What","must","be","acknowledgment","shall","be"]
 maxWidth = 16
@@ -47,7 +47,7 @@ Explanation: Note that the last line is "shall be    " instead of "shall     be"
 
 __Example 3:__
 
-```
+```pseudo
 Input:
 words = ["Science","is","what","we","understand","well","enough","to","explain",
          "to","a","computer.","Art","is","everything","else","we","do"]

@@ -8,7 +8,7 @@ Given an 2D board, count how many battleships are in it. The battleships are rep
 
 __Example:__
 
-```
+```pseudo
 X..X
 ...X
 ...X
@@ -18,7 +18,7 @@ In the above board there are 2 battleships.
 
 __Invalid Example:__
 
-```
+```pseudo
 ...X
 XXXX
 ...X

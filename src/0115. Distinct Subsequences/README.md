@@ -6,7 +6,7 @@ A subsequence of a string is a new string which is formed from the original stri
 
 __Example 1:__
 
-```
+```pseudo
 Input: S = "rabbbit", T = "rabbit"
 Output: 3
 Explanation:
@@ -24,7 +24,7 @@ rabbbit
 
 __Example 2:__
 
-```
+```pseudo
 Input: S = "babgbag", T = "bag"
 Output: 5
 Explanation:

@@ -9,7 +9,7 @@ Design a simplified version of Twitter where users can post tweets, follow/unfol
 
 __Example:__
 
-```
+```pseudo
 Twitter twitter = new Twitter();
 
 // User 1 posts a new tweet (id = 5).

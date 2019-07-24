@@ -2,7 +2,7 @@
 
 Design a data structure that supports the following two operations:
 
-```
+```pseudo
 void addWord(word)
 bool search(word)
 ```
@@ -11,7 +11,7 @@ search(word) can search a literal word or a regular expression string containing
 
 __Example:__
 
-```
+```pseudo
 addWord("bad")
 addWord("dad")
 addWord("mad")

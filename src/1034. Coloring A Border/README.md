@@ -10,21 +10,21 @@ Given a square at location `(r0, c0)` in the grid and a `color`, color the borde
 
 __Example 1:__
 
-```
+```pseudo
 Input: grid = [[1,1],[1,2]], r0 = 0, c0 = 0, color = 3
 Output: [[3, 3], [3, 2]]
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: grid = [[1,2,2],[2,3,2]], r0 = 0, c0 = 1, color = 3
 Output: [[1, 3, 3], [2, 3, 3]]
 ```
 
 __Example 3:__
 
-```
+```pseudo
 Input: grid = [[1,1,1],[1,1,1],[1,1,1]], r0 = 1, c0 = 1, color = 2
 Output: [[2, 2, 2], [2, 1, 2], [2, 2, 2]]
 ```

@@ -9,7 +9,7 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 Input: [ [1,2], [2,3], [3,4], [1,3] ]
 
 Output: 1
@@ -19,7 +19,7 @@ Explanation: [1,3] can be removed and the rest of intervals are non-overlapping.
 
 __Example 2:__
 
-```
+```pseudo
 Input: [ [1,2], [1,2], [1,2] ]
 
 Output: 2
@@ -29,7 +29,7 @@ Explanation: You need to remove two [1,2] to make the rest of intervals non-over
 
 __Example 3:__
 
-```
+```pseudo
 Input: [ [1,2], [2,3] ]
 
 Output: 0

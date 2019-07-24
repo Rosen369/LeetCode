@@ -9,21 +9,21 @@ For instance, `2.5` is not "two and a half" or "half way to version three", it i
 
 __Example 1:__
 
-```
+```pseudo
 Input: version1 = "0.1", version2 = "1.1"
 Output: -1
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: version1 = "1.0.1", version2 = "1"
 Output: 1
 ```
 
 __Example 3:__
 
-```
+```pseudo
 Input: version1 = "7.5.2.4", version2 = "7.5.3"
 Output: -1
 ```

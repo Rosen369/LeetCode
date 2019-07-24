@@ -8,7 +8,7 @@ The island doesn't have "lakes" (water inside that isn't connected to the water 
 
 __Example:__
 
-```
+```pseudo
 Input:
 [[0,1,0,0],
  [1,1,1,0],

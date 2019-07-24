@@ -14,7 +14,7 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 gas  = [1,2,3,4,5]
 cost = [3,4,5,1,2]
@@ -33,7 +33,7 @@ Therefore, return 3 as the starting index.
 
 __Example 2:__
 
-```
+```pseudo
 Input:
 gas  = [2,3,4]
 cost = [3,4,3]

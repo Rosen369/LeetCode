@@ -9,7 +9,7 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 s = "catsanddog"
 wordDict = ["cat", "cats", "and", "sand", "dog"]
@@ -22,7 +22,7 @@ Output:
 
 __Example 2:__
 
-```
+```pseudo
 Input:
 s = "pineapplepenapple"
 wordDict = ["apple", "pen", "applepen", "pine", "pineapple"]
@@ -37,7 +37,7 @@ Explanation: Note that you are allowed to reuse a dictionary word.
 
 __Example 3:__
 
-```
+```pseudo
 Input:
 s = "catsandog"
 wordDict = ["cats", "dog", "sand", "and", "cat"]

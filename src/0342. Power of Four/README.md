@@ -4,14 +4,14 @@ Given an integer (signed 32 bits), write a function to check whether it is a pow
 
 __Example 1:__
 
-```
+```pseudo
 Input: 16
 Output: true
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: 5
 Output: false
 ```

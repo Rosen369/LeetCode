@@ -6,7 +6,7 @@ __Note:__ You can only move either down or right at any point in time.
 
 __Example:__
 
-```
+```pseudo
 Input:
 [
   [1,3,1],

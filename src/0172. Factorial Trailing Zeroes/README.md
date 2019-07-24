@@ -4,7 +4,7 @@ Given an integer _n_, return the number of trailing zeroes in _n_!.
 
 __Example 1:__
 
-```
+```pseudo
 Input: 3
 Output: 0
 Explanation: 3! = 6, no trailing zero.
@@ -12,7 +12,7 @@ Explanation: 3! = 6, no trailing zero.
 
 __Example 2:__
 
-```
+```pseudo
 Input: 5
 Output: 1
 Explanation: 5! = 120, one trailing zero.

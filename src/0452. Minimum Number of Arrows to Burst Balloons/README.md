@@ -6,7 +6,7 @@ An arrow can be shot up exactly vertically from different points along the x-axi
 
 __Example:__
 
-```
+```pseudo
 Input:
 [[10,16], [2,8], [1,6], [7,12]]
 

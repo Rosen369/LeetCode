@@ -6,7 +6,7 @@ Find the number of boomerangs. You may assume that n will be at most __500__ and
 
 __Example:__
 
-```
+```pseudo
 Input:
 [[0,0],[1,0],[2,0]]
 

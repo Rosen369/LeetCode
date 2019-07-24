@@ -6,14 +6,14 @@ You should try to do it in place. The program should run in O(1) space complexit
 
 __Example 1:__
 
-```
+```pseudo
 Input: 1->2->3->4->5->NULL
 Output: 1->3->5->2->4->NULL
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: 2->1->3->5->6->4->7->NULL
 Output: 2->3->6->7->1->5->4->NULL
 ```

@@ -2,7 +2,7 @@
 
 The count-and-say sequence is the sequence of integers with the first five terms as following:
 
-```
+```pseudo
 1.     1
 2.     11
 3.     21
@@ -20,14 +20,14 @@ Note: Each term of the sequence of integers will be represented as a string.
 
 __Example 1:__
 
-```
+```pseudo
 Input: 1
 Output: "1"
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: 4
 Output: "1211"
 

@@ -6,7 +6,7 @@ Given a non-negative integer _n_ representing the total number of bits in the co
 
 __Example 1:__
 
-```
+```pseudo
 Input: 2
 Output: [0,1,3,2]
 Explanation:
@@ -26,7 +26,7 @@ For example, [0,2,3,1] is also a valid gray code sequence.
 
 __Example 2:__
 
-```
+```pseudo
 Input: 0
 Output: [0]
 Explanation: We define the gray code sequence to begin with 0.

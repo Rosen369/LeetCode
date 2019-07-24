@@ -4,7 +4,7 @@ There are n bulbs that are initially off. You first turn on all the bulbs. Then,
 
 __Example:__
 
-```
+```pseudo
 Input: 3
 Output: 1
 Explanation:

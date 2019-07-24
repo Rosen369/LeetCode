@@ -8,21 +8,21 @@ All occurrences of a character must be replaced with another character while pre
 
 __Example 1:__
 
-```
+```pseudo
 Input: s = "egg", t = "add"
 Output: true
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: s = "foo", t = "bar"
 Output: false
 ```
 
 __Example 3:__
 
-```
+```pseudo
 Input: s = "paper", t = "title"
 Output: true
 ```

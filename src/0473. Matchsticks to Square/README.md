@@ -6,7 +6,7 @@ Your input will be several matchsticks the girl has, represented with their stic
 
 __Example 1:__
 
-```
+```pseudo
 Input: [1,1,2,2,2]
 Output: true
 
@@ -15,7 +15,7 @@ Explanation: You can form a square with length 2, one side of the square came tw
 
 __Example 2:__
 
-```
+```pseudo
 Input: [3,3,3,3,4]
 Output: false
 

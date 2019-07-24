@@ -8,7 +8,7 @@ Both m and n are less than 110. The height of each unit cell is greater than 0 a
 
 __Example:__
 
-```
+```pseudo
 Given the following 3x6 height map:
 [
   [1,4,3,1,3,2],

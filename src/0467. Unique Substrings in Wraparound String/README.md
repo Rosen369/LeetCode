@@ -8,7 +8,7 @@ __Note:__ `p` consists of only lowercase English letters and the size of p might
 
 __Example 1:__
 
-```
+```pseudo
 Input: "a"
 Output: 1
 Explanation: Only the substring "a" of string "a" is in the string s.
@@ -16,7 +16,7 @@ Explanation: Only the substring "a" of string "a" is in the string s.
 
 __Example 2:__
 
-```
+```pseudo
 Input: "cac"
 Output: 2
 Explanation: There are two substrings "a", "c" of string "cac" in the string s.
@@ -24,7 +24,7 @@ Explanation: There are two substrings "a", "c" of string "cac" in the string s.
 
 __Example 3:__
 
-```
+```pseudo
 Input: "zab"
 Output: 6
 Explanation: There are six substrings "z", "a", "b", "za", "ab", "zab" of string "zab" in the string s.

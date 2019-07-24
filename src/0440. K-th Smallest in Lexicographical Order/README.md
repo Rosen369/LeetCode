@@ -6,7 +6,7 @@ Note: 1 ≤ k ≤ n ≤ 10^9.
 
 __Example:__
 
-```
+```pseudo
 Input:
 n: 13   k: 2
 

@@ -6,7 +6,7 @@ The word can be constructed from letters of sequentially adjacent cell, where "a
 
 __Example:__
 
-```
+```pseudo
 board =
 [
   ['A','B','C','E'],

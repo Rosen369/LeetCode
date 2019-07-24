@@ -10,7 +10,7 @@ __Note:__
 
 __Example:__
 
-```
+```pseudo
 Input: x = 1, y = 4
 
 Output: 2

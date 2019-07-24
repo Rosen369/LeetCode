@@ -15,7 +15,7 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 beginWord = "hit",
 endWord = "cog",
@@ -30,7 +30,7 @@ Output:
 
 __Example 2:__
 
-```
+```pseudo
 Input:
 beginWord = "hit"
 endWord = "cog"

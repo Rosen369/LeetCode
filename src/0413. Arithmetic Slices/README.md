@@ -4,7 +4,7 @@ A sequence of number is called arithmetic if it consists of at least three eleme
 
 For example, these are arithmetic sequence:
 
-```
+```pseudo
 1, 3, 5, 7, 9
 7, 7, 7, 7
 3, -1, -5, -9
@@ -12,7 +12,7 @@ For example, these are arithmetic sequence:
 
 The following sequence is not arithmetic.
 
-```
+```pseudo
 1, 1, 2, 5, 7
 ```
 
@@ -25,7 +25,7 @@ The function should return the number of arithmetic slices in the array A.
 
 __Example:__
 
-```
+```pseudo
 A = [1, 2, 3, 4]
 
 return: 3, for 3 arithmetic slices in A: [1, 2, 3], [2, 3, 4] and [1, 2, 3, 4] itself.

@@ -6,21 +6,21 @@ Your function should return true if any value appears at least twice in the arra
 
 __Example 1:__
 
-```
+```pseudo
 Input: [1,2,3,1]
 Output: true
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: [1,2,3,4]
 Output: false
 ```
 
 __Example 3:__
 
-```
+```pseudo
 Input: [1,1,1,3,3,4,3,2,4,2]
 Output: true
 ```

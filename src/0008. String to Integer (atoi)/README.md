@@ -17,14 +17,14 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 Input: "42"
 Output: 42
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: "   -42"
 Output: -42
 Explanation: The first non-whitespace character is '-', which is the minus sign.
@@ -33,7 +33,7 @@ Explanation: The first non-whitespace character is '-', which is the minus sign.
 
 __Example 3:__
 
-```
+```pseudo
 Input: "4193 with words"
 Output: 4193
 Explanation: Conversion stops at digit '3' as the next character is not a numerical digit.
@@ -41,7 +41,7 @@ Explanation: Conversion stops at digit '3' as the next character is not a numeri
 
 __Example 4:__
 
-```
+```pseudo
 Input: "words and 987"
 Output: 0
 Explanation: The first non-whitespace character is 'w', which is not a numerical 
@@ -50,7 +50,7 @@ Explanation: The first non-whitespace character is 'w', which is not a numerical
 
 __Example 5:__
 
-```
+```pseudo
 Input: "-91283472332"
 Output: -2147483648
 Explanation: The number "-91283472332" is out of the range of a 32-bit signed integer.

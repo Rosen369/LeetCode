@@ -4,7 +4,7 @@ Given an integer n, generate all structurally unique __BST's__ (binary search tr
 
 __Example:__
 
-```
+```pseudo
 Input: 3
 Output:
 [

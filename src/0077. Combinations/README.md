@@ -4,7 +4,7 @@ Given two integers _n_ and _k_, return all possible combinations of _k_ numbers 
 
 __Example:__
 
-```
+```pseudo
 Input: n = 4, k = 2
 Output:
 [

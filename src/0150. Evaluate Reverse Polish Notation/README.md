@@ -11,7 +11,7 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 Input: ["2", "1", "+", "3", "*"]
 Output: 9
 Explanation: ((2 + 1) * 3) = 9
@@ -19,7 +19,7 @@ Explanation: ((2 + 1) * 3) = 9
 
 __Example 2:__
 
-```
+```pseudo
 Input: ["4", "13", "5", "/", "+"]
 Output: 6
 Explanation: (4 + (13 / 5)) = 6
@@ -27,7 +27,7 @@ Explanation: (4 + (13 / 5)) = 6
 
 __Example 3:__
 
-```
+```pseudo
 Input: ["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]
 Output: 22
 Explanation:

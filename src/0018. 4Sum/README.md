@@ -8,7 +8,7 @@ The solution set must not contain duplicate quadruplets.
 
 __Example:__
 
-```
+```pseudo
 Given array nums = [1, 0, -1, 0, -2, 2], and target = 0.
 
 A solution set is:

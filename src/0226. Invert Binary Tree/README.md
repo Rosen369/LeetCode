@@ -5,7 +5,7 @@ Invert a binary tree.
 __Example:__
 
 Input:
-```
+```pseudo
      4
    /   \
   2     7
@@ -14,7 +14,7 @@ Input:
 ```
 
 Output:
-```
+```pseudo
      4
    /   \
   7     2

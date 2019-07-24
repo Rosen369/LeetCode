@@ -8,7 +8,7 @@ A subsequence of a string is a new string which is formed from the original stri
 
 __Example 1:__
 
-```
+```pseudo
 s = "abc", t = "ahbgdc"
 
 Return true.
@@ -16,7 +16,7 @@ Return true.
 
 __Example 2:__
 
-```
+```pseudo
 s = "axc", t = "ahbgdc"
 
 Return false.

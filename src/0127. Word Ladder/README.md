@@ -15,7 +15,7 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 beginWord = "hit",
 endWord = "cog",
@@ -29,7 +29,7 @@ return its length 5.
 
 __Example 2:__
 
-```
+```pseudo
 Input:
 beginWord = "hit"
 endWord = "cog"

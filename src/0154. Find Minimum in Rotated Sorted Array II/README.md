@@ -10,14 +10,14 @@ The array may contain duplicates.
 
 __Example 1:__
 
-```
+```pseudo
 Input: [1,3,5]
 Output: 1
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: [2,2,2,0,1]
 Output: 0
 ```

@@ -6,7 +6,7 @@ __Note:__ n will be less than 15,000.
 
 __Example 1:__
 
-```
+```pseudo
 Input: [1, 2, 3, 4]
 
 Output: False
@@ -16,7 +16,7 @@ Explanation: There is no 132 pattern in the sequence.
 
 __Example 2:__
 
-```
+```pseudo
 Input: [3, 1, 4, 2]
 
 Output: True
@@ -26,7 +26,7 @@ Explanation: There is a 132 pattern in the sequence: [1, 4, 2].
 
 __Example 3:__
 
-```
+```pseudo
 Input: [-1, 3, 2, 0]
 
 Output: True

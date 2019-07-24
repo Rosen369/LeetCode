@@ -8,7 +8,7 @@ Could you do it without extra space and in O(n) runtime? You may assume the retu
 
 __Example:__
 
-```
+```pseudo
 Input:
 [4,3,2,7,8,2,3,1]
 

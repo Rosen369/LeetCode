@@ -10,7 +10,7 @@ There may be multiple correct orders, you just need to return one of them. If it
 
 __Example 1:__
 
-```
+```pseudo
 Input: 2, [[1,0]]
 Output: [0,1]
 Explanation: There are a total of 2 courses to take. To take course 1 you should have finished
@@ -19,7 +19,7 @@ Explanation: There are a total of 2 courses to take. To take course 1 you should
 
 __Example 2:__
 
-```
+```pseudo
 Input: 4, [[1,0],[2,0],[3,1],[3,2]]
 Output: [0,1,2,3] or [0,2,1,3]
 Explanation: There are a total of 4 courses to take. To take course 3 you should have finished both

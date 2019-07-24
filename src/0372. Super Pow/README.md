@@ -4,14 +4,14 @@ Your task is to calculate a^b mod 1337 where a is a positive integer and b is an
 
 __Example 1:__
 
-```
+```pseudo
 Input: a = 2, b = [3]
 Output: 8
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: a = 2, b = [1,0]
 Output: 1024
 ```

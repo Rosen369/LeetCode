@@ -6,7 +6,7 @@ Determine the maximum amount of money the thief can rob tonight without alerting
 
 __Example 1:__
 
-```
+```pseudo
 Input: [3,2,3,null,3,null,1]
 
      3
@@ -21,7 +21,7 @@ Explanation: Maximum amount of money the thief can rob = 3 + 3 + 1 = 7.
 
 __Example 2:__
 
-```
+```pseudo
 Input: [3,4,5,1,3,null,1]
 
      3

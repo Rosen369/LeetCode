@@ -8,14 +8,14 @@ You are given a target value to search. If found in the array return `true`, oth
 
 __Example 1:__
 
-```
+```pseudo
 Input: nums = [2,5,6,0,0,1,2], target = 0
 Output: true
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: nums = [2,5,6,0,0,1,2], target = 3
 Output: false
 ```

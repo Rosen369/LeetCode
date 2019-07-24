@@ -6,7 +6,7 @@ From each cell, you can either move to four directions: left, right, up or down.
 
 __Example 1:__
 
-```
+```pseudo
 Input: nums =
 [
   [9,9,4],
@@ -19,7 +19,7 @@ Explanation: The longest increasing path is [1, 2, 6, 9].
 
 __Example 2:__
 
-```
+```pseudo
 Input: nums =
 [
   [3,4,5],

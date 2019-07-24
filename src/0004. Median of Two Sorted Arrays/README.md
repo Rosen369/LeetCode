@@ -6,7 +6,7 @@ Find the median of the two sorted arrays. The overall run time complexity should
 
 __Example 1:__
 
-```
+```pseudo
 nums1 = [1, 3]
 nums2 = [2]
 
@@ -15,7 +15,7 @@ The median is 2.0
 
 __Example 2:__
 
-```
+```pseudo
 nums1 = [1, 2]
 nums2 = [3, 4]
 

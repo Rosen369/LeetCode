@@ -6,14 +6,14 @@ __Note__: __Do not__ use any built-in library function such as `sqrt`.
 
 __Example 1:__
 
-```
+```pseudo
 Input: 16
 Output: true
 ```
 
 __Example 2:__
 
-```
+```pseudo
 Input: 14
 Output: false
 ```

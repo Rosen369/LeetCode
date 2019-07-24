@@ -8,7 +8,7 @@ You are given an API `bool isBadVersion(version)` which will return whether `ver
 
 __Example:__
 
-```
+```pseudo
 Given n = 5, and version = 4 is the first bad version.
 
 call isBadVersion(3) -> false

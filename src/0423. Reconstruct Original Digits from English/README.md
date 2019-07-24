@@ -10,7 +10,7 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 Input: "owoztneoer"
 
 Output: "012"
@@ -18,7 +18,7 @@ Output: "012"
 
 __Example 2:__
 
-```
+```pseudo
 Input: "fviefuro"
 
 Output: "45"

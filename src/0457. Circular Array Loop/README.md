@@ -6,7 +6,7 @@ Determine if there is a loop (or a cycle) in `nums`. A cycle must start and end 
 
 __Example 1:__
 
-```
+```pseudo
 Input: [2,-1,1,2,2]
 Output: true
 Explanation: There is a cycle, from index 0 -> 2 -> 3 -> 0. The cycle's length is 3.
@@ -14,7 +14,7 @@ Explanation: There is a cycle, from index 0 -> 2 -> 3 -> 0. The cycle's length i
 
 __Example 2:__
 
-```
+```pseudo
 Input: [-1,2]
 Output: false
 Explanation: The movement from index 1 -> 1 -> 1 ... is not a cycle, because the cycle's length is 1. By definition the cycle's length must be greater than 1.
@@ -22,7 +22,7 @@ Explanation: The movement from index 1 -> 1 -> 1 ... is not a cycle, because the
 
 __Example 3:__
 
-```
+```pseudo
 Input: [-2,1,-1,-2,-2]
 Output: false
 Explanation: The movement from index 1 -> 2 -> 1 -> ... is not a cycle, because movement from index 1 -> 2 is a forward movement, but movement from index 2 -> 1 is a backward movement. All movements in a cycle must follow a single direction.

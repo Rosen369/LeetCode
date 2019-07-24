@@ -4,7 +4,7 @@ Given a binary tree, return the postorder traversal of its nodes' values.
 
 __Example :__
 
-```
+```pseudo
 Input: [1,null,2,3]
    1
     \

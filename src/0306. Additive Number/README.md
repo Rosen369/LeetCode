@@ -10,7 +10,7 @@ __Note:__ Numbers in the additive sequence __cannot__ have leading zeros, so seq
 
 __Example 1:__
 
-```
+```pseudo
 Input: "112358"
 Output: true
 Explanation: The digits can form an additive sequence: 1, 1, 2, 3, 5, 8.
@@ -19,7 +19,7 @@ Explanation: The digits can form an additive sequence: 1, 1, 2, 3, 5, 8.
 
 __Example 2:__
 
-```
+```pseudo
 Input: "199100199"
 Output: true
 Explanation: The additive sequence is: 1, 99, 100, 199.

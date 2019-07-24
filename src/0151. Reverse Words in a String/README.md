@@ -4,7 +4,7 @@ Given an input string, reverse the string word by word.
 
 __Example:__
 
-```
+```pseudo
 Input: "the sky is blue",
 Output: "blue is sky the".
 ```

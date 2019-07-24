@@ -6,7 +6,7 @@ For this problem, a path is defined as any sequence of nodes from some starting 
 
 __Example 1:__
 
-```
+```pseudo
 Input: [1,2,3]
 
        1
@@ -18,7 +18,7 @@ Output: 6
 
 __Example 2:__
 
-```
+```pseudo
 Input: [-10,9,20,null,null,15,7]
 
    -10

@@ -6,7 +6,7 @@ __Note:__ You should try to optimize your time and space complexity.
 
 __Example 1:__
 
-```
+```pseudo
 Input:
 nums1 = [3, 4, 6, 5]
 nums2 = [9, 1, 2, 5, 8, 3]
@@ -17,7 +17,7 @@ Output:
 
 __Example 2:__
 
-```
+```pseudo
 Input:
 nums1 = [6, 7]
 nums2 = [6, 0, 4]
@@ -28,7 +28,7 @@ Output:
 
 __Example 3:__
 
-```
+```pseudo
 Input:
 nums1 = [3, 9]
 nums2 = [8, 9]

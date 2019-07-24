@@ -4,7 +4,7 @@ Merge k sorted linked lists and return it as one sorted list. Analyze and descri
 
 __Example:__
 
-```
+```pseudo
 Input:
 [
   1->4->5,

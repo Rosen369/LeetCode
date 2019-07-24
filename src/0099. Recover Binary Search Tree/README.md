@@ -6,7 +6,7 @@ Recover the tree without changing its structure.
 
 __Example 1:__
 
-```
+```pseudo
 Input: [1,3,null,null,2]
 
    1
@@ -26,7 +26,7 @@ Output: [3,1,null,null,2]
 
 __Example 2:__
 
-```
+```pseudo
 Input: [3,1,4,null,null,2]
 
   3

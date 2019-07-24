@@ -4,7 +4,7 @@ Find the sum of all left leaves in a given binary tree.
 
 __Example:__
 
-```
+```pseudo
     3
    / \
   9  20

@@ -4,7 +4,7 @@ Given an integer array with all positive numbers and no duplicates, find the num
 
 __Example:__
 
-```
+```pseudo
 nums = [1, 2, 3]
 target = 4
 

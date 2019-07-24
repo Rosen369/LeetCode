@@ -10,7 +10,7 @@ You have the following 3 operations permitted on a word:
 
 __Example 1:__
 
-```
+```pseudo
 Input: word1 = "horse", word2 = "ros"
 Output: 3
 Explanation:
@@ -21,7 +21,7 @@ rose -> ros (remove 'e')
 
 __Example 2:__
 
-```
+```pseudo
 Input: word1 = "intention", word2 = "execution"
 Output: 5
 Explanation:

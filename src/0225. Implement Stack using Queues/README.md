@@ -9,7 +9,7 @@ Implement the following operations of a stack using queues.
 
 __Example:__
 
-```
+```pseudo
 MyStack stack = new MyStack();
 
 stack.push(1);

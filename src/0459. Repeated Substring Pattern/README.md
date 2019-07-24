@@ -4,7 +4,7 @@ Given a non-empty string check if it can be constructed by taking a substring of
 
 __Example 1:__
 
-```
+```pseudo
 Input: "abab"
 Output: True
 Explanation: It's the substring "ab" twice.
@@ -12,14 +12,14 @@ Explanation: It's the substring "ab" twice.
 
 __Example 2:__
 
-```
+```pseudo
 Input: "aba"
 Output: False
 ```
 
 __Example 3:__
 
-```
+```pseudo
 Input: "abcabcabcabc"
 Output: True
 Explanation: It's the substring "abc" four times. (And the substring "abcabc" twice.)

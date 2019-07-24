@@ -4,7 +4,7 @@ Given a string containing just the characters `'('` and `')'`, find the length o
 
 __Example 1:__
 
-```
+```pseudo
 Input: "(()"
 Output: 2
 Explanation: The longest valid parentheses substring is "()"
@@ -12,7 +12,7 @@ Explanation: The longest valid parentheses substring is "()"
 
 __Example 2:__
 
-```
+```pseudo
 Input: ")()())"
 Output: 4
 Explanation: The longest valid parentheses substring is "()()"

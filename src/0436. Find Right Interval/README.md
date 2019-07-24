@@ -11,7 +11,7 @@ __Note:__
 
 __Example 1:__
 
-```
+```pseudo
 Input: [ [1,2] ]
 
 Output: [-1]
@@ -21,7 +21,7 @@ Explanation: There is only one interval in the collection, so it outputs -1.
 
 __Example 2:__
 
-```
+```pseudo
 Input: [ [3,4], [2,3], [1,2] ]
 
 Output: [-1, 0, 1]
@@ -33,7 +33,7 @@ For [1,2], the interval [2,3] has minimum-"right" start point.
 
 __Example 3:__
 
-```
+```pseudo
 Input: [ [1,4], [2,3], [3,4] ]
 
 Output: [-1, 2, -1]

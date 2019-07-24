@@ -6,7 +6,7 @@ Please note that the string does not contain any __non-printable__ characters.
 
 __Example:__
 
-```
+```pseudo
 Input: "Hello, my name is John"
 Output: 5
 ```
