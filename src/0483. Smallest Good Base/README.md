@@ -20,7 +20,7 @@ Output: "8"
 Explanation: 4681 base 8 is 11111.
 ```
 
-__Example 2:__
+__Example 3:__
 
 ```pseudo
 Input: "1000000000000000000"
