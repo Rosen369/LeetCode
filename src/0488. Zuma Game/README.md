@@ -19,11 +19,11 @@ Explanation: WWRRBBWW -> WWRR[R]BBWW -> WWBBWW -> WWBB[B]WW -> WWWW -> empty
 
 Input:"G", "GGGGG"
 Output: 2
-Explanation: G -> G[G] -> GG[G] -> empty 
+Explanation: G -> G[G] -> GG[G] -> empty
 
 Input: "RBYYBBRRB", "YRBGB"
 Output: 3
-Explanation: RBYYBBRRB -> RBYY[Y]BBRRB -> RBBBRRB -> RRRB -> B -> B[B] -> BB[B] -> empty 
+Explanation: RBYYBBRRB -> RBYY[Y]BBRRB -> RBBBRRB -> RRRB -> B -> B[B] -> BB[B] -> empty
 ```
 
 __Note:__
