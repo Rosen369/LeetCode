@@ -15,7 +15,7 @@ And at time point 4, Teemo attacks Ashe again, and causes Ashe to be in poisoned
 So you finally need to output 4.
 ```
 
-__Example 1:__
+__Example 2:__
 
 ```pseudo
 Input: [1,2], 2
