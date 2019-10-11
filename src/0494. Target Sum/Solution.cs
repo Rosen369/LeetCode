@@ -1,4 +1,7 @@
 public class Solution {
+    ///dict solution
+    ///Runtime: 156 ms
+    ///Memory Usage: 32.5 MB
     public int FindTargetSumWays (int[] nums, int S) {
         var dict = new Dictionary<int, int> ();
         if (nums[0] == 0) {
