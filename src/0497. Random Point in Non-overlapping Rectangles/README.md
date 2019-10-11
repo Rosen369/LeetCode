@@ -25,10 +25,10 @@ Output:
 __Example 2:__
 
 ```pseudo
-Input: 
+Input:
 ["Solution","pick","pick","pick","pick","pick"]
 [[[[-2,-2,-1,-1],[1,0,3,0]]],[],[],[],[],[]]
-Output: 
+Output:
 [null,[-1,-2],[2,0],[-2,-1],[3,0],[-2,-2]]
 ```
 
