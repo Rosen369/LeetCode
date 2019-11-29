@@ -1,8 +1,8 @@
 # Count Primes
 
-Count the number of prime numbers less than a non-negative number, __n__.
+Count the number of prime numbers less than a non-negative number, **n**.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: 10

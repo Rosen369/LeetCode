@@ -1,8 +1,8 @@
 # Unique Binary Search Trees II
 
-Given an integer n, generate all structurally unique __BST's__ (binary search trees) that store values 1 ... _n_.
+Given an integer n, generate all structurally unique **BST's** (binary search trees) that store values 1 ... _n_.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: 3

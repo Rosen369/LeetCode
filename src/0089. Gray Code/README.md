@@ -4,7 +4,7 @@ The gray code is a binary numeral system where two successive values differ in o
 
 Given a non-negative integer _n_ representing the total number of bits in the code, print the sequence of gray code. A gray code sequence must begin with 0.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: 2
@@ -24,7 +24,7 @@ For example, [0,2,3,1] is also a valid gray code sequence.
 01 - 1
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: 0

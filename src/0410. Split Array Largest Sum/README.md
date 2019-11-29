@@ -2,14 +2,14 @@
 
 Given an array which consists of non-negative integers and an integer m, you can split the array into m non-empty continuous subarrays. Write an algorithm to minimize the largest sum among these m subarrays.
 
-__Note:__
+**Note:**
 
 If n is the length of array, assume the following constraints are satisfied:
 
 - 1 ≤ n ≤ 1000
 - 1 ≤ m ≤ min(50, n)
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input:

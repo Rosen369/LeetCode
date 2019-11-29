@@ -8,7 +8,7 @@ We keep repeating the steps again, alternating left to right and right to left, 
 
 Find the last number that remains starting with a list of length n.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input:

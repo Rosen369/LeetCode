@@ -1,8 +1,8 @@
 # Third Maximum Number
 
-Given a __non-empty__ array of integers, return the __third__ maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
+Given a **non-empty** array of integers, return the **third** maximum number in this array. If it does not exist, return the maximum number. The time complexity must be in O(n).
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: [3, 2, 1]
@@ -12,7 +12,7 @@ Output: 1
 Explanation: The third maximum is 1.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: [1, 2]
@@ -22,7 +22,7 @@ Output: 2
 Explanation: The third maximum does not exist, so the maximum (2) is returned instead.
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 Input: [2, 2, 3, 1]

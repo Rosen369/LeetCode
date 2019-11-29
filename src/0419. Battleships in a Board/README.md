@@ -6,7 +6,7 @@ Given an 2D board, count how many battleships are in it. The battleships are rep
 - Battleships can only be placed horizontally or vertically. In other words, they can only be made of the shape `1xN` (1 row, N columns) or `Nx1` (N rows, 1 column), where N can be of any size.
 - At least one horizontal or vertical cell separates between two battleships - there are no adjacent battleships.
 
-__Example:__
+**Example:**
 
 ```pseudo
 X..X
@@ -16,7 +16,7 @@ X..X
 
 In the above board there are 2 battleships.
 
-__Invalid Example:__
+**Invalid Example:**
 
 ```pseudo
 ...X
@@ -24,6 +24,6 @@ XXXX
 ...X
 ```
 
-__Follow up:__
+**Follow up:**
 
-Could you do it in __one-pass__, using only __O(1) extra memory__ and __without modifying__ the value of the board?
+Could you do it in **one-pass**, using only **O(1) extra memory** and **without modifying** the value of the board?

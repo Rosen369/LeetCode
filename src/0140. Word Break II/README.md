@@ -1,13 +1,13 @@
 # Word Break II
 
-Given a __non-empty__ string _s_ and a dictionary _wordDict_ containing a list of __non-empty__ words, add spaces in s to construct a sentence where each word is a valid dictionary word. Return all such possible sentences.
+Given a **non-empty** string _s_ and a dictionary _wordDict_ containing a list of **non-empty** words, add spaces in s to construct a sentence where each word is a valid dictionary word. Return all such possible sentences.
 
-__Note:__
+**Note:**
 
 - The same word in the dictionary may be reused multiple times in the segmentation.
 - You may assume the dictionary does not contain duplicate words.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input:
@@ -20,7 +20,7 @@ Output:
 ]
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input:
@@ -35,7 +35,7 @@ Output:
 Explanation: Note that you are allowed to reuse a dictionary word.
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 Input:

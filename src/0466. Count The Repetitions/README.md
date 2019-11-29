@@ -6,7 +6,7 @@ On the other hand, we define that string s1 can be obtained from string s2 if we
 
 You are given two non-empty strings s1 and s2 (each at most 100 characters long) and two integers 0 ≤ n1 ≤ 10^6 and 1 ≤ n2 ≤ 10^6. Now consider the strings S1 and S2, where `S1=[s1,n1]` and `S2=[s2,n2]`. Find the maximum integer M such that `[S2,M]` can be obtained from `S1`.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input:

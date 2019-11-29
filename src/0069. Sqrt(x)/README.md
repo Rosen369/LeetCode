@@ -6,14 +6,14 @@ Compute and return the square root of x, where x is guaranteed to be a non-negat
 
 Since the return type is an integer, the decimal digits are truncated and only the integer part of the result is returned.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: 4
 Output: 2
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: 8

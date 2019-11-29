@@ -1,8 +1,8 @@
 # Unique Binary Search Trees
 
-Given _n_, how many structurally unique __BST's__ (binary search trees) that store values 1 ... _n_?
+Given _n_, how many structurally unique **BST's** (binary search trees) that store values 1 ... _n_?
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: 3

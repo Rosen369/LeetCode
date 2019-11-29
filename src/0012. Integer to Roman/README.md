@@ -23,28 +23,28 @@ Roman numerals are usually written largest to smallest from left to right. Howev
 
 Given an integer, convert it to a roman numeral. Input is guaranteed to be within the range from 1 to 3999.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: 3
 Output: "III"
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: 4
 Output: "IV"
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 Input: 9
 Output: "IX"
 ```
 
-__Example 4:__
+**Example 4:**
 
 ```pseudo
 Input: 58
@@ -52,7 +52,7 @@ Output: "LVIII"
 Explanation: C = 100, L = 50, XXX = 30 and III = 3.
 ```
 
-__Example 5:__
+**Example 5:**
 
 ```pseudo
 Input: 1994

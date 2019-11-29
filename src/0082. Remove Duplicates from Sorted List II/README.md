@@ -2,14 +2,14 @@
 
 Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: 1->2->3->3->4->4->5
 Output: 1->2->5
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: 1->1->1->2->3

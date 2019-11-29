@@ -7,16 +7,16 @@ Formally the function should:
 > Return true if there exists i, j, k
 > such that arr[i] < arr[j] < arr[k] given 0 ≤ i < j < k ≤ n-1 else return false.
 
-__Note:__ Your algorithm should run in O(n) time complexity and O(1) space complexity.
+**Note:** Your algorithm should run in O(n) time complexity and O(1) space complexity.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: [1,2,3,4,5]
 Output: true
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: [5,4,3,2,1]

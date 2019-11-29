@@ -4,7 +4,7 @@ You are given an array x of `n` positive numbers. You start at point `(0,0)` and
 
 Write a one-pass algorithm with `O(1)` extra space to determine, if your path crosses itself, or not.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: [2,1,1,2]
@@ -18,7 +18,7 @@ Output: true
 Explanation: self crossing
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: [1,2,3,4]
@@ -33,7 +33,7 @@ Output: false
 Explanation: not self crossing
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 Input: [1,1,1,1]

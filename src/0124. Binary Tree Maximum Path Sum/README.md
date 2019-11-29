@@ -1,10 +1,10 @@
 # Binary Tree Maximum Path Sum
 
-Given a __non-empty__ binary tree, find the maximum path sum.
+Given a **non-empty** binary tree, find the maximum path sum.
 
-For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain __at least one node__ and does not need to go through the root.
+For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain **at least one node** and does not need to go through the root.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: [1,2,3]
@@ -16,7 +16,7 @@ Input: [1,2,3]
 Output: 6
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: [-10,9,20,null,null,15,7]

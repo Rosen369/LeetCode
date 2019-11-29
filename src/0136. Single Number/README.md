@@ -1,19 +1,19 @@
 # Single Number
 
-Given a __non-empty__ array of integers, every element appears _twice_ except for one. Find that single one.
+Given a **non-empty** array of integers, every element appears _twice_ except for one. Find that single one.
 
-__Note:__
+**Note:**
 
 Your algorithm should have a linear runtime complexity. Could you implement it without using extra memory?
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: [2,2,1]
 Output: 1
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: [4,1,2,1,2]

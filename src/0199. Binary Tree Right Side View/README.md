@@ -2,7 +2,7 @@
 
 Given a binary tree, imagine yourself standing on the right side of it, return the values of the nodes you can see ordered from top to bottom.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: [1,2,3,null,5,null,4]

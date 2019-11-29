@@ -9,35 +9,35 @@ An input string is valid if:
 
 Note that an empty string is also considered valid.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: "()"
 Output: true
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: "()[]{}"
 Output: true
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 Input: "(]"
 Output: false
 ```
 
-__Example 4:__
+**Example 4:**
 
 ```pseudo
 Input: "([)]"
 Output: false
 ```
 
-__Example 4:__
+**Example 4:**
 
 ```pseudo
 Input: "{[]}"

@@ -2,14 +2,14 @@
 
 Given a sorted linked list, delete all duplicates such that each element appear only _once_.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: 1->1->2
 Output: 1->2
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: 1->1->2->3->3

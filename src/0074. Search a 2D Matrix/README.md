@@ -5,7 +5,7 @@ Write an efficient algorithm that searches for a value in an _m_ x _n_ matrix. T
 - Integers in each row are sorted from left to right.
 - The first integer of each row is greater than the last integer of the previous row.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input:
@@ -18,7 +18,7 @@ target = 3
 Output: true
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input:

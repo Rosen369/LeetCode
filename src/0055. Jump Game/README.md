@@ -6,7 +6,7 @@ Each element in the array represents your maximum jump length at that position.
 
 Determine if you are able to reach the last index.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: [2,3,1,1,4]
@@ -14,7 +14,7 @@ Output: true
 Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: [3,2,1,0,4]

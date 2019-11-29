@@ -2,9 +2,9 @@
 
 Given a sequence of n integers a1, a2, ..., an, a 132 pattern is a subsequence ai, aj, ak such that i < j < k and ai < ak < aj. Design an algorithm that takes a list of n numbers as input and checks whether there is a 132 pattern in the list.
 
-__Note:__ n will be less than 15,000.
+**Note:** n will be less than 15,000.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: [1, 2, 3, 4]
@@ -14,7 +14,7 @@ Output: False
 Explanation: There is no 132 pattern in the sequence.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: [3, 1, 4, 2]
@@ -24,7 +24,7 @@ Output: True
 Explanation: There is a 132 pattern in the sequence: [1, 4, 2].
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 Input: [-1, 3, 2, 0]

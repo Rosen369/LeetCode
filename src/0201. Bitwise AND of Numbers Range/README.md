@@ -2,14 +2,14 @@
 
 Given a range [m, n] where 0 <= m <= n <= 2147483647, return the bitwise AND of all numbers in this range, inclusive.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: [5,7]
 Output: 4
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: [0,1]

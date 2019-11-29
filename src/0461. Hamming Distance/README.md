@@ -4,11 +4,11 @@ The [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance) between t
 
 Given two integers `x` and `y`, calculate the Hamming distance.
 
-__Note:__
+**Note:**
 
 0 ≤ `x`, `y` < 2^31.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: x = 1, y = 4

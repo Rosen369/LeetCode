@@ -2,7 +2,7 @@
 
 Given a string containing just the characters `'('` and `')'`, find the length of the longest valid (well-formed) parentheses substring.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: "(()"
@@ -10,7 +10,7 @@ Output: 2
 Explanation: The longest valid parentheses substring is "()"
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: ")()())"

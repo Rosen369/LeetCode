@@ -4,11 +4,11 @@ You are given an _n_ x _n_ 2D matrix representing an image.
 
 Rotate the image by 90 degrees (clockwise).
 
-__Note:__
+**Note:**
 
-You have to rotate the image [in-place](https://en.wikipedia.org/wiki/In-place_algorithm), which means you have to modify the input 2D matrix directly. __DO NOT__ allocate another 2D matrix and do the rotation.
+You have to rotate the image [in-place](https://en.wikipedia.org/wiki/In-place_algorithm), which means you have to modify the input 2D matrix directly. **DO NOT** allocate another 2D matrix and do the rotation.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Given input matrix =
@@ -26,7 +26,7 @@ rotate the input matrix in-place such that it becomes:
 ]
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Given input matrix =

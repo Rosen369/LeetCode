@@ -6,9 +6,9 @@ An example is the root-to-leaf path `1->2->3` which represents the number `123`.
 
 Find the total sum of all root-to-leaf numbers.
 
-__Note:__ A leaf is a node with no children.
+**Note:** A leaf is a node with no children.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: [1,2,3]
@@ -22,7 +22,7 @@ The root-to-leaf path 1->3 represents the number 13.
 Therefore, sum = 12 + 13 = 25.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: [4,9,0,5,1]

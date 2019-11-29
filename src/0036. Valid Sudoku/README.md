@@ -1,6 +1,6 @@
 # Valid Sudoku
 
-Determine if a 9x9 Sudoku board is valid. Only the filled cells need to be validated __according to the following rules__:
+Determine if a 9x9 Sudoku board is valid. Only the filled cells need to be validated **according to the following rules**:
 
 1. Each row must contain the digits `1-9` without repetition.
 2. Each column must contain the digits `1-9` without repetition.
@@ -11,7 +11,7 @@ A partially filled sudoku which is valid.
 
 The Sudoku board could be partially filled, where empty cells are filled with the character `'.'`.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input:
@@ -29,7 +29,7 @@ Input:
 Output: true
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input:
@@ -45,11 +45,11 @@ Input:
   [".",".",".",".","8",".",".","7","9"]
 ]
 Output: false
-Explanation: Same as Example 1, except with the 5 in the top left corner being 
+Explanation: Same as Example 1, except with the 5 in the top left corner being
     modified to 8. Since there are two 8's in the top left 3x3 sub-box, it is invalid.
 ```
 
-__Note:__
+**Note:**
 
 - A Sudoku board (partially filled) could be valid but is not necessarily solvable.
 - Only the filled cells need to be validated according to the mentioned rules.

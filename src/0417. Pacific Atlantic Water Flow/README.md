@@ -6,12 +6,12 @@ Water can only flow in four directions (up, down, left, or right) from a cell to
 
 Find the list of grid coordinates where water can flow to both the Pacific and Atlantic ocean.
 
-__Note:__
+**Note:**
 
 1. The order of returned grid coordinates does not matter.
 2. Both m and n are less than 150.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Given the following 5x5 matrix:

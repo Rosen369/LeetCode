@@ -2,7 +2,7 @@
 
 Given a string containing only digits, restore it by returning all possible valid IP address combinations.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: "25525511135"

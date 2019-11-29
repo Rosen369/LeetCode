@@ -8,7 +8,7 @@ Given linked list -- head = \[4,5,1,9\], which looks like following:
     4 -> 5 -> 1 -> 9
 ```
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: head = [4,5,1,9], node = 5
@@ -17,7 +17,7 @@ Explanation: You are given the second node with value 5, the linked list
              should become 4 -> 1 -> 9 after calling your function.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: head = [4,5,1,9], node = 1
@@ -26,7 +26,7 @@ Explanation: You are given the third node with value 1, the linked list
              should become 4 -> 5 -> 9 after calling your function.
 ```
 
-__Note:__
+**Note:**
 
 - The linked list will have at least two elements.
 - All of the nodes' values will be unique.

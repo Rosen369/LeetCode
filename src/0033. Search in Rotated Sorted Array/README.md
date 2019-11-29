@@ -10,14 +10,14 @@ You may assume no duplicate exists in the array.
 
 Your algorithm's runtime complexity must be in the order of O(log n).
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: nums = [4,5,6,7,0,1,2], target = 0
 Output: 4
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: nums = [4,5,6,7,0,1,2], target = 3

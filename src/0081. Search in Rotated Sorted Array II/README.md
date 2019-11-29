@@ -6,21 +6,21 @@ Suppose an array sorted in ascending order is rotated at some pivot unknown to y
 
 You are given a target value to search. If found in the array return `true`, otherwise return `false`.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: nums = [2,5,6,0,0,1,2], target = 0
 Output: true
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: nums = [2,5,6,0,0,1,2], target = 3
 Output: false
 ```
 
-__Follow up:__
+**Follow up:**
 
 - This is a follow up problem to Search in Rotated Sorted Array, where `nums` may contain duplicates.
 - Would this affect the run-time complexity? How and why?

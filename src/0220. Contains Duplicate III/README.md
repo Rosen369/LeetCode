@@ -1,22 +1,22 @@
 # Contains Duplicate III
 
-Given an array of integers, find out whether there are two distinct indices i and j in the array such that the __absolute__ difference between __nums[i]__ and __nums[j]__ is at most t and the __absolute__ difference between i and j is at most k.
+Given an array of integers, find out whether there are two distinct indices i and j in the array such that the **absolute** difference between **nums[i]** and **nums[j]** is at most t and the **absolute** difference between i and j is at most k.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: nums = [1,2,3,1], k = 3, t = 0
 Output: true
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: nums = [1,0,1,1], k = 1, t = 2
 Output: true
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 Input: nums = [1,5,9,1,5,9], k = 2, t = 3

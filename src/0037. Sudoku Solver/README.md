@@ -2,7 +2,7 @@
 
 Write a program to solve a Sudoku puzzle by filling the empty cells.
 
-A sudoku solution must satisfy __all of the following rules__:
+A sudoku solution must satisfy **all of the following rules**:
 
 1. Each of the digits `1-9` must occur exactly once in each row.
 2. Each of the digits `1-9` must occur exactly once in each column.
@@ -16,7 +16,7 @@ A sudoku puzzle...
 ![solution](./250px-Sudoku-by-L2G-20050714_solution.svg.png)
 ...and its solution numbers marked in red.
 
-__Note:__
+**Note:**
 
 - The given board contain only digits `1-9` and the character `'.'`.
 - You may assume that the given Sudoku puzzle will have a single unique solution.

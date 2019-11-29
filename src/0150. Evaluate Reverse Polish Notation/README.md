@@ -4,12 +4,12 @@ Evaluate the value of an arithmetic expression in [Reverse Polish Notation](http
 
 Valid operators are `+`, `-`, `*`, `/`. Each operand may be an integer or another expression.
 
-__Note:__
+**Note:**
 
 - Division between two integers should truncate toward zero.
 - The given RPN expression is always valid. That means the expression would always evaluate to a result and there won't be any divide by zero operation.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: ["2", "1", "+", "3", "*"]
@@ -17,7 +17,7 @@ Output: 9
 Explanation: ((2 + 1) * 3) = 9
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: ["4", "13", "5", "/", "+"]
@@ -25,7 +25,7 @@ Output: 6
 Explanation: (4 + (13 / 5)) = 6
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 Input: ["10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+"]

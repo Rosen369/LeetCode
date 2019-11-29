@@ -4,9 +4,9 @@ Say you have an array for which the i^th element is the price of a given stock o
 
 Design an algorithm to find the maximum profit. You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times).
 
-__Note:__ You may not engage in multiple transactions at the same time (i.e., you must sell the stock before you buy again).
+**Note:** You may not engage in multiple transactions at the same time (i.e., you must sell the stock before you buy again).
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: [7,1,5,3,6,4]
@@ -15,7 +15,7 @@ Explanation: Buy on day 2 (price = 1) and sell on day 3 (price = 5), profit = 5-
              Then buy on day 4 (price = 3) and sell on day 5 (price = 6), profit = 6-3 = 3.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: [1,2,3,4,5]
@@ -25,7 +25,7 @@ Explanation: Buy on day 1 (price = 1) and sell on day 5 (price = 5), profit = 5-
              engaging multiple transactions at the same time. You must sell before buying again.
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 Input: [7,6,4,3,1]

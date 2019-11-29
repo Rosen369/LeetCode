@@ -2,24 +2,24 @@
 
 Given two strings s and t , write a function to determine if t is an anagram of s.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: s = "anagram", t = "nagaram"
 Output: true
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: s = "rat", t = "car"
 Output: false
 ```
 
-__Note:__
+**Note:**
 
 You may assume the string contains only lowercase alphabets.
 
-__Follow up:__
+**Follow up:**
 
 What if the inputs contain unicode characters? How would you adapt your solution to such case?

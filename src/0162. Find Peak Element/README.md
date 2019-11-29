@@ -8,7 +8,7 @@ The array may contain multiple peaks, in that case return the index to any one o
 
 You may imagine that `nums[-1] = nums[n] = -∞`.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: nums = [1,2,3,1]
@@ -16,7 +16,7 @@ Output: 2
 Explanation: 3 is a peak element and your function should return the index number 2.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: nums = [1,2,1,3,5,6,4]
@@ -25,6 +25,6 @@ Explanation: Your function can return either index number 1 where the peak eleme
              or index number 5 where the peak element is 6.
 ```
 
-__Note:__
+**Note:**
 
 Your solution should be in logarithmic complexity.

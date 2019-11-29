@@ -2,19 +2,19 @@
 
 Write a function that takes a string as input and reverse only the vowels of a string.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: "hello"
 Output: "holle"
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: "leetcode"
 Output: "leotcede"
 ```
 
-__Note:__
+**Note:**
 The vowels does not include the letter "y".

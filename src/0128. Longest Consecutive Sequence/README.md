@@ -4,7 +4,7 @@ Given an unsorted array of integers, find the length of the longest consecutive 
 
 Your algorithm should run in O(n) complexity.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: [100, 4, 200, 1, 3, 2]

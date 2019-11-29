@@ -2,14 +2,14 @@
 
 Your task is to calculate a^b mod 1337 where a is a positive integer and b is an extremely large positive integer given in the form of an array.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: a = 2, b = [3]
 Output: 8
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: a = 2, b = [1,0]

@@ -4,9 +4,9 @@ Given a string s consists of upper/lower-case alphabets and empty space characte
 
 If the last word does not exist, return 0.
 
-__Note:__ A word is defined as a character sequence consists of non-space characters only.
+**Note:** A word is defined as a character sequence consists of non-space characters only.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: "Hello World"

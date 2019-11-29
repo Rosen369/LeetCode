@@ -2,13 +2,13 @@
 
 Reverse a singly linked list.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: 1->2->3->4->5->NULL
 Output: 5->4->3->2->1->NULL
 ```
 
-__Follow up:__
+**Follow up:**
 
 A linked list can be reversed either iteratively or recursively. Could you implement both?

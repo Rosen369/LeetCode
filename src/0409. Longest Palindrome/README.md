@@ -4,11 +4,11 @@ Given a string which consists of lowercase or uppercase letters, find the length
 
 This is case sensitive, for example `"Aa"` is not considered a palindrome here.
 
-__Note:__
+**Note:**
 
 Assume the length of given string will not exceed 1,010.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input:

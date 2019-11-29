@@ -5,9 +5,10 @@ Write an efficient algorithm that searches for a value in an m x n matrix. This 
 - Integers in each row are sorted in ascending from left to right.
 - Integers in each column are sorted in ascending from top to bottom.
 
-__Example:__
+**Example:**
 
 Consider the following matrix:
+
 ```pseudo
 [
   [1,   4,  7, 11, 15],

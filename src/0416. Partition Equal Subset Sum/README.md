@@ -1,13 +1,13 @@
 # Partition Equal Subset Sum
 
-Given a __non-empty__ array containing __only positive integers__, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.
+Given a **non-empty** array containing **only positive integers**, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.
 
-__Note:__
+**Note:**
 
 1. Each of the array element will not exceed 100.
 2. The array size will not exceed 200.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: [1, 5, 11, 5]
@@ -17,7 +17,7 @@ Output: true
 Explanation: The array can be partitioned as [1, 5, 5] and [11].
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: [1, 2, 3, 5]

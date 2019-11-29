@@ -4,7 +4,7 @@ Given a linked list and a value x, partition it such that all nodes less than x 
 
 You should preserve the original relative order of the nodes in each of the two partitions.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: head = 1->4->3->2->5->2, x = 3

@@ -8,7 +8,7 @@ You have the following 3 operations permitted on a word:
 2. Delete a character
 3. Replace a character
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: word1 = "horse", word2 = "ros"
@@ -19,7 +19,7 @@ rorse -> rose (remove 'r')
 rose -> ros (remove 'e')
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: word1 = "intention", word2 = "execution"

@@ -2,12 +2,12 @@
 
 Say you have an array for which the ith element is the price of a given stock on day i.
 
-Design an algorithm to find the maximum profit. You may complete at most __k__ transactions.
+Design an algorithm to find the maximum profit. You may complete at most **k** transactions.
 
-__Note:__
+**Note:**
 You may not engage in multiple transactions at the same time (ie, you must sell the stock before you buy again).
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: [2,4,1], k = 2
@@ -15,7 +15,7 @@ Output: 2
 Explanation: Buy on day 1 (price = 2) and sell on day 2 (price = 4), profit = 4-2 = 2.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: [3,2,6,5,0,3], k = 2

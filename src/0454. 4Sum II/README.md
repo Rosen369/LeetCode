@@ -4,7 +4,7 @@ Given four lists A, B, C, D of integer values, compute how many tuples `(i, j, k
 
 To make problem a bit easier, all A, B, C, D have same length of N where 0 ≤ N ≤ 500. All integers are in the range of -2^28 to 2^28 - 1 and the result is guaranteed to be at most 2^31 - 1.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input:

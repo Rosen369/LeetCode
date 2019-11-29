@@ -2,11 +2,11 @@
 
 Given a string that consists of only uppercase English letters, you can replace any letter in the string with another letter at most k times. Find the length of a longest substring containing all repeating letters you can get after performing the above operations.
 
-__Note:__
+**Note:**
 
 Both the string's length and k will not exceed 10^4.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input:
@@ -19,7 +19,7 @@ Explanation:
 Replace the two 'A's with two 'B's or vice versa.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input:

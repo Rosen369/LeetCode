@@ -1,14 +1,14 @@
 # Insert Delete GetRandom O(1)
 
-Design a data structure that supports all following operations in average __O(1)__ time.
+Design a data structure that supports all following operations in average **O(1)** time.
 
-__Note: Duplicate elements are allowed.__
+**Note: Duplicate elements are allowed.**
 
 1. `insert(val)`: Inserts an item val to the collection.
 2. `remove(val)`: Removes an item val from the collection if present.
-3. `getRandom`: Returns a random element from current collection of elements. The probability of each element being returned is __linearly related__ to the number of same value the collection contains.
+3. `getRandom`: Returns a random element from current collection of elements. The probability of each element being returned is **linearly related** to the number of same value the collection contains.
 
-__Example:__
+**Example:**
 
 ```pseudo
 // Init an empty collection.

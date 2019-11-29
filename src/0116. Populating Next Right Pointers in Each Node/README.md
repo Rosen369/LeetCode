@@ -14,13 +14,13 @@ Populate each next pointer to point to its next right node. If there is no next 
 
 Initially, all next pointers are set to `NULL`.
 
-__Note:__
+**Note:**
 
 - You may only use constant extra space.
 - Recursive approach is fine, implicit stack space does not count as extra space for this problem.
 - You may assume that it is a perfect binary tree (ie, all leaves are at the same level, and every parent has two children).
 
-__Example:__
+**Example:**
 
 Given the following perfect binary tree,
 
@@ -34,7 +34,7 @@ Given the following perfect binary tree,
 
 After calling your function, the tree should look like:
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
      1 -> NULL

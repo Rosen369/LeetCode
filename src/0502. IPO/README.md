@@ -1,12 +1,12 @@
 # IPO
 
-Suppose LeetCode will start its IPO soon. In order to sell a good price of its shares to Venture Capital, LeetCode would like to work on some projects to increase its capital before the IPO. Since it has limited resources, it can only finish at most __k__ distinct projects before the IPO. Help LeetCode design the best way to maximize its total capital after finishing at most __k__ distinct projects.
+Suppose LeetCode will start its IPO soon. In order to sell a good price of its shares to Venture Capital, LeetCode would like to work on some projects to increase its capital before the IPO. Since it has limited resources, it can only finish at most **k** distinct projects before the IPO. Help LeetCode design the best way to maximize its total capital after finishing at most **k** distinct projects.
 
-You are given several projects. For each project i, it has a pure profit __Pi__ and a minimum capital of __Ci__ is needed to start the corresponding project. Initially, you have __W__ capital. When you finish a project, you will obtain its pure profit and the profit will be added to your total capital.
+You are given several projects. For each project i, it has a pure profit **Pi** and a minimum capital of **Ci** is needed to start the corresponding project. Initially, you have **W** capital. When you finish a project, you will obtain its pure profit and the profit will be added to your total capital.
 
-To sum up, pick a list of at most __k__ distinct projects from given projects to maximize your final capital, and output your final maximized capital.
+To sum up, pick a list of at most **k** distinct projects from given projects to maximize your final capital, and output your final maximized capital.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: k=2, W=0, Profits=[1,2,3], Capital=[0,1,1].
@@ -20,7 +20,7 @@ Explanation: Since your initial capital is 0, you can only start the project ind
              Therefore, output the final maximized capital, which is 0 + 1 + 3 = 4.
 ```
 
-__Note:__
+**Note:**
 
 1. You may assume all numbers in the input are non-negative integers.
 2. The length of Profits array and Capital array will not exceed 50,000.

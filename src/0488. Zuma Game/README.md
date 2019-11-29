@@ -6,7 +6,7 @@ Each time, you may choose a ball in your hand, and insert it into the row (inclu
 
 Find the minimal balls you have to insert to remove all the balls on the table. If you cannot remove all the balls, output -1.
 
-__Examples:__
+**Examples:**
 
 ```pseudo
 Input: "WRRBBW", "RB"
@@ -26,7 +26,7 @@ Output: 3
 Explanation: RBYYBBRRB -> RBYY[Y]BBRRB -> RBBBRRB -> RRRB -> B -> B[B] -> BB[B] -> empty
 ```
 
-__Note:__
+**Note:**
 
 1. You may assume that the initial row of balls on the table won’t have any 3 or more consecutive balls with the same color.
 2. The number of balls on the table won't exceed 20, and the string represents these balls is called "board" in the input.

@@ -1,6 +1,6 @@
 # UTF-8 Validation
 
-A character in UTF8 can be from __1 to 4 bytes__ long, subjected to the following rules:
+A character in UTF8 can be from **1 to 4 bytes** long, subjected to the following rules:
 
 1. For 1-byte character, the first bit is a 0, followed by its unicode code.
 2. For n-bytes character, the first n-bits are all one's, the n+1 bit is 0, followed by n-1 bytes with most significant 2 bits being 10.
@@ -19,10 +19,10 @@ This is how the UTF-8 encoding would work:
 
 Given an array of integers representing the data, return whether it is a valid utf-8 encoding.
 
-__Note:__
-The input is an array of integers. Only the __least significant 8 bits__ of each integer is used to store the data. This means each integer represents only 1 byte of data.
+**Note:**
+The input is an array of integers. Only the **least significant 8 bits** of each integer is used to store the data. This means each integer represents only 1 byte of data.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 data = [197, 130, 1], which represents the octet sequence: 11000101 10000010 00000001.
@@ -31,7 +31,7 @@ Return true.
 It is a valid utf-8 encoding for a 2-bytes character followed by a 1-byte character.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 data = [235, 140, 4], which represented the octet sequence: 11101011 10001100 00000100.

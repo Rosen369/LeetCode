@@ -7,7 +7,7 @@ Given a positive integer n and you can do operations as follow:
 
 What is the minimum number of replacements needed for _n_ to become 1?
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input:
@@ -20,7 +20,7 @@ Explanation:
 8 -> 4 -> 2 -> 1
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input:

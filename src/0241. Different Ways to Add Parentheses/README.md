@@ -2,7 +2,7 @@
 
 Given a string of numbers and operators, return all possible results from computing all the different possible ways to group numbers and operators. The valid operators are `+`, `-` and `*`.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: "2-1-1"
@@ -12,7 +12,7 @@ Explanation:
 (2-(1-1)) = 2
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: "2*3-4*5"

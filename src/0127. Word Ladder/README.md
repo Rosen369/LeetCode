@@ -5,7 +5,7 @@ Given two words (beginWord and endWord), and a dictionary's word list, find the 
 1. Only one letter can be changed at a time
 2. Each transformed word must exist in the word list. Note that beginWord is not a transformed word.
 
-__Note:__
+**Note:**
 
 - Return 0 if there is no such transformation sequence.
 - All words have the same length.
@@ -13,7 +13,7 @@ __Note:__
 - You may assume no duplicates in the word list.
 - You may assume beginWord and endWord are non-empty and are not the same.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input:
@@ -27,7 +27,7 @@ Explanation: As one shortest transformation is "hit" -> "hot" -> "dot" -> "dog" 
 return its length 5.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input:

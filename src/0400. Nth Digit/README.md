@@ -2,11 +2,11 @@
 
 Find the n^th digit of the infinite integer sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ...
 
-__Note:__
+**Note:**
 
 _n_ is positive and will fit within the range of a 32-bit signed integer (n < 2^31).
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input:
@@ -16,7 +16,7 @@ Output:
 3
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input:

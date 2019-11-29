@@ -2,34 +2,34 @@
 
 Given an integer, write a function to determine if it is a power of three.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: 27
 Output: true
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: 0
 Output: false
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 Input: 9
 Output: true
 ```
 
-__Example 4:__
+**Example 4:**
 
 ```pseudo
 Input: 45
 Output: false
 ```
 
-__Follow Up:__
+**Follow Up:**
 
 Could you do it without using any loop / recursion?

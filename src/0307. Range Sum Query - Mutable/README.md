@@ -4,7 +4,7 @@ Given an integer array nums, find the sum of the elements between indices i and 
 
 The update(i, val) function modifies nums by updating the element at index i to val.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Given nums = [1, 3, 5]
@@ -14,7 +14,7 @@ update(1, 2)
 sumRange(0, 2) -> 8
 ```
 
-__Note:__
+**Note:**
 
 1. The array is only modifiable by the update function.
 2. You may assume the number of calls to update and sumRange function is distributed evenly.

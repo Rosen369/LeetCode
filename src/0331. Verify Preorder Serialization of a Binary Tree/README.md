@@ -20,21 +20,21 @@ Each comma separated value in the string must be either an integer or a characte
 
 You may assume that the input format is always valid, for example it could never contain two consecutive commas such as `"1,,3"`.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: "9,3,4,#,#,1,#,#,2,#,6,#,#"
 Output: true
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: "1,#"
 Output: false
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 Input: "9,#,#,1"

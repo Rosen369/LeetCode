@@ -18,14 +18,14 @@ Given an integer _n_, generate the _n^{th}_ term of the count-and-say sequence.
 
 Note: Each term of the sequence of integers will be represented as a string.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: 1
 Output: "1"
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: 4

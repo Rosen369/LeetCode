@@ -2,11 +2,11 @@
 
 Assume you are an awesome parent and want to give your children some cookies. But, you should give each child at most one cookie. Each child i has a greed factor gi, which is the minimum size of a cookie that the child will be content with; and each cookie j has a size sj. If sj >= gi, we can assign the cookie j to the child i, and the child i will be content. Your goal is to maximize the number of your content children and output the maximum number.
 
-__Note:__
+**Note:**
 You may assume the greed factor is always positive.
 You cannot assign more than one cookie to one child.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: [1,2,3], [1,1]
@@ -18,7 +18,7 @@ And even though you have 2 cookies, since their size is both 1, you could only m
 You need to output 1.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: [1,2], [1,2,3]

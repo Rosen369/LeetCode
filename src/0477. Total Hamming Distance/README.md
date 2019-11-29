@@ -4,7 +4,7 @@ The [Hamming distance](https://en.wikipedia.org/wiki/Hamming_distance) between t
 
 Now your job is to find the total Hamming distance between all pairs of the given numbers.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: 4, 14, 2
@@ -16,7 +16,7 @@ showing the four bits relevant in this case). So the answer will be:
 HammingDistance(4, 14) + HammingDistance(4, 2) + HammingDistance(14, 2) = 2 + 2 + 2 = 6.
 ```
 
-__Note:__
+**Note:**
 
 1. Elements of the given array are in the range of `0` to `10^9`.
 2. Length of the array will not exceed `10^4`.

@@ -2,7 +2,7 @@
 
 Given a sorted positive integer array nums and an integer n, add/patch elements to the array such that any number in range `[1, n]` inclusive can be formed by the sum of some elements in the array. Return the minimum number of patches required.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: nums = [1,3], n = 6
@@ -14,7 +14,7 @@ Possible sums are 1, 2, 3, 4, 5, 6, which now covers the range [1, 6].
 So we only need 1 patch.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: nums = [1,5,10], n = 20
@@ -22,7 +22,7 @@ Output: 2
 Explanation: The two patches can be [2, 4].
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 Input: nums = [1,2,2], n = 5

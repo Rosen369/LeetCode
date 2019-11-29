@@ -6,7 +6,7 @@ Given a 2D matrix _matrix_, find the sum of the elements inside the rectangle de
 
 The above rectangle (with the red border) is defined by (row1, col1) = (2, 1) and (row2, col2) = (4, 3), which contains sum = 8.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Given matrix = [
@@ -22,7 +22,7 @@ sumRegion(1, 1, 2, 2) -> 11
 sumRegion(1, 2, 2, 4) -> 12
 ```
 
-__Note:__
+**Note:**
 
 1. You may assume that the matrix does not change.
 2. There are many calls to sumRegion function.

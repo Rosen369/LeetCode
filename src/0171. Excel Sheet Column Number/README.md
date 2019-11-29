@@ -15,21 +15,21 @@ For example:
     ...
 ```
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: "A"
 Output: 1
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: "AB"
 Output: 28
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 Input: "ZY"

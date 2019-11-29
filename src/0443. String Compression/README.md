@@ -4,15 +4,15 @@ Given an array of characters, compress it [in-place](https://en.wikipedia.org/wi
 
 The length after compression must always be smaller than or equal to the original array.
 
-Every element of the array should be a __character__ (not int) of length 1.
+Every element of the array should be a **character** (not int) of length 1.
 
-After you are done __modifying the input array__ [in-place](https://en.wikipedia.org/wiki/In-place_algorithm), return the new length of the array.
+After you are done **modifying the input array** [in-place](https://en.wikipedia.org/wiki/In-place_algorithm), return the new length of the array.
 
-__Follow up:__
+**Follow up:**
 
 Could you solve it using only O(1) extra space?
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input:
@@ -25,7 +25,7 @@ Explanation:
 "aa" is replaced by "a2". "bb" is replaced by "b2". "ccc" is replaced by "c3".
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input:
@@ -38,7 +38,7 @@ Explanation:
 Nothing is replaced.
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 Input:
@@ -52,7 +52,7 @@ Since the character "a" does not repeat, it is not compressed. "bbbbbbbbbbbb" is
 Notice each digit has it's own entry in the array.
 ```
 
-__Note:__
+**Note:**
 
 1. All characters have an ASCII value in `[35, 126]`.
 2. `1 <= len(chars) <= 1000`.

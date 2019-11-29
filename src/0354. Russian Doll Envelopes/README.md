@@ -4,11 +4,11 @@ You have a number of envelopes with widths and heights given as a pair of intege
 
 What is the maximum number of envelopes can you Russian doll? (put one inside other)
 
-__Note:__
+**Note:**
 
 Rotation is not allowed.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: [[5,4],[6,4],[6,7],[2,3]]

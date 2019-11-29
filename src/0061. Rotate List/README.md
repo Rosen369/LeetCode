@@ -2,7 +2,7 @@
 
 Given a linked list, rotate the list to the right by _k_ places, where k is non-negative.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: 1->2->3->4->5->NULL, k = 2
@@ -12,7 +12,7 @@ rotate 1 steps to the right: 5->1->2->3->4->NULL
 rotate 2 steps to the right: 4->5->1->2->3->NULL
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: 0->1->2->NULL, k = 4

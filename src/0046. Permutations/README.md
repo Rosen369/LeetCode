@@ -1,8 +1,8 @@
 # Permutations
 
-Given a collection of __distinct__ integers, return all possible permutations.
+Given a collection of **distinct** integers, return all possible permutations.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: [1,2,3]

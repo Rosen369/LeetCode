@@ -1,8 +1,8 @@
 # Count Numbers with Unique Digits
 
-Given a __non-negative__ integer n, count all numbers with unique digits, x, where 0 ≤ x < 10^n.
+Given a **non-negative** integer n, count all numbers with unique digits, x, where 0 ≤ x < 10^n.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: 2

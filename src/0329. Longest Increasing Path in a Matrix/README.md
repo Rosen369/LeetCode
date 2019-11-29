@@ -4,7 +4,7 @@ Given an integer matrix, find the length of the longest increasing path.
 
 From each cell, you can either move to four directions: left, right, up or down. You may NOT move diagonally or move outside of the boundary (i.e. wrap-around is not allowed).
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: nums =
@@ -17,7 +17,7 @@ Output: 4
 Explanation: The longest increasing path is [1, 2, 6, 9].
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: nums =

@@ -6,7 +6,7 @@ Grid cells are connected horizontally/vertically (not diagonally). The grid is c
 
 The island doesn't have "lakes" (water inside that isn't connected to the water around the island). One cell is a square with side length 1. The grid is rectangular, width and height don't exceed 100. Determine the perimeter of the island.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input:

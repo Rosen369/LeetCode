@@ -2,7 +2,7 @@
 
 Given a sorted integer array without duplicates, return the summary of its ranges.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input:  [0,1,2,4,5,7]
@@ -10,7 +10,7 @@ Output: ["0->2","4->5","7"]
 Explanation: 0,1,2 form a continuous range; 4,5 form a continuous range.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input:  [0,2,3,4,6,8,9]

@@ -10,9 +10,9 @@ Now consider if some obstacles are added to the grids. How many unique paths wou
 
 An obstacle and empty space is marked as `1` and `0` respectively in the grid.
 
-__Note:__ _m_ and _n_ will be at most 100.
+**Note:** _m_ and _n_ will be at most 100.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input:

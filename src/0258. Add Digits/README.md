@@ -2,7 +2,7 @@
 
 Given a non-negative integer `num`, repeatedly add all its digits until the result has only one digit.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: 38
@@ -11,6 +11,6 @@ Explanation: The process is like: 3 + 8 = 11, 1 + 1 = 2.
              Since 2 has only one digit, return it.
 ```
 
-__Follow up:__
+**Follow up:**
 
 Could you do it without any loop/recursion in O(1) runtime?

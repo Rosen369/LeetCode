@@ -23,7 +23,7 @@ A\[P], A[p + 1], ..., A[Q - 1], A\[Q] is arithmetic. In particular, this means t
 
 The function should return the number of arithmetic slices in the array A.
 
-__Example:__
+**Example:**
 
 ```pseudo
 A = [1, 2, 3, 4]

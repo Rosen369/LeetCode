@@ -2,20 +2,20 @@
 
 Given an array containing n distinct numbers taken from `0, 1, 2, ..., n`, find the one that is missing from the array.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: [3,0,1]
 Output: 2
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: [9,6,4,2,3,5,7,0,1]
 Output: 8
 ```
 
-__Note:__
+**Note:**
 
 Your algorithm should run in linear runtime complexity. Could you implement it using only constant extra space complexity?

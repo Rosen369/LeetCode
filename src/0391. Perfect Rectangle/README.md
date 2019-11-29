@@ -4,7 +4,7 @@ Given N axis-aligned rectangles where N > 0, determine if they all together form
 
 Each rectangle is represented as a bottom-left point and a top-right point. For example, a unit square is represented as \[1,1,2,2]. (coordinate of bottom-left point is (1, 1) and top-right point is (2, 2)).
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 rectangles = [
@@ -18,7 +18,7 @@ rectangles = [
 Return true. All 5 rectangles together form an exact cover of a rectangular region.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 rectangles = [
@@ -31,7 +31,7 @@ rectangles = [
 Return false. Because there is a gap between the two rectangular regions.
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 rectangles = [
@@ -44,7 +44,7 @@ rectangles = [
 Return false. Because there is a gap in the top center.
 ```
 
-__Example 4:__
+**Example 4:**
 
 ```pseudo
 rectangles = [

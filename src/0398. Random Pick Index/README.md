@@ -2,10 +2,10 @@
 
 Given an array of integers with possible duplicates, randomly output the index of a given target number. You can assume that the given target number must exist in the array.
 
-__Note:__
+**Note:**
 The array size can be very large. Solution that uses too much extra space will not pass the judge.
 
-__Example:__
+**Example:**
 
 ```pseudo
 int[] nums = new int[] {1,2,3,3,3};

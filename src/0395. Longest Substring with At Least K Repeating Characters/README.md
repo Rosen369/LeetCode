@@ -1,8 +1,8 @@
 # Longest Substring with At Least K Repeating Characters
 
-Find the length of the longest substring __T__ of a given string (consists of lowercase letters only) such that every character in __T__ appears no less than _k_ times.
+Find the length of the longest substring **T** of a given string (consists of lowercase letters only) such that every character in **T** appears no less than _k_ times.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input:
@@ -14,7 +14,7 @@ Output:
 The longest substring is "aaa", as 'a' is repeated 3 times.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input:

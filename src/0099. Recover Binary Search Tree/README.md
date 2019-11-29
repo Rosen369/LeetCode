@@ -4,7 +4,7 @@ Two elements of a binary search tree (BST) are swapped by mistake.
 
 Recover the tree without changing its structure.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: [1,3,null,null,2]
@@ -24,7 +24,7 @@ Output: [3,1,null,null,2]
    2
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: [3,1,4,null,null,2]
@@ -44,7 +44,7 @@ Output: [2,1,4,null,null,3]
   3
 ```
 
-__Follow up:__
+**Follow up:**
 
 - A solution using O(n) space is pretty straight forward.
 - Could you devise a constant space solution?

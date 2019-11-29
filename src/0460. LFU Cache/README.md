@@ -3,13 +3,13 @@
 Design and implement a data structure for [Least Frequently Used (LFU)](https://en.wikipedia.org/wiki/Least_frequently_used) cache. It should support the following operations: `get` and `put`.
 
 `get(key)` - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.
-`put(key, value)` - Set or insert the value if the key is not already present. When the cache reaches its capacity, it should invalidate the least frequently used item before inserting a new item. For the purpose of this problem, when there is a tie (i.e., two or more keys that have the same frequency), the least __recently__ used key would be evicted.
+`put(key, value)` - Set or insert the value if the key is not already present. When the cache reaches its capacity, it should invalidate the least frequently used item before inserting a new item. For the purpose of this problem, when there is a tie (i.e., two or more keys that have the same frequency), the least **recently** used key would be evicted.
 
-__Follow up:__
+**Follow up:**
 
-Could you do both operations in __O(1)__ time complexity?
+Could you do both operations in **O(1)** time complexity?
 
-__Example:__
+**Example:**
 
 ```pseudo
 LFUCache cache = new LFUCache( 2 /* capacity */ );

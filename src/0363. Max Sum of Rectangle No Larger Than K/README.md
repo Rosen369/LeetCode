@@ -2,7 +2,7 @@
 
 Given a non-empty 2D matrix _matrix_ and an integer _k_, find the max sum of a rectangle in the _matrix_ such that its sum is no larger than _k_.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: matrix = [[1,0,1],[0,-2,3]], k = 2
@@ -11,7 +11,7 @@ Explanation: Because the sum of rectangle [[0, 1], [-2, 3]] is 2,
              and 2 is the max number no larger than k (k = 2).
 ```
 
-__Note:__
+**Note:**
 
 1. The rectangle inside the matrix must have an area > 0.
 2. What if the number of rows is much larger than the number of columns?

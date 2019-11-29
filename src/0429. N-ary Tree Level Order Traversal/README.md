@@ -16,7 +16,7 @@ We should return its level order traversal:
 ]
 ```
 
-__Note:__
+**Note:**
 
 1. The depth of the tree is at most 1000.
 2. The total number of nodes is at most 5000.

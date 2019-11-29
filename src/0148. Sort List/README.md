@@ -2,14 +2,14 @@
 
 Sort a linked list in O(n log n) time using constant space complexity.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: 4->2->1->3
 Output: 1->2->3->4
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: -1->5->3->4->0

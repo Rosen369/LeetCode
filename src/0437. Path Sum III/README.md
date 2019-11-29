@@ -8,7 +8,7 @@ The path does not need to start or end at the root or a leaf, but it must go dow
 
 The tree has no more than 1,000 nodes and the values are in the range -1,000,000 to 1,000,000.
 
-__Example:__
+**Example:**
 
 ```pseudo
 root = [10,5,-3,3,2,null,11,3,-2,null,1], sum = 8

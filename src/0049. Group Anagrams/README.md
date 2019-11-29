@@ -2,7 +2,7 @@
 
 Given an array of strings, group anagrams together.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: ["eat", "tea", "tan", "ate", "nat", "bat"],
@@ -14,7 +14,7 @@ Output:
 ]
 ```
 
-__Note:__
+**Note:**
 
 - All inputs will be in lowercase.
 - The order of your output does not matter.

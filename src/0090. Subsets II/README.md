@@ -1,10 +1,10 @@
 # Subsets II
 
-Given a collection of integers that might contain duplicates, __nums__, return all possible subsets (the power set).
+Given a collection of integers that might contain duplicates, **nums**, return all possible subsets (the power set).
 
-__Note:__ The solution set must not contain duplicate subsets.
+**Note:** The solution set must not contain duplicate subsets.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: [1,2,2]

@@ -46,14 +46,14 @@ We say that `"rgtae"` is a scrambled string of `"great"`.
 
 Given two strings s1 and s2 of the same length, determine if s2 is a scrambled string of s1.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: s1 = "great", s2 = "rgeat"
 Output: true
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: s1 = "abcde", s2 = "caebd"

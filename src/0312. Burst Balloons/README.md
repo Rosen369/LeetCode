@@ -4,12 +4,12 @@ Given `n` balloons, indexed from `0` to `n-1`. Each balloon is painted with a nu
 
 Find the maximum coins you can collect by bursting the balloons wisely.
 
-__Note:__
+**Note:**
 
 You may imagine `nums[-1] = nums[n] = 1`. They are not real therefore you can not burst them.
 0 ≤ `n` ≤ 500, 0 ≤ `nums[i]` ≤ 100
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: [3,1,5,8]

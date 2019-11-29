@@ -2,13 +2,13 @@
 
 Additive number is a string whose digits can form additive sequence.
 
-A valid additive sequence should contain __at least__ three numbers. Except for the first two numbers, each subsequent number in the sequence must be the sum of the preceding two.
+A valid additive sequence should contain **at least** three numbers. Except for the first two numbers, each subsequent number in the sequence must be the sum of the preceding two.
 
 Given a string containing only digits `'0'-'9'`, write a function to determine if it's an additive number.
 
-__Note:__ Numbers in the additive sequence __cannot__ have leading zeros, so sequence `1, 2, 03` or `1, 02, 3` is invalid.
+**Note:** Numbers in the additive sequence **cannot** have leading zeros, so sequence `1, 2, 03` or `1, 02, 3` is invalid.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: "112358"
@@ -17,7 +17,7 @@ Explanation: The digits can form an additive sequence: 1, 1, 2, 3, 5, 8.
              1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: "199100199"
@@ -26,6 +26,6 @@ Explanation: The additive sequence is: 1, 99, 100, 199.
              1 + 99 = 100, 99 + 100 = 199
 ```
 
-__Follow up:__
+**Follow up:**
 
 How would you handle overflow for very large input integers?

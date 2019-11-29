@@ -4,7 +4,7 @@ Given a string _s_, partition _s_ such that every substring of the partition is 
 
 Return the minimum cuts needed for a palindrome partitioning of _s_.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: "aab"

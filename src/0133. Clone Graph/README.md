@@ -2,7 +2,7 @@
 
 Given the head of a graph, return a deep copy (clone) of the graph. Each node in the graph contains a `label` (`int`) and a list (`List[UndirectedGraphNode]`) of its `neighbors`. There is an edge between the given node and each of the nodes in its neighbors.
 
-__OJ's undirected graph serialization (so you can understand error output):__
+**OJ's undirected graph serialization (so you can understand error output):**
 Nodes are labeled uniquely.
 
 We use `#` as a separator for each node, and , as a separator for node label and each neighbor of the node.
@@ -26,4 +26,4 @@ Visually, the graph looks like the following:
          \_/
 ```
 
-__Note:__ The information about the tree serialization is only meant so that you can understand error output if you get a wrong answer. You don't need to understand the serialization to solve the problem.
+**Note:** The information about the tree serialization is only meant so that you can understand error output if you get a wrong answer. You don't need to understand the serialization to solve the problem.

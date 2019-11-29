@@ -2,16 +2,16 @@
 
 Given two binary strings, return their sum (also a binary string).
 
-The input strings are both __non-empty__ and contains only characters `1` or `0`.
+The input strings are both **non-empty** and contains only characters `1` or `0`.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: a = "11", b = "1"
 Output: "100"
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: a = "1010", b = "1011"

@@ -13,19 +13,19 @@ By listing and labeling all of the permutations in order, we get the following s
 
 Given _n_ and _k_, return the k^th permutation sequence.
 
-__Note:__
+**Note:**
 
 - Given _n_ will be between 1 and 9 inclusive.
 - Given _k_ will be between 1 and _n_! inclusive.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: n = 3, k = 3
 Output: "213"
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: n = 4, k = 9

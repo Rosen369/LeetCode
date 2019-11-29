@@ -4,7 +4,7 @@ Given integers `n` and `k`, find the lexicographically k-th smallest integer in 
 
 Note: 1 ≤ k ≤ n ≤ 10^9.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input:

@@ -2,9 +2,9 @@
 
 Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.
 
-__Note:__ A leaf is a node with no children.
+**Note:** A leaf is a node with no children.
 
-__Example:__
+**Example:**
 
 Given the below binary tree and `sum = 22`,
 

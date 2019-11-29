@@ -1,10 +1,10 @@
 # Subsets
 
-Given a set of __distinct__ integers, nums, return all possible subsets (the power set).
+Given a set of **distinct** integers, nums, return all possible subsets (the power set).
 
-__Note:__ The solution set must not contain duplicate subsets.
+**Note:** The solution set must not contain duplicate subsets.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: nums = [1,2,3]

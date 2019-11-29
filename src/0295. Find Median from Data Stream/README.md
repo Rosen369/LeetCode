@@ -12,7 +12,7 @@ Design a data structure that supports the following two operations:
 - void addNum(int num) - Add a integer number from the data stream to the data structure.
 - double findMedian() - Return the median of all elements so far.
 
-__Example:__
+**Example:**
 
 ```pseudo
 addNum(1)
@@ -22,7 +22,7 @@ addNum(3)
 findMedian() -> 2
 ```
 
-__Follow up:__
+**Follow up:**
 
 1. If all integer numbers from the stream are between 0 and 100, how would you optimize it?
 2. If 99% of all integer numbers from the stream are between 0 and 100, how would you optimize it?

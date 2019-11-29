@@ -4,7 +4,7 @@ Given a string _s_, partition s such that every substring of the partition is a 
 
 Return all possible palindrome partitioning of _s_.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: "aab"

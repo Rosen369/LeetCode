@@ -2,9 +2,9 @@
 
 Reverse a linked list from position _m_ to _n_. Do it in one-pass.
 
-__Note:__ 1 ≤ _m_ ≤ _n_ ≤ length of list.
+**Note:** 1 ≤ _m_ ≤ _n_ ≤ length of list.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: 1->2->3->4->5->NULL, m = 2, n = 4

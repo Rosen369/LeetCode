@@ -6,7 +6,7 @@ Given a non-negative integer _numRows_, generate the first _numRows_ of Pascal's
 
 In Pascal's triangle, each number is the sum of the two numbers directly above it.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: 5

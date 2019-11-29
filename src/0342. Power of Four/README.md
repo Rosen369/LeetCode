@@ -2,18 +2,18 @@
 
 Given an integer (signed 32 bits), write a function to check whether it is a power of 4.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: 16
 Output: true
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: 5
 Output: false
 ```
 
-__Follow up:__ Could you solve it without loops/recursion?
+**Follow up:** Could you solve it without loops/recursion?

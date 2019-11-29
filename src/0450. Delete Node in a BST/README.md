@@ -7,9 +7,9 @@ Basically, the deletion can be divided into two stages:
 1. Search for a node to remove.
 2. If the node is found, delete the node.
 
-__Note:__ Time complexity should be O(height of tree).
+**Note:** Time complexity should be O(height of tree).
 
-__Example:__
+**Example:**
 
 ```pseudo
 root = [5,3,6,2,4,null,7]

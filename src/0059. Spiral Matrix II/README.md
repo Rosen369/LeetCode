@@ -2,7 +2,7 @@
 
 Given a positive integer _n_, generate a square matrix filled with elements from 1 to n^2 in spiral order.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: 3

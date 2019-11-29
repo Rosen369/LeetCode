@@ -1,6 +1,6 @@
 # Game of Life
 
-According to the [Wikipedia's article](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life): "The __Game of Life__, also known simply as __Life__, is a cellular automaton devised by the British mathematician John Horton Conway in 1970."
+According to the [Wikipedia's article](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life): "The **Game of Life**, also known simply as **Life**, is a cellular automaton devised by the British mathematician John Horton Conway in 1970."
 
 Given a board with m by n cells, each cell has an initial state live (1) or dead (0). Each cell interacts with its eight neighbors (horizontal, vertical, diagonal) using the following four rules (taken from the above Wikipedia article):
 
@@ -11,7 +11,7 @@ Given a board with m by n cells, each cell has an initial state live (1) or dead
 
 Write a function to compute the next state (after one update) of the board given its current state. The next state is created by applying the above rules simultaneously to every cell in the current state, where births and deaths occur simultaneously.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input:
@@ -30,7 +30,7 @@ Output:
 ]
 ```
 
-__Follow up:__
+**Follow up:**
 
 1. Could you solve it in-place? Remember that the board needs to be updated at the same time: You cannot update some cells first and then use their updated values to update other cells.
 2. In this question, we represent the board using a 2D array. In principle, the board is infinite, which would cause problems when the active area encroaches the border of the array. How would you address these problems?

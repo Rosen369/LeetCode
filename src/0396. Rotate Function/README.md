@@ -8,11 +8,11 @@ Assume `Bk` to be an array obtained by rotating the array `A` _k_ positions cloc
 
 Calculate the maximum value of `F(0), F(1), ..., F(n-1)`.
 
-__Note:__
+**Note:**
 
 _n_ is guaranteed to be less than 10^5.
 
-__Example:__
+**Example:**
 
 ```pseudo
 A = [4, 3, 2, 6]

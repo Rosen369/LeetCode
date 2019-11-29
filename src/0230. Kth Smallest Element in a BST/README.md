@@ -1,11 +1,11 @@
 # Kth Smallest Element in a BST
 
-Given a binary search tree, write a function `kthSmallest` to find the __k__ th smallest element in it.
+Given a binary search tree, write a function `kthSmallest` to find the **k** th smallest element in it.
 
-__Note:__
+**Note:**
 You may assume k is always valid, 1 ≤ k ≤ BST's total elements.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: root = [3,1,4,null,2], k = 1
@@ -17,7 +17,7 @@ Input: root = [3,1,4,null,2], k = 1
 Output: 1
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: root = [5,3,6,2,4,null,null,1], k = 3
@@ -31,5 +31,5 @@ Input: root = [5,3,6,2,4,null,null,1], k = 3
 Output: 3
 ```
 
-__Follow up:__
+**Follow up:**
 What if the BST is modified (insert/delete operations) often and you need to find the kth smallest frequently? How would you optimize the kthSmallest routine?

@@ -2,7 +2,7 @@
 
 Given a string, sort it in decreasing order based on the frequency of characters.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input:
@@ -16,7 +16,7 @@ Explanation:
 So 'e' must appear before both 'r' and 't'. Therefore "eetr" is also a valid answer.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input:
@@ -30,7 +30,7 @@ Both 'c' and 'a' appear three times, so "aaaccc" is also a valid answer.
 Note that "cacaca" is incorrect, as the same characters must be together.
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 Input:

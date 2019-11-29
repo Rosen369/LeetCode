@@ -1,8 +1,8 @@
 # Integer Break
 
-Given a positive integer n, break it into the sum of __at least__ two positive integers and maximize the product of those integers. Return the maximum product you can get.
+Given a positive integer n, break it into the sum of **at least** two positive integers and maximize the product of those integers. Return the maximum product you can get.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: 2
@@ -10,7 +10,7 @@ Output: 1
 Explanation: 2 = 1 + 1, 1 × 1 = 1.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: 10

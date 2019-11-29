@@ -4,11 +4,11 @@ Given a binary tree, determine if it is a valid binary search tree (BST).
 
 Assume a BST is defined as follows:
 
-- The left subtree of a node contains only nodes with keys __less than__ the node's key.
-- The right subtree of a node contains only nodes with keys __greater than__ the node's key.
+- The left subtree of a node contains only nodes with keys **less than** the node's key.
+- The right subtree of a node contains only nodes with keys **greater than** the node's key.
 - Both the left and right subtrees must also be binary search trees.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input:
@@ -18,7 +18,7 @@ Input:
 Output: true
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
     5

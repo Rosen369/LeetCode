@@ -4,9 +4,9 @@ You are climbing a stair case. It takes _n_ steps to reach to the top.
 
 Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?
 
-__Note:__ Given _n_ will be a positive integer.
+**Note:** Given _n_ will be a positive integer.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: 2
@@ -16,7 +16,7 @@ Explanation: There are two ways to climb to the top.
 2. 2 steps
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: 3

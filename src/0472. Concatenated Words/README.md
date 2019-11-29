@@ -1,9 +1,9 @@
 # Concatenated Words
 
-Given a list of words (__without duplicates__), please write a program that returns all concatenated words in the given list of words.
+Given a list of words (**without duplicates**), please write a program that returns all concatenated words in the given list of words.
 A concatenated word is defined as a string that is comprised entirely of at least two shorter words in the given array.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: ["cat","cats","catsdogcats","dog","dogcatsdog","hippopotamuses","rat","ratcatdogcat"]
@@ -15,7 +15,7 @@ Explanation: "catsdogcats" can be concatenated by "cats", "dog" and "cats";
 "ratcatdogcat" can be concatenated by "rat", "cat", "dog" and "cat".
 ```
 
-__Note:__
+**Note:**
 
 1. The number of elements of the given array will not exceed `10,000`.
 2. The length sum of elements in the given array will not exceed `600,000`.

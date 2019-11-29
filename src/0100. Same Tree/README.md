@@ -4,7 +4,7 @@ Given two binary trees, write a function to check if they are the same or not.
 
 Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input:     1         1
@@ -16,7 +16,7 @@ Input:     1         1
 Output: true
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input:     1         1
@@ -28,7 +28,7 @@ Input:     1         1
 Output: false
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 Input:     1         1

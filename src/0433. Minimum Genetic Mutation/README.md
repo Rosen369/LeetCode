@@ -10,13 +10,13 @@ Also, there is a given gene "bank", which records all the valid gene mutations. 
 
 Now, given 3 things - start, end, bank, your task is to determine what is the minimum number of mutations needed to mutate from "start" to "end". If there is no such a mutation, return -1.
 
-__Note:__
+**Note:**
 
 1. Starting point is assumed to be valid, so it might not be included in the bank.
 2. If multiple mutations are needed, all mutations during in the sequence must be valid.
 3. You may assume start and end string is not the same.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 start: "AACCGGTT"
@@ -26,7 +26,7 @@ bank: ["AACCGGTA"]
 return: 1
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 start: "AACCGGTT"
@@ -36,7 +36,7 @@ bank: ["AACCGGTA", "AACCGCTA", "AAACGGTA"]
 return: 2
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 start: "AAAAACCC"

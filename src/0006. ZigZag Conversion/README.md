@@ -16,14 +16,14 @@ Write the code that will take a string and make this conversion given a number o
 string convert(string s, int numRows);
 ```
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: s = "PAYPALISHIRING", numRows = 3
 Output: "PAHNAPLSIIGYIR"
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: s = "PAYPALISHIRING", numRows = 4

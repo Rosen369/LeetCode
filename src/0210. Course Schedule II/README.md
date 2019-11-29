@@ -8,7 +8,7 @@ Given the total number of courses and a list of prerequisite `pairs`, return the
 
 There may be multiple correct orders, you just need to return one of them. If it is impossible to finish all courses, return an empty array.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: 2, [[1,0]]
@@ -17,7 +17,7 @@ Explanation: There are a total of 2 courses to take. To take course 1 you should
              course 0. So the correct course order is [0,1] .
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: 4, [[1,0],[2,0],[3,1],[3,2]]
@@ -27,7 +27,7 @@ Explanation: There are a total of 4 courses to take. To take course 3 you should
              So one correct course order is [0,1,2,3]. Another correct ordering is [0,2,1,3] .
 ```
 
-__Note:__
+**Note:**
 
-1. The input prerequisites is a graph represented by __a list of edges__, not adjacency matrices. Read more about [how a graph is represented](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs).
+1. The input prerequisites is a graph represented by **a list of edges**, not adjacency matrices. Read more about [how a graph is represented](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs).
 2. You may assume that there are no duplicate edges in the input prerequisites.

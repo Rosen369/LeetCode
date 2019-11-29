@@ -6,15 +6,15 @@ You should pack your words in a greedy approach; that is, pack as many words as 
 
 Extra spaces between words should be distributed as evenly as possible. If the number of spaces on a line do not divide evenly between words, the empty slots on the left will be assigned more spaces than the slots on the right.
 
-For the last line of text, it should be left justified and no __extra__  space is inserted between words.
+For the last line of text, it should be left justified and no **extra** space is inserted between words.
 
-__Note:__
+**Note:**
 
 - A word is defined as a character sequence consisting of non-space characters only.
 - Each word's length is guaranteed to be greater than 0 and not exceed maxWidth.
 - The input array `words` contains at least one word.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input:
@@ -28,7 +28,7 @@ Output:
 ]
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input:
@@ -45,7 +45,7 @@ Explanation: Note that the last line is "shall be    " instead of "shall     be"
              Note that the second line is also left-justified becase it contains only one word.
 ```
 
-__Example 3:__
+**Example 3:**
 
 ```pseudo
 Input:

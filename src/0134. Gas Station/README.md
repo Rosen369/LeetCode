@@ -6,13 +6,13 @@ You have a car with an unlimited gas tank and it costs `cost[i]` of gas to trave
 
 Return the starting gas station's index if you can travel around the circuit once in the clockwise direction, otherwise return -1.
 
-__Note:__
+**Note:**
 
 - If there exists a solution, it is guaranteed to be unique.
 - Both input arrays are non-empty and have the same length.
 - Each element in the input arrays is a non-negative integer.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input:
@@ -31,7 +31,7 @@ Travel to station 3. The cost is 5. Your gas is just enough to travel back to st
 Therefore, return 3 as the starting index.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input:

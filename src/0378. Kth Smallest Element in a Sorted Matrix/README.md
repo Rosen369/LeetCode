@@ -4,7 +4,7 @@ Given a n x n matrix where each of the rows and columns are sorted in ascending 
 
 Note that it is the kth smallest element in the sorted order, not the kth distinct element.
 
-__Example:__
+**Example:**
 
 ```pseudo
 matrix = [
@@ -17,6 +17,6 @@ k = 8,
 return 13.
 ```
 
-__Note:__
+**Note:**
 
 You may assume k is always valid, 1 ≤ k ≤ n^2.

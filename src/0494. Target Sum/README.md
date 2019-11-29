@@ -4,7 +4,7 @@ You are given a list of non-negative integers, a1, a2, ..., an, and a target, S.
 
 Find out how many ways to assign symbols to make sum of integers equal to target S.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: nums is [1, 1, 1, 1, 1], S is 3.
@@ -20,7 +20,7 @@ Explanation:
 There are 5 ways to assign symbols to make the sum of nums be target 3.
 ```
 
-__Note:__
+**Note:**
 
 1. The length of the given array is positive and will not exceed 20.
 2. The sum of elements in the given array will not exceed 1000.

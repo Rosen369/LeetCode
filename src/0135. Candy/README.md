@@ -9,7 +9,7 @@ You are giving candies to these children subjected to the following requirements
 
 What is the minimum candies you must give?
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: [1,0,2]
@@ -17,7 +17,7 @@ Output: 5
 Explanation: You can allocate to the first, second and third child with 2, 1, 2 candies respectively.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: [1,2,2]

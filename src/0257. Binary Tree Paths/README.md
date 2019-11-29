@@ -2,9 +2,9 @@
 
 Given a binary tree, return all root-to-leaf paths.
 
-__Note:__ A leaf is a node with no children.
+**Note:** A leaf is a node with no children.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input:

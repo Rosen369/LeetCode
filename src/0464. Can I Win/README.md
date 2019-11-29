@@ -10,7 +10,7 @@ Given an integer `maxChoosableInteger` and another integer `desiredTotal`, deter
 
 You can always assume that `maxChoosableInteger` will not be larger than 20 and `desiredTotal` will not be larger than 300.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input:

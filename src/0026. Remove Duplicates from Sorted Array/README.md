@@ -2,9 +2,9 @@
 
 Given a sorted array _nums_, remove the duplicates [in-place](https://en.wikipedia.org/wiki/In-place_algorithm) such that each element appear only once and return the new length.
 
-Do not allocate extra space for another array, you must do this by __modifying the input array__ [in-place](https://en.wikipedia.org/wiki/In-place_algorithm) with O(1) extra memory.
+Do not allocate extra space for another array, you must do this by **modifying the input array** [in-place](https://en.wikipedia.org/wiki/In-place_algorithm) with O(1) extra memory.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Given nums = [1,1,2],
@@ -14,7 +14,7 @@ Your function should return length = 2, with the first two elements of nums bein
 It doesn't matter what you leave beyond the returned length.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Given nums = [0,0,1,1,1,2,2,3,3,4],
@@ -24,11 +24,11 @@ Your function should return length = 5, with the first five elements of nums bei
 It doesn't matter what values are set beyond the returned length.
 ```
 
-__Clarification:__
+**Clarification:**
 
 Confused why the returned value is an integer but your answer is an array?
 
-Note that the input array is passed in by __reference__, which means modification to the input array will be known to the caller as well.
+Note that the input array is passed in by **reference**, which means modification to the input array will be known to the caller as well.
 
 Internally you can think of this:
 

@@ -1,15 +1,15 @@
 # Sum of Two Integers
 
-Calculate the sum of two integers a and b, but you are __not allowed__ to use the operator `+` and `-`.
+Calculate the sum of two integers a and b, but you are **not allowed** to use the operator `+` and `-`.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: a = 1, b = 2
 Output: 3
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: a = -2, b = 3

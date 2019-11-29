@@ -8,7 +8,7 @@ Note that the row index starts from 0.
 
 In Pascal's triangle, each number is the sum of the two numbers directly above it.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: 3

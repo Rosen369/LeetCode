@@ -6,14 +6,14 @@ Now, you are given positions of houses and heaters on a horizontal line, find ou
 
 So, your input will be the positions of houses and heaters seperately, and your expected output will be the minimum radius standard of heaters.
 
-__Note:__
+**Note:**
 
 1. Numbers of houses and heaters you are given are non-negative and will not exceed 25000.
 2. Positions of houses and heaters you are given are non-negative and will not exceed 10^9.
 3. As long as a house is in the heaters' warm radius range, it can be warmed.
 4. All the heaters follow your radius standard and the warm radius will the same.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: [1,2,3],[2]
@@ -21,7 +21,7 @@ Output: 1
 Explanation: The only heater was placed in the position 2, and if we use the radius 1 standard, then all the houses can be warmed.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: [1,2,3,4],[1,4]

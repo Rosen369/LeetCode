@@ -1,15 +1,15 @@
 # Combination Sum II
 
-Given a __set__ of candidate numbers (`candidates`) __(without duplicates)__ and a target number (`target`), find all unique combinations in `candidates` where the candidate numbers sums to `target`.
+Given a **set** of candidate numbers (`candidates`) **(without duplicates)** and a target number (`target`), find all unique combinations in `candidates` where the candidate numbers sums to `target`.
 
-Each number in `candidates` may only be used __once__ in the combination.
+Each number in `candidates` may only be used **once** in the combination.
 
-__Note:__
+**Note:**
 
 - All numbers (including `target`) will be positive integers.
 - The solution set must not contain duplicate combinations.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: candidates = [10,1,2,7,6,1,5], target = 8,
@@ -22,7 +22,7 @@ A solution set is:
 ]
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: candidates = [2,5,2,1,2], target = 5,

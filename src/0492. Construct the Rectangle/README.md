@@ -12,7 +12,7 @@ For a web developer, it is very important to know how to design a web page's siz
 
 You need to output the length L and the width W of the web page you designed in sequence.
 
-__Example:__
+**Example:**
 
 ```pseudo
 Input: 4
@@ -21,7 +21,7 @@ Explanation: The target area is 4, and all the possible ways to construct it are
 But according to requirement 2, [1,4] is illegal; according to requirement 3,  [4,1] is not optimal compared to [2,2]. So the length L is 2, and the width W is 2.
 ```
 
-__Note:__
+**Note:**
 
 1. The given area won't exceed 10,000,000 and is a positive integer
 2. The web page's width and length you designed must be positive integers.

@@ -4,7 +4,7 @@ Given an unsorted array, find the maximum difference between the successive elem
 
 Return 0 if the array contains less than 2 elements.
 
-__Example 1:__
+**Example 1:**
 
 ```pseudo
 Input: [3,6,9,1]
@@ -13,7 +13,7 @@ Explanation: The sorted form of the array is [1,3,6,9], either
              (3,6) or (6,9) has the maximum difference 3.
 ```
 
-__Example 2:__
+**Example 2:**
 
 ```pseudo
 Input: [10]
@@ -21,7 +21,7 @@ Output: 0
 Explanation: The array contains less than 2 elements, therefore return 0.
 ```
 
-__Note:__
+**Note:**
 
 - You may assume all elements in the array are non-negative integers and fit in the 32-bit signed integer range.
 - Try to solve it in linear time/space.
