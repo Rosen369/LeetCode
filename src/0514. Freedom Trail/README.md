@@ -13,7 +13,7 @@ At the stage of rotating the ring to spell the key character **key[i]**:
 
 **Example:**
 
-[!ring](./ring.jpg)
+![ring](./ring.jpg)
 
 ```pseudo
 Input: ring = "godding", key = "gd"
