@@ -25,14 +25,6 @@ Number at the 1st position (i=1) is 2, and 2 is divisible by i (i=1).
 Number at the 2nd position (i=2) is 1, and i (i=2) is divisible by 1.
 ```
 
-**Example 2:**
-
-```pseudo
-Input: [0,1,0]
-Output: 2
-Explanation: [0, 1] (or [1, 0]) is a longest contiguous subarray with equal number of 0 and 1.
-```
-
 **Note:**
 
 N is a positive integer and will not exceed 15.
