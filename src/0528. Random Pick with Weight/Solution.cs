@@ -13,13 +13,20 @@ public class Solution {
     private Random _rand;
 
     public int PickIndex () {
-        var next = this._rand.Next (0, this._max);
-        for (int i = 0; i < this._w.Length; i++) {
-            if (next < this._w[i]) {
-                return i;
+        var next = this._rand.Next (0, this._max) + 1;
+        var left = 0;
+        var right = this._w.Length - 1;
+        while (left < right) {
+            var mid = left + (right - left) / 2;
+            if (this._w[mid] == next) {
+                return mid;
+            } else if (this._w[mid] < next) {
+                left = mid + 1;
+            } else {
+                right = mid;
             }
         }
-        return -1;
+        return left;
     }
 
     private void CalcCount () {
