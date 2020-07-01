@@ -12,7 +12,21 @@
  * }
  */
 public class Solution {
-    public TreeNode ConvertBST (TreeNode root) {
 
+    private int _sum = 0;
+
+    public TreeNode ConvertBST (TreeNode root) {
+        this.PostOrder (root);
+        return root;
+    }
+
+    private void PostOrder (TreeNode node) {
+        if (node == null) {
+            return;
+        }
+        this.PostOrder (node.right);
+        this._sum += node.val;
+        node.val = this._sum;
+        this.PostOrder (node.left);
     }
 }
