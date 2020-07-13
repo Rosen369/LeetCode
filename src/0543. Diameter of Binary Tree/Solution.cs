@@ -12,7 +12,22 @@
  * }
  */
 public class Solution {
-    public int DiameterOfBinaryTree (TreeNode root) {
 
+    private int _max = 0;
+
+    public int DiameterOfBinaryTree (TreeNode root) {
+        this.Depth (root);
+        return this._max;
+    }
+
+    private int Depth (TreeNode node) {
+        if (node == null) {
+            return 0;
+        }
+        var left = this.Depth (node.left);
+        var right = this.Depth (node.right);
+
+        this._max = Math.Max (this._max, left + right);
+        return Math.Max (left, right) + 1;
     }
 }
