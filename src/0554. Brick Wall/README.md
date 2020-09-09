@@ -19,10 +19,10 @@ Input: [[1,2,2,1],
         [1,3,1,1]]
 
 Output: 2
+```
 
 Explanation:
 ![brick_wall](./brick_wall.png)
-```
 
 **Note:**
 
