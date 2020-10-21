@@ -19,6 +19,19 @@ public class Node {
 
 public class Solution {
     public int MaxDepth (Node root) {
+        if (root == null) {
+            return 0;
+        }
+        if (root.children.Count == 0) {
+            return 1;
+        }
 
+        var max = 0;
+        for (int i = 0; i < root.children.Count; i++) {
+            var r = this.MaxDepth (root.children[i]);
+            max = Math.Max (r, max);
+        }
+
+        return max + 1;
     }
 }
